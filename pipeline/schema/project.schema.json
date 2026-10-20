@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://blender-ai-studio/schema/project.schema.json",
+  "title": "project.json",
+  "description": "Project-level defaults (§5.3). Everything here can be overridden per run on the command line; nothing here describes the story.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "name", "fps", "resolution", "style_pack"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "name": {"type": "string", "pattern": "^[a-z][a-z0-9_]{0,47}$"},
+    "title": {"type": "string"},
+    "fps": {"type": "integer", "minimum": 1, "maximum": 120},
+    "resolution": {
+      "type": "array", "minItems": 2, "maxItems": 2,
+      "items": {"type": "integer", "minimum": 16}
+    },
+    "style_pack": {"enum": ["miniature", "stylized", "photoreal"]},
+    "language": {"type": "string"},
+    "head_handle_s": {"type": "number", "minimum": 0, "maximum": 10},
+    "tail_handle_s": {"type": "number", "minimum": 0, "maximum": 10},
+    "min_shot_s": {"type": "number", "minimum": 0, "maximum": 600},
+    "aligner_backend": {"enum": ["auto", "w2v2", "envelope"]},
+    "silence_lead_policy": {
+      "enum": ["trim", "keep"],
+      "description": "trim discards leading silence so the handle is exactly head_handle_s; keep leaves the recording untouched and lengthens the shot instead."
+    },
+    "cache_dir": {
+      "type": ["string", "null"],
+      "description": "Where this project's artifact store lives. null (or absent) means <project>/.cache. A relative path is resolved against the project root; $PIPELINE_CACHE_DIR overrides this. The store is the only part of a project that grows without bound, so on a full or cloud-synced drive it has to be able to live elsewhere."
+    }
+  }
+}

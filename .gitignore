@@ -1,0 +1,59 @@
+# Secrets - never commit
+.env
+secrets.json
+
+# Generated output. The render publishes per style pack, so frames live at
+# projects/<film>/shots/<shot>/<pack>/frames/ and the film at
+# projects/<film>/film/<pack>/ — both a directory deeper than the single-look
+# layout §5.3 was written for. Matched at any depth so moving the layout again
+# cannot quietly start committing a thousand PNGs.
+outputs/
+projects/**/frames/
+projects/**/*.mp4
+projects/*/.cache/
+*.log
+
+# Large model weights
+*.safetensors
+*.ckpt
+*.pth
+weights/
+models/
+# NOT *.npz — §5.3's body.npz / shape.npz / face.npz are small per-character
+# parameter files and a project has to stay copyable and diffable.
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Blender
+*.blend1
+*.blend2
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# SF3D's model config, which belongs with the weights on the model drive and
+# arrived in the project root by accident.
+/projects/*/config.yaml
+
+# Generated asset binaries. A character built from its photo is ~26 MB across
+# its five stage folders (dense mesh, packed photo, four .blend files), so
+# tracking them would add ~160 MB to history per rebuild. The small JSON
+# manifests beside them stay tracked and diffable; the binaries are rebuilt
+# from the store or by `pipeline run`.
+projects/*/assets/**/*.blend
+projects/*/assets/**/*.npz
+projects/*/assets/**/*.glb
+projects/*/assets/**/photo.png
+projects/*/shots/**/*.blend
+
+# j_mouth: each speaker's voice laid on the shot timeline (a derived WAV).
+projects/*/shots/**/voice_*.wav
+
+# The Characters tab's image check, cached next to each image.
+projects/*/refs/**/*.check.json

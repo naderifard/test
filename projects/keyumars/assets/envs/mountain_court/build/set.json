@@ -1,0 +1,38 @@
+{
+  "camera": {
+    "focal_px": 1051.3548401943085,
+    "hfov_deg": 60.0,
+    "horizon_fraction": 0.5690192357596536,
+    "horizon_row": 736.8799103087514,
+    "image_px": [
+      1214,
+      1295
+    ],
+    "position_m": [
+      0.0,
+      -5.623720379487802,
+      1.6
+    ]
+  },
+  "depth_range_m": [
+    1.9954064735598158,
+    260.0
+  ],
+  "fit": {
+    "fit_rows": [
+      932,
+      1255
+    ],
+    "intercept": -8.537427239609562,
+    "slope": 0.011585913959891232
+  },
+  "grid": [
+    384,
+    360
+  ],
+  "ground_fraction": 0.45286458333333335,
+  "image": "mountain_court_wide.png",
+  "sky_fraction": 0.2484809027777778,
+  "stage_distance_m": 5.623720379487802,
+  "torn_fraction": 0.03419710975512191
+}

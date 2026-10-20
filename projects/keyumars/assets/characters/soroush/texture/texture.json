@@ -1,0 +1,44 @@
+{
+  "albedo": null,
+  "blend": "textured.blend",
+  "collection": "char_soroush",
+  "measured": {
+    "degenerate_faces": 0,
+    "max_m": [
+      0.6342,
+      0.2951,
+      2.0049
+    ],
+    "min_m": [
+      -0.4979,
+      -0.2615,
+      0.0
+    ],
+    "size_m": [
+      1.1321,
+      0.5566,
+      2.0049
+    ],
+    "tris": 60000,
+    "uv_coverage": 0.57349,
+    "verts": 30000
+  },
+  "meshes": [
+    {
+      "coverage": 0.57349,
+      "loops": 180000,
+      "object": "soroush",
+      "roles": [
+        "skin"
+      ],
+      "uv_layer": "photo"
+    }
+  ],
+  "schema_version": 1,
+  "subject": "soroush",
+  "unwrap": {
+    "angle_limit_deg": 66.0,
+    "island_margin": 0.02,
+    "method": "smart_project"
+  }
+}

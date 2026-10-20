@@ -1,0 +1,35 @@
+{
+  "bind": {
+    "method": "proximity_weights",
+    "offset_m": 0.004
+  },
+  "blend": "garmented.blend",
+  "collection": "char_gazelle",
+  "garments": [],
+  "measured": {
+    "degenerate_faces": 0,
+    "max_m": [
+      0.2222,
+      0.3789,
+      0.9001
+    ],
+    "min_m": [
+      -0.2222,
+      -0.1475,
+      -0.0
+    ],
+    "size_m": [
+      0.4443,
+      0.5264,
+      0.9001
+    ],
+    "tris": 59998,
+    "uv_coverage": 0.31445,
+    "verts": 29999
+  },
+  "mesh": "gazelle",
+  "rig": "gazelle_rig",
+  "schema_version": 1,
+  "skipped": [],
+  "subject": "gazelle"
+}

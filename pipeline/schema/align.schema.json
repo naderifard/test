@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://blender-ai-studio/schema/align.schema.json",
+  "title": "align.json",
+  "description": "Forced alignment of one dialogue line (§7-G1). Every phone carries a start and end time, so any mouth shape can be traced back to the sound that caused it. This file is also what fixes the shot's length: the audio is the master clock (§5.2).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "line_id", "backend", "language", "audio",
+               "duration_s", "speech_start_s", "speech_end_s", "text",
+               "words", "phones", "approximate"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "line_id": {"type": "string"},
+    "backend": {"type": "string", "description": "Which aligner ran. Recorded so a run's quality is auditable."},
+    "backend_model": {"type": ["string", "null"]},
+    "language": {"type": "string"},
+    "audio": {"type": "string"},
+    "sample_rate": {"type": "integer", "minimum": 1},
+    "duration_s": {"type": "number", "exclusiveMinimum": 0},
+    "speech_start_s": {"type": "number", "minimum": 0},
+    "speech_end_s": {"type": "number", "minimum": 0},
+    "text": {"type": "string"},
+    "confidence": {"type": ["number", "null"], "minimum": 0, "maximum": 1},
+    "approximate": {
+      "type": "boolean",
+      "description": "True when the timings came from the envelope fallback rather than a real forced alignment. Never silently true."
+    },
+    "words": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["text", "start_s", "end_s"],
+        "properties": {
+          "text": {"type": "string"},
+          "start_s": {"type": "number", "minimum": 0},
+          "end_s": {"type": "number", "minimum": 0},
+          "score": {"type": ["number", "null"]}
+        }
+      }
+    },
+    "phones": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["phone", "viseme", "start_s", "end_s"],
+        "properties": {
+          "phone": {"type": "string"},
+          "viseme": {"type": "string"},
+          "start_s": {"type": "number", "minimum": 0},
+          "end_s": {"type": "number", "minimum": 0},
+          "word": {"type": ["integer", "null"]},
+          "score": {"type": ["number", "null"]}
+        }
+      }
+    }
+  }
+}

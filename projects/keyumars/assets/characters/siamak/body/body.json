@@ -1,0 +1,238 @@
+{
+  "asked_height_m": 1.85,
+  "blend": "body.blend",
+  "bones": [
+    "pelvis",
+    "left_hip",
+    "right_hip",
+    "spine1",
+    "left_knee",
+    "right_knee",
+    "spine2",
+    "left_ankle",
+    "right_ankle",
+    "spine3",
+    "left_foot",
+    "right_foot",
+    "neck",
+    "left_collar",
+    "right_collar",
+    "head",
+    "left_shoulder",
+    "right_shoulder",
+    "left_elbow",
+    "right_elbow",
+    "left_wrist",
+    "right_wrist",
+    "jaw"
+  ],
+  "channels": [
+    "jaw_open",
+    "lip_wide",
+    "lip_round",
+    "lip_press",
+    "brow_raise",
+    "brow_furrow",
+    "squint",
+    "smile"
+  ],
+  "collection": "char_siamak",
+  "dims": {
+    "factor": 1.0882352941176472,
+    "girth": 1.0,
+    "height": 1.85
+  },
+  "face": {
+    "left_eye": [
+      -0.04788,
+      0.16552,
+      1.77736
+    ],
+    "mouth": [
+      -0.01468,
+      0.17563,
+      1.70005
+    ],
+    "mouth_left": [
+      -0.03988,
+      0.17638,
+      1.70046
+    ],
+    "mouth_right": [
+      0.01054,
+      0.17485,
+      1.69965
+    ],
+    "mouth_width": 0.05045695868607822,
+    "nose": [
+      -0.01417,
+      0.18,
+      1.73975
+    ],
+    "right_eye": [
+      0.01958,
+      0.16895,
+      1.77438
+    ]
+  },
+  "feet_z_m": -0.0,
+  "height_m": 1.85,
+  "joints": {
+    "head": [
+      -0.01438,
+      0.04878,
+      1.72927
+    ],
+    "jaw": [
+      -0.01438,
+      0.11406,
+      1.77279
+    ],
+    "left_ankle": [
+      0.15276,
+      -0.09946,
+      0.15943
+    ],
+    "left_collar": [
+      0.06105,
+      -0.01866,
+      1.49492
+    ],
+    "left_elbow": [
+      0.24828,
+      -0.0682,
+      1.24343
+    ],
+    "left_foot": [
+      0.16029,
+      -0.04903,
+      0.10501
+    ],
+    "left_hip": [
+      0.09226,
+      -0.00604,
+      1.01436
+    ],
+    "left_knee": [
+      0.11025,
+      -0.02573,
+      0.57305
+    ],
+    "left_shoulder": [
+      0.17475,
+      -0.0272,
+      1.54444
+    ],
+    "left_wrist": [
+      0.30121,
+      -0.00433,
+      0.98857
+    ],
+    "neck": [
+      -0.01162,
+      -0.01321,
+      1.57029
+    ],
+    "pelvis": [
+      0.0,
+      0.0,
+      1.10123
+    ],
+    "right_ankle": [
+      -0.15652,
+      -0.0573,
+      0.16476
+    ],
+    "right_collar": [
+      -0.08431,
+      -0.00776,
+      1.4981
+    ],
+    "right_elbow": [
+      -0.2462,
+      -0.03102,
+      1.26616
+    ],
+    "right_foot": [
+      -0.17104,
+      -0.0066,
+      0.11036
+    ],
+    "right_hip": [
+      -0.09226,
+      0.00602,
+      1.014
+    ],
+    "right_knee": [
+      -0.13352,
+      -0.01597,
+      0.56223
+    ],
+    "right_shoulder": [
+      -0.19799,
+      0.00076,
+      1.55262
+    ],
+    "right_wrist": [
+      -0.29819,
+      0.04549,
+      0.98708
+    ],
+    "spine1": [
+      -0.00265,
+      -0.00304,
+      1.20872
+    ],
+    "spine2": [
+      -0.00533,
+      -0.00606,
+      1.31623
+    ],
+    "spine3": [
+      -0.00751,
+      -0.00854,
+      1.40417
+    ]
+  },
+  "kind": "human",
+  "measured": {
+    "degenerate_faces": 0,
+    "max_m": [
+      0.358,
+      0.1878,
+      1.9443
+    ],
+    "min_m": [
+      -0.3684,
+      -0.2014,
+      -0.0
+    ],
+    "size_m": [
+      0.7264,
+      0.3893,
+      1.9443
+    ],
+    "tris": 60000,
+    "uv_coverage": 0.3252,
+    "verts": 30002
+  },
+  "mesh": "siamak",
+  "rest_correction_bones": [
+    "left_collar",
+    "left_elbow",
+    "left_shoulder",
+    "right_collar",
+    "right_elbow",
+    "right_shoulder"
+  ],
+  "rig": "siamak_rig",
+  "rig_mode": "smplx",
+  "roles": {
+    "photo": "skin"
+  },
+  "schema_version": 2,
+  "skinning": "heat",
+  "source": "sf3d_photo",
+  "subject": "siamak",
+  "top_m": 1.9443
+}

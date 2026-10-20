@@ -1,0 +1,332 @@
+{
+  "name": "miniature",
+  "summary": "Persian miniature painting: flat saturated colour, ink outlines, gold leaf, no aerial perspective",
+  "palette": {
+    "lapis": [
+      0.086,
+      0.204,
+      0.541
+    ],
+    "turquoise": [
+      0.157,
+      0.541,
+      0.541
+    ],
+    "vermilion": [
+      0.788,
+      0.196,
+      0.11
+    ],
+    "saffron": [
+      0.929,
+      0.702,
+      0.208
+    ],
+    "gold": [
+      0.831,
+      0.686,
+      0.216
+    ],
+    "ivory": [
+      0.945,
+      0.91,
+      0.827
+    ],
+    "rose": [
+      0.831,
+      0.494,
+      0.494
+    ],
+    "olive": [
+      0.4,
+      0.451,
+      0.235
+    ],
+    "sand": [
+      0.831,
+      0.749,
+      0.588
+    ],
+    "ink": [
+      0.075,
+      0.063,
+      0.075
+    ],
+    "flesh": [
+      0.902,
+      0.769,
+      0.639
+    ],
+    "flesh_shade": [
+      0.729,
+      0.549,
+      0.435
+    ],
+    "sky_pale": [
+      0.784,
+      0.855,
+      0.902
+    ],
+    "stone_grey": [
+      0.639,
+      0.616,
+      0.573
+    ],
+    "wood_brown": [
+      0.451,
+      0.298,
+      0.18
+    ]
+  },
+  "materials": {
+    "skin": {
+      "shader": "flat",
+      "base_color": "@flesh",
+      "shade_color": "@flesh_shade",
+      "steps": 2,
+      "shade_at": 0.52
+    },
+    "hair": {
+      "shader": "flat",
+      "base_color": "@ink",
+      "shade_color": [
+        0.04,
+        0.03,
+        0.05
+      ],
+      "steps": 2,
+      "shade_at": 0.5
+    },
+    "eye_white": {
+      "shader": "flat",
+      "base_color": "@ivory",
+      "shade_color": "@ivory",
+      "steps": 1
+    },
+    "eye_iris": {
+      "shader": "flat",
+      "base_color": "@ink",
+      "shade_color": "@ink",
+      "steps": 1
+    },
+    "lip": {
+      "shader": "flat",
+      "base_color": "@vermilion",
+      "shade_color": [
+        0.58,
+        0.14,
+        0.09
+      ],
+      "steps": 2,
+      "shade_at": 0.5
+    },
+    "cloth_primary": {
+      "shader": "flat",
+      "base_color": "@lapis",
+      "shade_color": [
+        0.05,
+        0.12,
+        0.34
+      ],
+      "steps": 2,
+      "shade_at": 0.48
+    },
+    "cloth_secondary": {
+      "shader": "flat",
+      "base_color": "@saffron",
+      "shade_color": [
+        0.66,
+        0.48,
+        0.13
+      ],
+      "steps": 2,
+      "shade_at": 0.48
+    },
+    "cloth_trim": {
+      "shader": "gold_leaf",
+      "base_color": "@gold",
+      "metallic": 1.0,
+      "roughness": 0.28,
+      "anisotropy": 0.4
+    },
+    "leather": {
+      "shader": "flat",
+      "base_color": "@wood_brown",
+      "shade_color": [
+        0.28,
+        0.18,
+        0.11
+      ],
+      "steps": 2,
+      "shade_at": 0.5
+    },
+    "metal_armor": {
+      "shader": "gold_leaf",
+      "base_color": "@gold",
+      "metallic": 1.0,
+      "roughness": 0.34
+    },
+    "metal_blade": {
+      "shader": "gold_leaf",
+      "base_color": "@ivory",
+      "metallic": 1.0,
+      "roughness": 0.16
+    },
+    "gold_leaf": {
+      "shader": "gold_leaf",
+      "base_color": "@gold",
+      "metallic": 1.0,
+      "roughness": 0.22,
+      "emission": 0.06
+    },
+    "wood": {
+      "shader": "flat",
+      "base_color": "@wood_brown",
+      "shade_color": [
+        0.29,
+        0.19,
+        0.12
+      ],
+      "steps": 2,
+      "shade_at": 0.5
+    },
+    "stone": {
+      "shader": "flat",
+      "base_color": "@stone_grey",
+      "shade_color": [
+        0.44,
+        0.42,
+        0.4
+      ],
+      "steps": 2,
+      "shade_at": 0.5
+    },
+    "ground": {
+      "shader": "flat",
+      "base_color": "@olive",
+      "shade_color": [
+        0.27,
+        0.31,
+        0.16
+      ],
+      "steps": 2,
+      "shade_at": 0.55
+    },
+    "foliage": {
+      "shader": "flat",
+      "base_color": "@turquoise",
+      "shade_color": [
+        0.09,
+        0.34,
+        0.34
+      ],
+      "steps": 2,
+      "shade_at": 0.5
+    },
+    "water": {
+      "shader": "flat",
+      "base_color": "@turquoise",
+      "shade_color": "@lapis",
+      "steps": 2,
+      "shade_at": 0.5,
+      "emission": 0.05
+    },
+    "sky": {
+      "shader": "emission",
+      "base_color": "@sky_pale",
+      "strength": 1.0
+    },
+    "ink_outline": {
+      "shader": "emission",
+      "base_color": "@ink",
+      "strength": 1.0
+    },
+    "backdrop": {
+      "shader": "emission",
+      "base_color": "@ivory",
+      "strength": 0.9
+    }
+  },
+  "render": {
+    "engine": "BLENDER_EEVEE",
+    "samples": 24,
+    "view_transform": "Standard",
+    "look": "None",
+    "exposure": 0.0,
+    "gamma": 1.0,
+    "film_transparent": false,
+    "use_raytracing": false,
+    "use_shadows": true,
+    "shadow_ray_count": 1,
+    "shadow_step_count": 2,
+    "denoise": false,
+    "motion_blur": false,
+    "resolution_scale": 1.0
+  },
+  "lighting": {
+    "rig": "flat_ambient",
+    "world_color": "@ivory",
+    "world_strength": 0.85,
+    "key": {
+      "type": "SUN",
+      "energy": 1.6,
+      "color": "@ivory",
+      "azimuth_deg": 35,
+      "elevation_deg": 60,
+      "angle_deg": 25.0
+    },
+    "fill": {
+      "type": "SUN",
+      "energy": 0.5,
+      "color": "@sky_pale",
+      "azimuth_deg": -120,
+      "elevation_deg": 30,
+      "angle_deg": 40.0
+    },
+    "rim": null,
+    "hdri": null
+  },
+  "camera": {
+    "focal_mm": 45,
+    "focal_max_mm": 85.0,
+    "dof": false,
+    "fstop": 5.6,
+    "sensor_mm": 36,
+    "shift_y": 0.0,
+    "orthographic_bias": 0.25
+  },
+  "env": {
+    "strategy": "painted_backdrop",
+    "ground_scale_m": 30,
+    "backdrop_distance_m": 14,
+    "backdrop_height_m": 9,
+    "horizon_fade": false,
+    "scatter_density": 0.5
+  },
+  "postfx": {
+    "outline": {
+      "enabled": true,
+      "width_px": 2.2,
+      "color": "@ink",
+      "threshold": 0.18,
+      "from": "normal_depth"
+    },
+    "grade": {
+      "contrast": 1.08,
+      "saturation": 1.22,
+      "lift": 0.02,
+      "gain": 1.0
+    },
+    "vignette": 0.0,
+    "grain": 0.0,
+    "paper_texture": 0.12
+  },
+  "visemes": {
+    "profile": "graphic",
+    "smoothing_frames": 0,
+    "hold_frames": 2,
+    "jaw_gain": 1.15,
+    "lip_gain": 1.25,
+    "brow_gain": 1.4
+  }
+}

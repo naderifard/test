@@ -1,0 +1,44 @@
+{
+  "albedo": null,
+  "blend": "textured.blend",
+  "collection": "char_lion",
+  "measured": {
+    "degenerate_faces": 0,
+    "max_m": [
+      0.4132,
+      0.7018,
+      1.3001
+    ],
+    "min_m": [
+      -0.4128,
+      -0.2723,
+      -0.0
+    ],
+    "size_m": [
+      0.8259,
+      0.9741,
+      1.3001
+    ],
+    "tris": 59998,
+    "uv_coverage": 0.53125,
+    "verts": 29999
+  },
+  "meshes": [
+    {
+      "coverage": 0.53125,
+      "loops": 179994,
+      "object": "lion",
+      "roles": [
+        "skin"
+      ],
+      "uv_layer": "photo"
+    }
+  ],
+  "schema_version": 1,
+  "subject": "lion",
+  "unwrap": {
+    "angle_limit_deg": 66.0,
+    "island_margin": 0.02,
+    "method": "smart_project"
+  }
+}

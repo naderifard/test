@@ -1,0 +1,329 @@
+{
+  "name": "photoreal",
+  "summary": "Cycles on OptiX: measured PBR values, HDRI terrain, filmic response, denoised",
+  "palette": {
+    "flesh": [
+      0.78,
+      0.596,
+      0.478
+    ],
+    "flesh_shade": [
+      0.478,
+      0.294,
+      0.239
+    ],
+    "hair_black": [
+      0.055,
+      0.047,
+      0.043
+    ],
+    "linen": [
+      0.784,
+      0.741,
+      0.667
+    ],
+    "indigo": [
+      0.098,
+      0.129,
+      0.278
+    ],
+    "ochre": [
+      0.616,
+      0.427,
+      0.169
+    ],
+    "brick": [
+      0.451,
+      0.192,
+      0.145
+    ],
+    "sage": [
+      0.259,
+      0.31,
+      0.216
+    ],
+    "sand": [
+      0.639,
+      0.545,
+      0.412
+    ],
+    "steel": [
+      0.56,
+      0.57,
+      0.58
+    ],
+    "gold": [
+      1.0,
+      0.766,
+      0.336
+    ],
+    "bark": [
+      0.208,
+      0.145,
+      0.098
+    ],
+    "slate": [
+      0.322,
+      0.318,
+      0.31
+    ],
+    "sky_grey": [
+      0.478,
+      0.561,
+      0.647
+    ],
+    "water_green": [
+      0.075,
+      0.18,
+      0.169
+    ]
+  },
+  "materials": {
+    "skin": {
+      "shader": "principled",
+      "base_color": "@flesh",
+      "roughness": 0.42,
+      "subsurface": 0.28,
+      "subsurface_color": "@flesh_shade",
+      "subsurface_radius": [
+        0.36,
+        0.13,
+        0.07
+      ],
+      "specular": 0.5,
+      "noise_bump": 0.06
+    },
+    "hair": {
+      "shader": "principled",
+      "base_color": "@hair_black",
+      "roughness": 0.28,
+      "specular": 0.5,
+      "anisotropy": 0.7
+    },
+    "eye_white": {
+      "shader": "principled",
+      "base_color": [
+        0.85,
+        0.83,
+        0.81
+      ],
+      "roughness": 0.08,
+      "specular": 0.75,
+      "subsurface": 0.05
+    },
+    "eye_iris": {
+      "shader": "principled",
+      "base_color": [
+        0.12,
+        0.08,
+        0.055
+      ],
+      "roughness": 0.05,
+      "specular": 0.9
+    },
+    "lip": {
+      "shader": "principled",
+      "base_color": [
+        0.545,
+        0.29,
+        0.259
+      ],
+      "roughness": 0.3,
+      "subsurface": 0.22
+    },
+    "cloth_primary": {
+      "shader": "principled",
+      "base_color": "@indigo",
+      "roughness": 0.82,
+      "sheen": 0.35,
+      "noise_bump": 0.18
+    },
+    "cloth_secondary": {
+      "shader": "principled",
+      "base_color": "@ochre",
+      "roughness": 0.78,
+      "sheen": 0.3,
+      "noise_bump": 0.18
+    },
+    "cloth_trim": {
+      "shader": "principled",
+      "base_color": "@gold",
+      "metallic": 1.0,
+      "roughness": 0.38,
+      "noise_bump": 0.1
+    },
+    "leather": {
+      "shader": "principled",
+      "base_color": "@bark",
+      "roughness": 0.52,
+      "specular": 0.35,
+      "noise_bump": 0.3
+    },
+    "metal_armor": {
+      "shader": "principled",
+      "base_color": "@steel",
+      "metallic": 1.0,
+      "roughness": 0.3,
+      "anisotropy": 0.2,
+      "noise_bump": 0.12
+    },
+    "metal_blade": {
+      "shader": "principled",
+      "base_color": [
+        0.72,
+        0.74,
+        0.76
+      ],
+      "metallic": 1.0,
+      "roughness": 0.09
+    },
+    "gold_leaf": {
+      "shader": "principled",
+      "base_color": "@gold",
+      "metallic": 1.0,
+      "roughness": 0.2
+    },
+    "wood": {
+      "shader": "principled",
+      "base_color": "@bark",
+      "roughness": 0.62,
+      "noise_bump": 0.45
+    },
+    "stone": {
+      "shader": "principled",
+      "base_color": "@slate",
+      "roughness": 0.88,
+      "noise_bump": 0.7
+    },
+    "ground": {
+      "shader": "principled",
+      "base_color": "@sand",
+      "roughness": 0.94,
+      "noise_bump": 0.85
+    },
+    "foliage": {
+      "shader": "principled",
+      "base_color": "@sage",
+      "roughness": 0.66,
+      "translucency": 0.35
+    },
+    "water": {
+      "shader": "glass",
+      "base_color": "@water_green",
+      "roughness": 0.02,
+      "ior": 1.333,
+      "transmission": 1.0
+    },
+    "sky": {
+      "shader": "emission",
+      "base_color": "@sky_grey",
+      "strength": 1.0
+    },
+    "ink_outline": {
+      "shader": "emission",
+      "base_color": [
+        0.02,
+        0.02,
+        0.02
+      ],
+      "strength": 1.0
+    },
+    "backdrop": {
+      "shader": "principled",
+      "base_color": "@sky_grey",
+      "roughness": 1.0
+    }
+  },
+  "render": {
+    "engine": "CYCLES",
+    "samples": 96,
+    "adaptive_threshold": 0.02,
+    "max_bounces": 8,
+    "diffuse_bounces": 3,
+    "glossy_bounces": 4,
+    "transmission_bounces": 6,
+    "device": "GPU",
+    "compute_device_type": "OPTIX",
+    "view_transform": "AgX",
+    "look": "None",
+    "exposure": 0.0,
+    "gamma": 1.0,
+    "film_transparent": false,
+    "denoise": true,
+    "denoiser": "OPENIMAGEDENOISE",
+    "motion_blur": true,
+    "persistent_data": true,
+    "resolution_scale": 1.0
+  },
+  "lighting": {
+    "rig": "hdri",
+    "world_color": "@sky_grey",
+    "world_strength": 1.0,
+    "key": {
+      "type": "SUN",
+      "energy": 4.0,
+      "color": [
+        1.0,
+        0.93,
+        0.82
+      ],
+      "azimuth_deg": 48,
+      "elevation_deg": 34,
+      "angle_deg": 1.5
+    },
+    "fill": null,
+    "rim": null,
+    "hdri": {
+      "path": null,
+      "strength": 1.0,
+      "rotation_deg": 0.0
+    }
+  },
+  "camera": {
+    "focal_mm": 65,
+    "focal_max_mm": 200.0,
+    "dof": true,
+    "fstop": 2.2,
+    "sensor_mm": 36,
+    "shift_y": 0.0,
+    "orthographic_bias": 0.0
+  },
+  "env": {
+    "strategy": "hdri_terrain",
+    "ground_scale_m": 120,
+    "backdrop_distance_m": 0,
+    "backdrop_height_m": 0,
+    "horizon_fade": true,
+    "scatter_density": 1.4
+  },
+  "postfx": {
+    "outline": {
+      "enabled": false,
+      "width_px": 1.0,
+      "color": [
+        0,
+        0,
+        0
+      ],
+      "threshold": 0.3,
+      "from": "normal_depth"
+    },
+    "grade": {
+      "contrast": 1.0,
+      "saturation": 1.0,
+      "lift": 0.0,
+      "gain": 1.0
+    },
+    "vignette": 0.1,
+    "grain": 0.008,
+    "paper_texture": 0.0
+  },
+  "visemes": {
+    "profile": "smooth",
+    "smoothing_frames": 2,
+    "hold_frames": 0,
+    "jaw_gain": 0.92,
+    "lip_gain": 0.95,
+    "brow_gain": 0.9
+  }
+}

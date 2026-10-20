@@ -1,0 +1,30 @@
+{
+  "expected": [
+    "front",
+    "face",
+    "side"
+  ],
+  "folder": "refs/characters/siamak",
+  "images": [
+    {
+      "bytes": 2018527,
+      "faces": 4,
+      "height": 1536,
+      "mean_luma": 0.4157,
+      "path": "siamak_front.png",
+      "slot": "front",
+      "stddev_luma": 0.1135,
+      "unique_levels": 196,
+      "width": 1024
+    }
+  ],
+  "kind": "character",
+  "missing": [
+    "face",
+    "side"
+  ],
+  "slots": {
+    "front": "siamak_front.png"
+  },
+  "subject": "siamak"
+}

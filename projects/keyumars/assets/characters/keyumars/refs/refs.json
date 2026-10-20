@@ -1,0 +1,30 @@
+{
+  "expected": [
+    "front",
+    "face",
+    "side"
+  ],
+  "folder": "refs/characters/keyumars",
+  "images": [
+    {
+      "bytes": 2613324,
+      "faces": 1,
+      "height": 1536,
+      "mean_luma": 0.5361,
+      "path": "keyumars_front.png",
+      "slot": "front",
+      "stddev_luma": 0.1857,
+      "unique_levels": 225,
+      "width": 1024
+    }
+  ],
+  "kind": "character",
+  "missing": [
+    "face",
+    "side"
+  ],
+  "slots": {
+    "front": "keyumars_front.png"
+  },
+  "subject": "keyumars"
+}

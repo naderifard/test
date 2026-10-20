@@ -1,0 +1,182 @@
+{
+  "bounds": [
+    [
+      -0.13886,
+      -0.20496,
+      -0.4679
+    ],
+    [
+      0.29744,
+      0.32376,
+      0.41586
+    ]
+  ],
+  "dense": {
+    "cell": 0.003355,
+    "grid": [
+      170,
+      140,
+      273
+    ],
+    "seconds": 1.95,
+    "shells": 1,
+    "shells_kept": 1
+  },
+  "face": {},
+  "frame": "blender: up +Z, facing +Y, SF3D units",
+  "height_m": 0.9,
+  "joints": {
+    "chest": [
+      0.07929,
+      0.17891,
+      0.08236
+    ],
+    "head": [
+      0.07929,
+      0.27306,
+      0.29914
+    ],
+    "jaw": [
+      0.07929,
+      0.30203,
+      0.23244
+    ],
+    "left_hip": [
+      0.21707,
+      -0.06735,
+      0.01566
+    ],
+    "left_hoof_b": [
+      0.22626,
+      -0.05286,
+      -0.44289
+    ],
+    "left_hoof_f": [
+      0.20789,
+      0.17166,
+      -0.44289
+    ],
+    "left_knee": [
+      0.20789,
+      0.16442,
+      -0.18443
+    ],
+    "left_shoulder": [
+      0.1987,
+      0.16442,
+      0.03234
+    ],
+    "left_stifle": [
+      0.22626,
+      -0.08184,
+      -0.16776
+    ],
+    "muzzle": [
+      0.07929,
+      0.32376,
+      0.24911
+    ],
+    "neck": [
+      0.07929,
+      0.22236,
+      0.19909
+    ],
+    "right_hip": [
+      -0.05848,
+      -0.06735,
+      0.01566
+    ],
+    "right_hoof_b": [
+      -0.06767,
+      -0.05286,
+      -0.44289
+    ],
+    "right_hoof_f": [
+      -0.0493,
+      0.17166,
+      -0.44289
+    ],
+    "right_knee": [
+      -0.0493,
+      0.16442,
+      -0.18443
+    ],
+    "right_shoulder": [
+      -0.04011,
+      0.16442,
+      0.03234
+    ],
+    "right_stifle": [
+      -0.06767,
+      -0.08184,
+      -0.16776
+    ],
+    "root": [
+      0.07929,
+      -0.06011,
+      0.04901
+    ],
+    "spine1": [
+      0.07929,
+      0.01956,
+      0.08236
+    ],
+    "spine2": [
+      0.07929,
+      0.10648,
+      0.09904
+    ],
+    "tail": [
+      0.07929,
+      -0.11081,
+      0.04901
+    ],
+    "tail_end": [
+      0.07929,
+      -0.20496,
+      -0.18443
+    ]
+  },
+  "kind": "quadruped",
+  "mapping": {
+    "albedo_match": {
+      "error_after": 0.0697,
+      "error_before": 0.1037,
+      "mean_shift": [
+        -0.1361,
+        -0.0809,
+        -0.0466
+      ],
+      "samples": 21142
+    },
+    "inside_mask": 0.736,
+    "photo_share": 0.2707,
+    "visible": 0.3887
+  },
+  "mesh": "mesh.npz",
+  "model": {
+    "device": "cuda",
+    "dtype": "float16",
+    "isosurface_resolution": 160,
+    "load_s": 60.96,
+    "parameters": 1006026407,
+    "relinked_shared_tensors": 96,
+    "vram_after_load_mb": 2023,
+    "vram_before_load": {
+      "available": true,
+      "free_mb": 7054,
+      "name": "NVIDIA GeForce RTX 4070 Laptop GPU",
+      "needed_mb": 4420,
+      "total_mb": 8187,
+      "used_by_others_mb": 1133
+    }
+  },
+  "photo": "photo.png",
+  "rig": {
+    "method": "quadruped_template",
+    "stature_units": 0.88376
+  },
+  "schema_version": 2,
+  "source": "gazelle_front.png",
+  "subject": "gazelle"
+}

@@ -1,0 +1,435 @@
+{
+  "approximate": true,
+  "audio": "audio/s03_vow_1/converted.wav",
+  "backend": "envelope",
+  "backend_model": null,
+  "confidence": null,
+  "duration_s": 6.14952,
+  "language": "fa",
+  "line_id": "s03_vow_1",
+  "phones": [
+    {
+      "end_s": 0.6993,
+      "phone": "a",
+      "score": null,
+      "start_s": 0.53,
+      "viseme": "AA",
+      "word": 0
+    },
+    {
+      "end_s": 0.925,
+      "phone": "i",
+      "score": null,
+      "start_s": 0.6993,
+      "viseme": "I",
+      "word": 0
+    },
+    {
+      "end_s": 0.9556,
+      "phone": "p",
+      "score": null,
+      "start_s": 0.925,
+      "viseme": "MBP",
+      "word": 1
+    },
+    {
+      "end_s": 1.0038,
+      "phone": "e",
+      "score": null,
+      "start_s": 0.9556,
+      "viseme": "E",
+      "word": 1
+    },
+    {
+      "end_s": 1.0344,
+      "phone": "d",
+      "score": null,
+      "start_s": 1.0038,
+      "viseme": "TD",
+      "word": 1
+    },
+    {
+      "end_s": 1.065,
+      "phone": "r",
+      "score": null,
+      "start_s": 1.0344,
+      "viseme": "TD",
+      "word": 1
+    },
+    {
+      "end_s": 1.1848,
+      "phone": "x",
+      "score": null,
+      "start_s": 1.065,
+      "viseme": "KG",
+      "word": 2
+    },
+    {
+      "end_s": 1.359,
+      "phone": "u",
+      "score": null,
+      "start_s": 1.1848,
+      "viseme": "U",
+      "word": 2
+    },
+    {
+      "end_s": 1.457,
+      "phone": "n",
+      "score": null,
+      "start_s": 1.359,
+      "viseme": "TD",
+      "word": 2
+    },
+    {
+      "end_s": 1.555,
+      "phone": "m",
+      "score": null,
+      "start_s": 1.457,
+      "viseme": "MBP",
+      "word": 2
+    },
+    {
+      "end_s": 1.6328,
+      "phone": "b",
+      "score": null,
+      "start_s": 1.555,
+      "viseme": "MBP",
+      "word": 3
+    },
+    {
+      "end_s": 1.755,
+      "phone": "e",
+      "score": null,
+      "start_s": 1.6328,
+      "viseme": "E",
+      "word": 3
+    },
+    {
+      "end_s": 1.8183,
+      "phone": "dʒ",
+      "score": null,
+      "start_s": 1.755,
+      "viseme": "SH",
+      "word": 4
+    },
+    {
+      "end_s": 1.9103,
+      "phone": "u",
+      "score": null,
+      "start_s": 1.8183,
+      "viseme": "U",
+      "word": 4
+    },
+    {
+      "end_s": 1.985,
+      "phone": "ʃ",
+      "score": null,
+      "start_s": 1.9103,
+      "viseme": "SH",
+      "word": 4
+    },
+    {
+      "end_s": 2.251,
+      "phone": "ɒ",
+      "score": null,
+      "start_s": 1.985,
+      "viseme": "AA",
+      "word": 5
+    },
+    {
+      "end_s": 2.377,
+      "phone": "m",
+      "score": null,
+      "start_s": 2.251,
+      "viseme": "MBP",
+      "word": 5
+    },
+    {
+      "end_s": 2.475,
+      "phone": "d",
+      "score": null,
+      "start_s": 2.377,
+      "viseme": "TD",
+      "word": 5
+    },
+    {
+      "end_s": 2.5294,
+      "phone": "b",
+      "score": null,
+      "start_s": 2.475,
+      "viseme": "MBP",
+      "word": 6
+    },
+    {
+      "end_s": 2.615,
+      "phone": "e",
+      "score": null,
+      "start_s": 2.5294,
+      "viseme": "E",
+      "word": 6
+    },
+    {
+      "end_s": 2.6964,
+      "phone": "dʒ",
+      "score": null,
+      "start_s": 2.615,
+      "viseme": "SH",
+      "word": 7
+    },
+    {
+      "end_s": 2.7778,
+      "phone": "e",
+      "score": null,
+      "start_s": 2.6964,
+      "viseme": "E",
+      "word": 7
+    },
+    {
+      "end_s": 2.8444,
+      "phone": "n",
+      "score": null,
+      "start_s": 2.7778,
+      "viseme": "TD",
+      "word": 7
+    },
+    {
+      "end_s": 2.9036,
+      "phone": "g",
+      "score": null,
+      "start_s": 2.8444,
+      "viseme": "KG",
+      "word": 7
+    },
+    {
+      "end_s": 2.985,
+      "phone": "e",
+      "score": null,
+      "start_s": 2.9036,
+      "viseme": "E",
+      "word": 7
+    },
+    {
+      "end_s": 3.2836,
+      "phone": "ɒ",
+      "score": null,
+      "start_s": 2.985,
+      "viseme": "AA",
+      "word": 8
+    },
+    {
+      "end_s": 3.425,
+      "phone": "n",
+      "score": null,
+      "start_s": 3.2836,
+      "viseme": "TD",
+      "word": 8
+    },
+    {
+      "end_s": 3.4489,
+      "phone": "d",
+      "score": null,
+      "start_s": 3.425,
+      "viseme": "TD",
+      "word": 9
+    },
+    {
+      "end_s": 3.4865,
+      "phone": "e",
+      "score": null,
+      "start_s": 3.4489,
+      "viseme": "E",
+      "word": 9
+    },
+    {
+      "end_s": 3.5104,
+      "phone": "j",
+      "score": null,
+      "start_s": 3.4865,
+      "viseme": "I",
+      "word": 9
+    },
+    {
+      "end_s": 3.565,
+      "phone": "u",
+      "score": null,
+      "start_s": 3.5104,
+      "viseme": "U",
+      "word": 9
+    },
+    {
+      "end_s": 3.7005,
+      "phone": "x",
+      "score": null,
+      "start_s": 3.565,
+      "viseme": "KG",
+      "word": 10
+    },
+    {
+      "end_s": 3.836,
+      "phone": "e",
+      "score": null,
+      "start_s": 3.7005,
+      "viseme": "E",
+      "word": 10
+    },
+    {
+      "end_s": 3.9592,
+      "phone": "v",
+      "score": null,
+      "start_s": 3.836,
+      "viseme": "FV",
+      "word": 10
+    },
+    {
+      "end_s": 4.1933,
+      "phone": "ɒ",
+      "score": null,
+      "start_s": 3.9592,
+      "viseme": "AA",
+      "word": 10
+    },
+    {
+      "end_s": 4.3041,
+      "phone": "h",
+      "score": null,
+      "start_s": 4.1933,
+      "viseme": "KG",
+      "word": 10
+    },
+    {
+      "end_s": 4.415,
+      "phone": "m",
+      "score": null,
+      "start_s": 4.3041,
+      "viseme": "MBP",
+      "word": 10
+    },
+    {
+      "end_s": 4.5211,
+      "phone": "ʃ",
+      "score": null,
+      "start_s": 4.415,
+      "viseme": "SH",
+      "word": 11
+    },
+    {
+      "end_s": 4.6109,
+      "phone": "e",
+      "score": null,
+      "start_s": 4.5211,
+      "viseme": "E",
+      "word": 11
+    },
+    {
+      "end_s": 4.668,
+      "phone": "t",
+      "score": null,
+      "start_s": 4.6109,
+      "viseme": "TD",
+      "word": 11
+    },
+    {
+      "end_s": 4.8231,
+      "phone": "ɒ",
+      "score": null,
+      "start_s": 4.668,
+      "viseme": "AA",
+      "word": 11
+    },
+    {
+      "end_s": 4.9129,
+      "phone": "x",
+      "score": null,
+      "start_s": 4.8231,
+      "viseme": "KG",
+      "word": 11
+    },
+    {
+      "end_s": 4.97,
+      "phone": "t",
+      "score": null,
+      "start_s": 4.9129,
+      "viseme": "TD",
+      "word": 11
+    }
+  ],
+  "sample_rate": 22050,
+  "schema_version": 1,
+  "speech_end_s": 4.97,
+  "speech_start_s": 0.53,
+  "text": "ای پدر، خونم به جوش آمد؛ به جنگِ آن دیو خواهم شتاخت.",
+  "words": [
+    {
+      "end_s": 0.925,
+      "score": null,
+      "start_s": 0.53,
+      "text": "ای"
+    },
+    {
+      "end_s": 1.065,
+      "score": null,
+      "start_s": 0.925,
+      "text": "پدر"
+    },
+    {
+      "end_s": 1.555,
+      "score": null,
+      "start_s": 1.065,
+      "text": "خونم"
+    },
+    {
+      "end_s": 1.755,
+      "score": null,
+      "start_s": 1.555,
+      "text": "به"
+    },
+    {
+      "end_s": 1.985,
+      "score": null,
+      "start_s": 1.755,
+      "text": "جوش"
+    },
+    {
+      "end_s": 2.475,
+      "score": null,
+      "start_s": 1.985,
+      "text": "آمد"
+    },
+    {
+      "end_s": 2.615,
+      "score": null,
+      "start_s": 2.475,
+      "text": "به"
+    },
+    {
+      "end_s": 2.985,
+      "score": null,
+      "start_s": 2.615,
+      "text": "جنگِ"
+    },
+    {
+      "end_s": 3.425,
+      "score": null,
+      "start_s": 2.985,
+      "text": "آن"
+    },
+    {
+      "end_s": 3.565,
+      "score": null,
+      "start_s": 3.425,
+      "text": "دیو"
+    },
+    {
+      "end_s": 4.415,
+      "score": null,
+      "start_s": 3.565,
+      "text": "خواهم"
+    },
+    {
+      "end_s": 4.97,
+      "score": null,
+      "start_s": 4.415,
+      "text": "شتاخت"
+    }
+  ]
+}

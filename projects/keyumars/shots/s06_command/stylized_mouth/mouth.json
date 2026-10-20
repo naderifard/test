@@ -1,0 +1,16 @@
+{
+  "keyumars": {
+    "face_px_median": 108,
+    "painted_frames": 136,
+    "painted_share": 1.0,
+    "skipped": {},
+    "spoken_frames": 136
+  },
+  "soroush": {
+    "face_px_median": 138,
+    "painted_frames": 121,
+    "painted_share": 1.0,
+    "skipped": {},
+    "spoken_frames": 121
+  }
+}

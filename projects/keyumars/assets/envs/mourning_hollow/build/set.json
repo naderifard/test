@@ -1,0 +1,38 @@
+{
+  "camera": {
+    "focal_px": 1447.9944751275816,
+    "hfov_deg": 60.0,
+    "horizon_fraction": 0.5755854523610927,
+    "horizon_row": 541.6259106717882,
+    "image_px": [
+      1672,
+      941
+    ],
+    "position_m": [
+      0.0,
+      -10.971001071079883,
+      1.6
+    ]
+  },
+  "depth_range_m": [
+    3.208618386071453,
+    260.0
+  ],
+  "fit": {
+    "fit_rows": [
+      677,
+      911
+    ],
+    "intercept": -8.919481612063999,
+    "slope": 0.016467974364448346
+  },
+  "grid": [
+    203,
+    360
+  ],
+  "ground_fraction": 0.4482758620689655,
+  "image": "mourning_hollow_wide.png",
+  "sky_fraction": 0.3239737274220033,
+  "stage_distance_m": 10.971001071079883,
+  "torn_fraction": 0.012658926059736841
+}

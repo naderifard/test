@@ -1,0 +1,375 @@
+{
+  "bounds": [
+    [
+      -0.28756,
+      -0.17447,
+      -0.45929
+    ],
+    [
+      0.2913,
+      0.20673,
+      0.46673
+    ]
+  ],
+  "dense": {
+    "cell": 0.00341,
+    "grid": [
+      125,
+      182,
+      284
+    ],
+    "seconds": 1.87,
+    "shells": 1,
+    "shells_kept": 1
+  },
+  "face": {
+    "left_eye": [
+      -0.02754,
+      0.12828,
+      0.29205
+    ],
+    "mouth": [
+      -0.00597,
+      0.08741,
+      0.25234
+    ],
+    "mouth_left": [
+      -0.02306,
+      0.08727,
+      0.25298
+    ],
+    "mouth_right": [
+      0.01112,
+      0.08755,
+      0.2517
+    ],
+    "mouth_width": 0.03421,
+    "nose": [
+      -0.00502,
+      0.1228,
+      0.25879
+    ],
+    "right_eye": [
+      0.02178,
+      0.13574,
+      0.28836
+    ]
+  },
+  "frame": "blender: up +Z, facing +Y, SF3D units",
+  "height_m": 2.6,
+  "joints": {
+    "head": [
+      -0.00312,
+      -0.01345,
+      0.28675
+    ],
+    "jaw": [
+      -0.00312,
+      0.01369,
+      0.30485
+    ],
+    "left_ankle": [
+      0.11107,
+      0.00586,
+      -0.37941
+    ],
+    "left_collar": [
+      0.0556,
+      -0.03735,
+      0.24315
+    ],
+    "left_elbow": [
+      0.23655,
+      -0.00466,
+      0.07966
+    ],
+    "left_foot": [
+      0.10925,
+      0.06267,
+      -0.40202
+    ],
+    "left_hip": [
+      0.06513,
+      -0.05283,
+      0.0658
+    ],
+    "left_knee": [
+      0.11098,
+      0.04229,
+      -0.15054
+    ],
+    "left_shoulder": [
+      0.14403,
+      -0.03817,
+      0.26121
+    ],
+    "left_wrist": [
+      0.21634,
+      0.11497,
+      -0.10518
+    ],
+    "neck": [
+      -0.00094,
+      -0.03682,
+      0.27609
+    ],
+    "pelvis": [
+      -0.00242,
+      -0.0538,
+      0.1071
+    ],
+    "right_ankle": [
+      -0.16433,
+      -0.02089,
+      -0.34971
+    ],
+    "right_collar": [
+      -0.05748,
+      -0.0363,
+      0.2477
+    ],
+    "right_elbow": [
+      -0.23364,
+      -0.00555,
+      0.07985
+    ],
+    "right_foot": [
+      -0.18374,
+      0.02857,
+      -0.37233
+    ],
+    "right_hip": [
+      -0.06997,
+      -0.05477,
+      0.07604
+    ],
+    "right_knee": [
+      -0.16545,
+      0.1243,
+      -0.12264
+    ],
+    "right_shoulder": [
+      -0.14591,
+      -0.03548,
+      0.27288
+    ],
+    "right_wrist": [
+      -0.24708,
+      0.08848,
+      -0.08702
+    ],
+    "spine1": [
+      -0.00208,
+      -0.04991,
+      0.14583
+    ],
+    "spine2": [
+      -0.00174,
+      -0.04602,
+      0.18455
+    ],
+    "spine3": [
+      -0.00146,
+      -0.04284,
+      0.21624
+    ]
+  },
+  "kind": "humanoid",
+  "mapping": {
+    "albedo_match": {
+      "error_after": 0.0351,
+      "error_before": 0.4131,
+      "mean_shift": [
+        -0.4547,
+        -0.4245,
+        -0.4254
+      ],
+      "samples": 48874
+    },
+    "inside_mask": 0.8904,
+    "photo_share": 0.3354,
+    "visible": 0.3874
+  },
+  "mesh": "mesh.npz",
+  "model": {
+    "device": "cuda",
+    "dtype": "float16",
+    "isosurface_resolution": 160,
+    "load_s": 60.96,
+    "parameters": 1006026407,
+    "relinked_shared_tensors": 96,
+    "vram_after_load_mb": 2023,
+    "vram_before_load": {
+      "available": true,
+      "free_mb": 7054,
+      "name": "NVIDIA GeForce RTX 4070 Laptop GPU",
+      "needed_mb": 4420,
+      "total_mb": 8187,
+      "used_by_others_mb": 1133
+    }
+  },
+  "photo": "photo.png",
+  "rig": {
+    "confidence": 1.0,
+    "flipped_sides": true,
+    "inside": 0.9545,
+    "landmarks_px": {
+      "left_ankle": [
+        761.5,
+        1295.5
+      ],
+      "left_ear": [
+        598.8,
+        245.9
+      ],
+      "left_elbow": [
+        870.3,
+        640.9
+      ],
+      "left_eye": [
+        557.7,
+        274.2
+      ],
+      "left_eye_inner": [
+        541.5,
+        277.5
+      ],
+      "left_eye_outer": [
+        573.8,
+        270.7
+      ],
+      "left_foot_index": [
+        850.0,
+        1431.7
+      ],
+      "left_heel": [
+        727.3,
+        1339.8
+      ],
+      "left_hip": [
+        629.5,
+        649.2
+      ],
+      "left_index": [
+        911.9,
+        968.9
+      ],
+      "left_knee": [
+        766.9,
+        968.4
+      ],
+      "left_pinky": [
+        949.8,
+        967.2
+      ],
+      "left_shoulder": [
+        731.5,
+        352.1
+      ],
+      "left_thumb": [
+        885.4,
+        951.2
+      ],
+      "left_wrist": [
+        914.6,
+        905.5
+      ],
+      "mouth_left": [
+        549.1,
+        351.1
+      ],
+      "mouth_right": [
+        493.4,
+        353.1
+      ],
+      "nose": [
+        519.9,
+        331.5
+      ],
+      "right_ankle": [
+        339.7,
+        1350.4
+      ],
+      "right_ear": [
+        429.3,
+        252.2
+      ],
+      "right_elbow": [
+        148.0,
+        641.1
+      ],
+      "right_eye": [
+        474.8,
+        277.9
+      ],
+      "right_eye_inner": [
+        491.2,
+        279.7
+      ],
+      "right_eye_outer": [
+        458.0,
+        276.1
+      ],
+      "right_foot_index": [
+        320.6,
+        1490.1
+      ],
+      "right_heel": [
+        358.7,
+        1397.8
+      ],
+      "right_hip": [
+        400.6,
+        666.4
+      ],
+      "right_index": [
+        169.7,
+        999.6
+      ],
+      "right_knee": [
+        335.8,
+        1001.8
+      ],
+      "right_pinky": [
+        117.6,
+        1004.6
+      ],
+      "right_shoulder": [
+        294.7,
+        370.3
+      ],
+      "right_thumb": [
+        192.3,
+        975.7
+      ],
+      "right_wrist": [
+        149.6,
+        931.7
+      ]
+    },
+    "method": "blazepose",
+    "missed_landmarks": [],
+    "seeded": true,
+    "stature_units": 0.76886,
+    "tried": [
+      {
+        "confidence": 1.0,
+        "found": true,
+        "inside": 0.9091,
+        "seeded": true,
+        "variant": "cutout_on_white"
+      },
+      {
+        "confidence": 1.0,
+        "found": true,
+        "inside": 0.9545,
+        "seeded": true,
+        "variant": "photo"
+      }
+    ],
+    "variant": "photo"
+  },
+  "schema_version": 2,
+  "source": "black_div_front.png",
+  "subject": "black_div"
+}

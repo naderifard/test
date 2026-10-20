@@ -1,0 +1,248 @@
+{
+  "audio": {
+    "tracks": [
+      {
+        "character": "soroush",
+        "duration_s": 6.52,
+        "line_id": "s02_warning_1",
+        "path": "audio/s02_warning_1/converted.wav",
+        "start_frame": 13,
+        "text_fa": "ای کیومرث، بیدار باش؛ پورِ اهریمن سپاهی گرد آورده و به سویِ تو می‌آید.",
+        "trim_start_s": 0.49
+      }
+    ]
+  },
+  "beats": [
+    {
+      "from_frame": 1,
+      "to_frame": 186,
+      "what": "Soroush appears and warns the king that the son of Ahriman is coming."
+    }
+  ],
+  "camera": {
+    "aim_point_m": [
+      -1.76064,
+      -0.994,
+      1.47026
+    ],
+    "aim_target": "soroush.chest",
+    "dof": true,
+    "focal_mm": 46.316,
+    "focus_distance_m": 3.2343,
+    "move": {
+      "ease": "in_out",
+      "from_frame": 1,
+      "from_position_m": [
+        -0.7695,
+        -4.072,
+        1.406
+      ],
+      "kind": "push_in",
+      "to_frame": 186,
+      "to_position_m": [
+        -0.93497,
+        -3.65542,
+        1.41673
+      ]
+    },
+    "ortho_scale": null,
+    "orthographic": false,
+    "position_m": [
+      -0.7695,
+      -4.072,
+      1.406
+    ]
+  },
+  "cast": [
+    {
+      "assets": {
+        "albedo": null,
+        "body": "assets/characters/keyumars/rigged/rigged.blend",
+        "face": null,
+        "garments": [],
+        "head_pose": "motion/s02_warning__keyumars/head_pose.json",
+        "motion": "motion/s02_warning__keyumars/body.json",
+        "rig": "assets/characters/keyumars/rigged/rigged.json",
+        "shape": null,
+        "visemes": []
+      },
+      "character": "keyumars",
+      "facing_deg": 154.72,
+      "height_m": 1.95,
+      "material_roles": {
+        "surface": "skin"
+      },
+      "name_fa": "کیومرث",
+      "offset_frames": 0,
+      "position_m": [
+        0.0,
+        2.6,
+        0.0
+      ],
+      "retime": "hold_last_pose",
+      "rig_mode": "smplx"
+    },
+    {
+      "assets": {
+        "albedo": null,
+        "body": "assets/characters/soroush/rigged/rigged.blend",
+        "face": null,
+        "garments": [],
+        "head_pose": "motion/talk_human/head_pose.json",
+        "motion": "motion/talk_human/body.json",
+        "rig": "assets/characters/soroush/rigged/rigged.json",
+        "shape": null,
+        "visemes": [
+          "audio/s02_warning_1/visemes.json"
+        ]
+      },
+      "character": "soroush",
+      "facing_deg": 215.0,
+      "height_m": 1.9,
+      "material_roles": {
+        "surface": "skin"
+      },
+      "name_fa": "سروش",
+      "offset_frames": 34,
+      "position_m": [
+        -1.7,
+        -1.0,
+        0.0
+      ],
+      "retime": "loop",
+      "rig_mode": "smplx"
+    },
+    {
+      "assets": {
+        "albedo": null,
+        "body": "assets/characters/siamak/rigged/rigged.blend",
+        "face": null,
+        "garments": [],
+        "head_pose": "motion/s02_warning__siamak/head_pose.json",
+        "motion": "motion/s02_warning__siamak/body.json",
+        "rig": "assets/characters/siamak/rigged/rigged.json",
+        "shape": null,
+        "visemes": []
+      },
+      "character": "siamak",
+      "facing_deg": 117.9,
+      "height_m": 1.85,
+      "material_roles": {
+        "surface": "skin"
+      },
+      "name_fa": "سیامک",
+      "offset_frames": 0,
+      "position_m": [
+        1.7,
+        0.8,
+        0.0
+      ],
+      "retime": "hold_last_pose",
+      "rig_mode": "smplx"
+    }
+  ],
+  "env": {
+    "backdrop": "mountain_court_wide.png",
+    "blend": "assets/envs/mountain_court/build/env.blend",
+    "ground_role": "ground",
+    "hdri": null,
+    "id": "mountain_court",
+    "interior": false,
+    "light_intent": "low warm morning sun from the east across the ledge",
+    "props_json": null,
+    "scatter": [],
+    "strategy": "image_set"
+  },
+  "fps": 24,
+  "frame_count": 186,
+  "frame_end": 186,
+  "frame_start": 1,
+  "provenance": {
+    "align": {
+      "s02_warning_1": {
+        "approximate": true,
+        "backend": "envelope",
+        "speech_end_s": 7.01,
+        "speech_start_s": 0.49
+      }
+    },
+    "cast": {
+      "keyumars": {
+        "attach": {},
+        "collection": "char_keyumars",
+        "garments": [],
+        "lines": [],
+        "mesh": "keyumars",
+        "offset_derived": true,
+        "props": [],
+        "rig": "keyumars_rig",
+        "root_scale": 1.14706,
+        "take": "s02_warning__keyumars",
+        "take_cycle_frames": 374,
+        "take_reference_height_m": 1.7,
+        "viseme_start_frame": {}
+      },
+      "siamak": {
+        "attach": {},
+        "collection": "char_siamak",
+        "garments": [],
+        "lines": [],
+        "mesh": "siamak",
+        "offset_derived": true,
+        "props": [],
+        "rig": "siamak_rig",
+        "root_scale": 1.08824,
+        "take": "s02_warning__siamak",
+        "take_cycle_frames": 393,
+        "take_reference_height_m": 1.7,
+        "viseme_start_frame": {}
+      },
+      "soroush": {
+        "attach": {},
+        "collection": "char_soroush",
+        "garments": [],
+        "lines": [
+          "s02_warning_1"
+        ],
+        "mesh": "soroush",
+        "offset_derived": true,
+        "props": [],
+        "rig": "soroush_rig",
+        "root_scale": 1.11765,
+        "take": "talk_human",
+        "take_cycle_frames": 161,
+        "take_reference_height_m": 1.7,
+        "viseme_start_frame": {
+          "s02_warning_1": 13
+        }
+      }
+    },
+    "env_collection": "env_mountain_court",
+    "perspective_compression": 1.0,
+    "props": {},
+    "silence_lead_policy": "trim",
+    "stage": "h_assemble",
+    "viseme_profile": "smooth",
+    "viseme_start_frame": {
+      "s02_warning_1": 13
+    }
+  },
+  "resolution": [
+    1920,
+    1080
+  ],
+  "schema_version": 1,
+  "shot_id": "s02_warning",
+  "style_pack": "stylized",
+  "timing": {
+    "duration_s": 7.72,
+    "head_handle_s": 0.5,
+    "min_duration_s": 0.0,
+    "padded_s": 0.0,
+    "source": "audio",
+    "speech_end_s": 7.02,
+    "speech_start_s": 0.5,
+    "tail_handle_s": 0.7
+  },
+  "title": "s02_warning"
+}

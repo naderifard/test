@@ -1,0 +1,35 @@
+{
+  "bind": {
+    "method": "proximity_weights",
+    "offset_m": 0.004
+  },
+  "blend": "garmented.blend",
+  "collection": "char_lion",
+  "garments": [],
+  "measured": {
+    "degenerate_faces": 0,
+    "max_m": [
+      0.4132,
+      0.7018,
+      1.3001
+    ],
+    "min_m": [
+      -0.4128,
+      -0.2723,
+      -0.0
+    ],
+    "size_m": [
+      0.8259,
+      0.9741,
+      1.3001
+    ],
+    "tris": 59998,
+    "uv_coverage": 0.53125,
+    "verts": 29999
+  },
+  "mesh": "lion",
+  "rig": "lion_rig",
+  "schema_version": 1,
+  "skipped": [],
+  "subject": "lion"
+}

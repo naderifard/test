@@ -1,0 +1,27 @@
+{
+  "asr_wer": null,
+  "backend": "seedvc",
+  "backend_model": "Plachta/Seed-VC/DiT_seed_v2_uvit_whisper_small_wavenet_bigvgan_pruned.pth",
+  "backends_skipped": [],
+  "channels": 1,
+  "character": "soroush",
+  "conversion": {
+    "diffusion_steps": 30,
+    "gain": 0.9008,
+    "length_fix_samples": 91,
+    "load_s": 14.79,
+    "reference_s": 13.85,
+    "seconds": 4.12
+  },
+  "converted": true,
+  "in_duration_s": 6.7495,
+  "line_id": "s06_command_1",
+  "out_duration_s": 6.74952,
+  "output": "converted.wav",
+  "sample_rate": 22050,
+  "schema_version": 1,
+  "source": "audio/s06_command_1/source.wav",
+  "source_similarity": 0.4228,
+  "speaker_similarity": 0.8529,
+  "voice_reference": "audio/voices/soroush.wav"
+}

@@ -1,0 +1,193 @@
+{
+  "asked_height_m": 1.3,
+  "blend": "body.blend",
+  "bones": [
+    "root",
+    "spine1",
+    "spine2",
+    "chest",
+    "neck",
+    "head",
+    "muzzle",
+    "jaw",
+    "tail",
+    "tail_end",
+    "left_shoulder",
+    "left_knee",
+    "left_hoof_f",
+    "right_shoulder",
+    "right_knee",
+    "right_hoof_f",
+    "left_hip",
+    "left_stifle",
+    "left_hoof_b",
+    "right_hip",
+    "right_stifle",
+    "right_hoof_b"
+  ],
+  "channels": [
+    "jaw_open",
+    "lip_wide",
+    "lip_round",
+    "lip_press",
+    "brow_raise",
+    "brow_furrow",
+    "squint",
+    "smile"
+  ],
+  "collection": "char_lion",
+  "dims": {
+    "factor": 1.2264150943396226,
+    "girth": 1.0,
+    "height": 1.3
+  },
+  "face": {},
+  "feet_z_m": -0.0,
+  "height_m": 1.3001,
+  "joints": {
+    "chest": [
+      0.0,
+      0.44917,
+      0.80941
+    ],
+    "head": [
+      0.0,
+      0.6261,
+      1.12827
+    ],
+    "jaw": [
+      0.0,
+      0.68055,
+      1.03016
+    ],
+    "left_hip": [
+      0.26082,
+      -0.01361,
+      0.71129
+    ],
+    "left_hoof_b": [
+      0.27821,
+      0.01362,
+      0.03676
+    ],
+    "left_hoof_f": [
+      0.24343,
+      0.43556,
+      0.03676
+    ],
+    "left_knee": [
+      0.24343,
+      0.42194,
+      0.41696
+    ],
+    "left_shoulder": [
+      0.22605,
+      0.42194,
+      0.73582
+    ],
+    "left_stifle": [
+      0.27821,
+      -0.04082,
+      0.44149
+    ],
+    "muzzle": [
+      0.0,
+      0.72138,
+      1.05468
+    ],
+    "neck": [
+      0.0,
+      0.53083,
+      0.98111
+    ],
+    "right_hip": [
+      -0.26082,
+      -0.01361,
+      0.71129
+    ],
+    "right_hoof_b": [
+      -0.27821,
+      0.01362,
+      0.03676
+    ],
+    "right_hoof_f": [
+      -0.24344,
+      0.43556,
+      0.03676
+    ],
+    "right_knee": [
+      -0.24344,
+      0.42194,
+      0.41696
+    ],
+    "right_shoulder": [
+      -0.22605,
+      0.42194,
+      0.73582
+    ],
+    "right_stifle": [
+      -0.27821,
+      -0.04082,
+      0.44149
+    ],
+    "root": [
+      0.0,
+      0.0,
+      0.76035
+    ],
+    "spine1": [
+      0.0,
+      0.14973,
+      0.80941
+    ],
+    "spine2": [
+      0.0,
+      0.31306,
+      0.83394
+    ],
+    "tail": [
+      0.0,
+      -0.09527,
+      0.76035
+    ],
+    "tail_end": [
+      0.0,
+      -0.2722,
+      0.41696
+    ]
+  },
+  "kind": "quadruped",
+  "measured": {
+    "degenerate_faces": 0,
+    "max_m": [
+      0.4132,
+      0.7018,
+      1.3001
+    ],
+    "min_m": [
+      -0.4128,
+      -0.2723,
+      -0.0
+    ],
+    "size_m": [
+      0.8259,
+      0.9741,
+      1.3001
+    ],
+    "tris": 59998,
+    "uv_coverage": 0.53125,
+    "verts": 29999
+  },
+  "mesh": "lion",
+  "rest_correction_bones": [],
+  "rig": "lion_rig",
+  "rig_mode": "rigged",
+  "roles": {
+    "photo": "skin"
+  },
+  "schema_version": 2,
+  "skinning": "heat",
+  "source": "sf3d_photo",
+  "subject": "lion",
+  "top_m": 1.3001
+}

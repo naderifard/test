@@ -1,0 +1,35 @@
+{
+  "bind": {
+    "method": "proximity_weights",
+    "offset_m": 0.004
+  },
+  "blend": "garmented.blend",
+  "collection": "char_soroush",
+  "garments": [],
+  "measured": {
+    "degenerate_faces": 0,
+    "max_m": [
+      0.6342,
+      0.2951,
+      2.0049
+    ],
+    "min_m": [
+      -0.4979,
+      -0.2615,
+      0.0
+    ],
+    "size_m": [
+      1.1321,
+      0.5566,
+      2.0049
+    ],
+    "tris": 60000,
+    "uv_coverage": 0.57349,
+    "verts": 30000
+  },
+  "mesh": "soroush",
+  "rig": "soroush_rig",
+  "schema_version": 1,
+  "skipped": [],
+  "subject": "soroush"
+}

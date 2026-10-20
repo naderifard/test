@@ -1,0 +1,44 @@
+{
+  "albedo": null,
+  "blend": "textured.blend",
+  "collection": "char_black_div",
+  "measured": {
+    "degenerate_faces": 0,
+    "max_m": [
+      0.9931,
+      0.8813,
+      3.1311
+    ],
+    "min_m": [
+      -0.9648,
+      -0.4081,
+      0.0
+    ],
+    "size_m": [
+      1.9579,
+      1.2895,
+      3.1311
+    ],
+    "tris": 60000,
+    "uv_coverage": 0.55371,
+    "verts": 30000
+  },
+  "meshes": [
+    {
+      "coverage": 0.55371,
+      "loops": 180000,
+      "object": "black_div",
+      "roles": [
+        "skin"
+      ],
+      "uv_layer": "photo"
+    }
+  ],
+  "schema_version": 1,
+  "subject": "black_div",
+  "unwrap": {
+    "angle_limit_deg": 66.0,
+    "island_margin": 0.02,
+    "method": "smart_project"
+  }
+}

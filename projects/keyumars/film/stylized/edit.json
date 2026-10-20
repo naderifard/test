@@ -1,0 +1,184 @@
+{
+  "duration_s": 45.91667,
+  "fps": 24,
+  "frame_count": 1102,
+  "language": "fa",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "schema_version": 1,
+  "shots": [
+    {
+      "cast": [
+        "keyumars",
+        "siamak",
+        "lion",
+        "gazelle"
+      ],
+      "duration_s": 6.16667,
+      "film_end_frame": 148,
+      "film_start_frame": 1,
+      "frame_count": 148,
+      "lines": [
+        "s01_golden_reign_1"
+      ],
+      "shot_id": "s01_golden_reign",
+      "start_s": 0.0,
+      "video": "shots/s01_golden_reign/stylized/shot.mp4"
+    },
+    {
+      "cast": [
+        "keyumars",
+        "soroush",
+        "siamak"
+      ],
+      "duration_s": 7.75,
+      "film_end_frame": 334,
+      "film_start_frame": 149,
+      "frame_count": 186,
+      "lines": [
+        "s02_warning_1"
+      ],
+      "shot_id": "s02_warning",
+      "start_s": 6.16667,
+      "video": "shots/s02_warning/stylized_mouth/shot.mp4"
+    },
+    {
+      "cast": [
+        "siamak",
+        "keyumars"
+      ],
+      "duration_s": 5.66667,
+      "film_end_frame": 470,
+      "film_start_frame": 335,
+      "frame_count": 136,
+      "lines": [
+        "s03_vow_1"
+      ],
+      "shot_id": "s03_vow",
+      "start_s": 13.91667,
+      "video": "shots/s03_vow/stylized_mouth/shot.mp4"
+    },
+    {
+      "cast": [
+        "siamak",
+        "black_div"
+      ],
+      "duration_s": 8.20833,
+      "film_end_frame": 667,
+      "film_start_frame": 471,
+      "frame_count": 197,
+      "lines": [
+        "s04_first_blood_1"
+      ],
+      "shot_id": "s04_first_blood",
+      "start_s": 19.58333,
+      "video": "shots/s04_first_blood/stylized/shot.mp4"
+    },
+    {
+      "cast": [
+        "keyumars",
+        "lion",
+        "gazelle"
+      ],
+      "duration_s": 6.375,
+      "film_end_frame": 820,
+      "film_start_frame": 668,
+      "frame_count": 153,
+      "lines": [
+        "s05_mourning_1"
+      ],
+      "shot_id": "s05_mourning",
+      "start_s": 27.79167,
+      "video": "shots/s05_mourning/stylized_mouth/shot.mp4"
+    },
+    {
+      "cast": [
+        "keyumars",
+        "soroush"
+      ],
+      "duration_s": 11.75,
+      "film_end_frame": 1102,
+      "film_start_frame": 821,
+      "frame_count": 282,
+      "lines": [
+        "s06_command_1",
+        "s06_command_2"
+      ],
+      "shot_id": "s06_command",
+      "start_s": 34.16667,
+      "video": "shots/s06_command/stylized_mouth/shot.mp4"
+    }
+  ],
+  "style_pack": "stylized",
+  "subtitles": {
+    "cues": [
+      {
+        "character": "narrator",
+        "end_s": 5.43,
+        "line_id": "s01_golden_reign_1",
+        "shot": "s01_golden_reign",
+        "start_s": 0.5,
+        "text": "کیومرث نخستین شاهِ جهان بود و بر کوه تخت نهاد.",
+        "words": 10
+      },
+      {
+        "character": "soroush",
+        "end_s": 13.18667,
+        "line_id": "s02_warning_1",
+        "shot": "s02_warning",
+        "start_s": 6.66667,
+        "text": "ای کیومرث، بیدار باش؛ پورِ اهریمن سپاهی گرد آورده و به سویِ تو می‌آید.",
+        "words": 14
+      },
+      {
+        "character": "siamak",
+        "end_s": 18.85667,
+        "line_id": "s03_vow_1",
+        "shot": "s03_vow",
+        "start_s": 14.41667,
+        "text": "ای پدر، خونم به جوش آمد؛ به جنگِ آن دیو خواهم شتاخت.",
+        "words": 12
+      },
+      {
+        "character": "narrator",
+        "end_s": 27.07333,
+        "line_id": "s04_first_blood_1",
+        "shot": "s04_first_blood",
+        "start_s": 20.08333,
+        "text": "سیامک با دیو درآویخت، و چنگالِ دیو او را بر خاک افکند.",
+        "words": 12
+      },
+      {
+        "character": "keyumars",
+        "end_s": 33.44167,
+        "line_id": "s05_mourning_1",
+        "shot": "s05_mourning",
+        "start_s": 28.29167,
+        "text": "ای سیامک، دلخوشیِ پدر؛ جهان بی‌تو تاریک شد.",
+        "words": 8
+      },
+      {
+        "character": "soroush",
+        "end_s": 39.52667,
+        "line_id": "s06_command_1",
+        "shot": "s06_command",
+        "start_s": 34.66667,
+        "text": "بیش از این مگری و هوشِ خویش را بازیاب؛ کینِ خونِ فرزندت را بستان.",
+        "words": 14
+      },
+      {
+        "character": "keyumars",
+        "end_s": 45.19833,
+        "line_id": "s06_command_2",
+        "shot": "s06_command",
+        "start_s": 39.70833,
+        "text": "به نامِ خداوند، تا کینِ خونِ سیامک را نگیرم، خواب بر چشمم حرام است.",
+        "words": 14
+      }
+    ],
+    "file": "subs_fa.srt"
+  },
+  "title": "کیومرث و سیامک"
+}

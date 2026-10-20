@@ -1,0 +1,227 @@
+{
+  "audio": {
+    "tracks": [
+      {
+        "character": "soroush",
+        "duration_s": 4.86,
+        "line_id": "s06_command_1",
+        "path": "audio/s06_command_1/converted.wav",
+        "start_frame": 13,
+        "text_fa": "بیش از این مگری و هوشِ خویش را بازیاب؛ کینِ خونِ فرزندت را بستان.",
+        "trim_start_s": 0.5
+      },
+      {
+        "character": "keyumars",
+        "duration_s": 5.49,
+        "line_id": "s06_command_2",
+        "path": "audio/s06_command_2/converted.wav",
+        "start_frame": 134,
+        "text_fa": "به نامِ خداوند، تا کینِ خونِ سیامک را نگیرم، خواب بر چشمم حرام است.",
+        "trim_start_s": 0.46
+      }
+    ]
+  },
+  "beats": [
+    {
+      "from_frame": 1,
+      "to_frame": 282,
+      "what": "Soroush commands the king to seek vengeance; Keyumars rises and swears it."
+    }
+  ],
+  "camera": {
+    "aim_point_m": [
+      0.0,
+      2.6,
+      1.08394
+    ],
+    "aim_target": "keyumars.pelvis",
+    "dof": true,
+    "focal_mm": 81.536,
+    "focus_distance_m": 9.8189,
+    "move": {
+      "ease": "in_out",
+      "from_frame": 1,
+      "from_position_m": [
+        -1.2967,
+        -7.13115,
+        0.9
+      ],
+      "kind": "crane",
+      "to_frame": 282,
+      "to_position_m": [
+        -1.2967,
+        -7.13115,
+        1.8
+      ]
+    },
+    "ortho_scale": null,
+    "orthographic": false,
+    "position_m": [
+      -1.2967,
+      -7.13115,
+      0.9
+    ]
+  },
+  "cast": [
+    {
+      "assets": {
+        "albedo": null,
+        "body": "assets/characters/keyumars/rigged/rigged.blend",
+        "face": null,
+        "garments": [],
+        "head_pose": "motion/s06_command__keyumars/head_pose.json",
+        "motion": "motion/s06_command__keyumars/body.json",
+        "rig": "assets/characters/keyumars/rigged/rigged.json",
+        "shape": null,
+        "visemes": [
+          "audio/s06_command_2/visemes.json"
+        ]
+      },
+      "character": "keyumars",
+      "facing_deg": 154.72,
+      "height_m": 1.95,
+      "material_roles": {
+        "surface": "skin"
+      },
+      "name_fa": "کیومرث",
+      "offset_frames": 0,
+      "position_m": [
+        0.0,
+        2.6,
+        0.0
+      ],
+      "retime": "hold_last_pose",
+      "rig_mode": "smplx"
+    },
+    {
+      "assets": {
+        "albedo": null,
+        "body": "assets/characters/soroush/rigged/rigged.blend",
+        "face": null,
+        "garments": [],
+        "head_pose": "motion/talk_human/head_pose.json",
+        "motion": "motion/talk_human/body.json",
+        "rig": "assets/characters/soroush/rigged/rigged.json",
+        "shape": null,
+        "visemes": [
+          "audio/s06_command_1/visemes.json"
+        ]
+      },
+      "character": "soroush",
+      "facing_deg": 215.0,
+      "height_m": 1.9,
+      "material_roles": {
+        "surface": "skin"
+      },
+      "name_fa": "سروش",
+      "offset_frames": 34,
+      "position_m": [
+        -1.7,
+        -1.0,
+        0.0
+      ],
+      "retime": "loop",
+      "rig_mode": "smplx"
+    }
+  ],
+  "env": {
+    "backdrop": "mourning_hollow_wide.png",
+    "blend": "assets/envs/mourning_hollow/build/env.blend",
+    "ground_role": "ground",
+    "hdri": null,
+    "id": "mourning_hollow",
+    "interior": false,
+    "light_intent": "cold pale dawn light, flat, no shadows",
+    "props_json": null,
+    "scatter": [],
+    "strategy": "image_set"
+  },
+  "fps": 24,
+  "frame_count": 282,
+  "frame_end": 282,
+  "frame_start": 1,
+  "provenance": {
+    "align": {
+      "s06_command_1": {
+        "approximate": true,
+        "backend": "envelope",
+        "speech_end_s": 5.36,
+        "speech_start_s": 0.5
+      },
+      "s06_command_2": {
+        "approximate": true,
+        "backend": "envelope",
+        "speech_end_s": 5.95,
+        "speech_start_s": 0.46
+      }
+    },
+    "cast": {
+      "keyumars": {
+        "attach": {},
+        "collection": "char_keyumars",
+        "garments": [],
+        "lines": [
+          "s06_command_2"
+        ],
+        "mesh": "keyumars",
+        "offset_derived": true,
+        "props": [],
+        "rig": "keyumars_rig",
+        "root_scale": 1.14706,
+        "take": "s06_command__keyumars",
+        "take_cycle_frames": 379,
+        "take_reference_height_m": 1.7,
+        "viseme_start_frame": {
+          "s06_command_2": 134
+        }
+      },
+      "soroush": {
+        "attach": {},
+        "collection": "char_soroush",
+        "garments": [],
+        "lines": [
+          "s06_command_1"
+        ],
+        "mesh": "soroush",
+        "offset_derived": true,
+        "props": [],
+        "rig": "soroush_rig",
+        "root_scale": 1.11765,
+        "take": "talk_human",
+        "take_cycle_frames": 161,
+        "take_reference_height_m": 1.7,
+        "viseme_start_frame": {
+          "s06_command_1": 13
+        }
+      }
+    },
+    "env_collection": "env_mourning_hollow",
+    "perspective_compression": 1.0,
+    "props": {},
+    "silence_lead_policy": "trim",
+    "stage": "h_assemble",
+    "viseme_profile": "smooth",
+    "viseme_start_frame": {
+      "s06_command_1": 13,
+      "s06_command_2": 134
+    }
+  },
+  "resolution": [
+    1920,
+    1080
+  ],
+  "schema_version": 1,
+  "shot_id": "s06_command",
+  "style_pack": "stylized",
+  "timing": {
+    "duration_s": 11.73,
+    "head_handle_s": 0.5,
+    "min_duration_s": 0.0,
+    "padded_s": 0.0,
+    "source": "audio",
+    "speech_end_s": 11.03,
+    "speech_start_s": 0.5,
+    "tail_handle_s": 0.7
+  },
+  "title": "s06_command"
+}

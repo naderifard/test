@@ -1,0 +1,225 @@
+{
+  "anchors": [
+    "head",
+    "eyes",
+    "chest",
+    "pelvis",
+    "root",
+    "hands"
+  ],
+  "asked_height_m": 1.9,
+  "attach": {},
+  "blend": "rigged.blend",
+  "bones": [
+    "pelvis",
+    "left_hip",
+    "right_hip",
+    "spine1",
+    "left_knee",
+    "right_knee",
+    "spine2",
+    "left_ankle",
+    "right_ankle",
+    "spine3",
+    "left_foot",
+    "right_foot",
+    "neck",
+    "left_collar",
+    "right_collar",
+    "head",
+    "left_shoulder",
+    "right_shoulder",
+    "left_elbow",
+    "right_elbow",
+    "left_wrist",
+    "right_wrist",
+    "jaw"
+  ],
+  "channels": [
+    "jaw_open",
+    "lip_wide",
+    "lip_round",
+    "lip_press",
+    "brow_raise",
+    "brow_furrow",
+    "squint",
+    "smile"
+  ],
+  "collection": "char_soroush",
+  "dims": {
+    "factor": 1.1176470588235294,
+    "girth": 1.0,
+    "height": 1.9
+  },
+  "feet_z_m": 0.0,
+  "garments": [],
+  "height_m": 1.9,
+  "identity": {
+    "fitted_from": "soroush_front.png",
+    "head_scale": 1.0,
+    "index": 0,
+    "note": "the model mean",
+    "preset": "neutral",
+    "seed": 3218935663,
+    "shape": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "source": "flame_preset"
+  },
+  "joints": {
+    "head": [
+      0.05601,
+      0.02635,
+      1.81176
+    ],
+    "jaw": [
+      0.05601,
+      0.09341,
+      1.85648
+    ],
+    "left_ankle": [
+      0.07994,
+      0.03069,
+      0.19532
+    ],
+    "left_collar": [
+      0.1478,
+      -0.05717,
+      1.57921
+    ],
+    "left_elbow": [
+      0.36192,
+      -0.06973,
+      1.3352
+    ],
+    "left_foot": [
+      0.08003,
+      0.12083,
+      0.13944
+    ],
+    "left_hip": [
+      0.09229,
+      0.01072,
+      1.03205
+    ],
+    "left_knee": [
+      0.07838,
+      0.01635,
+      0.58282
+    ],
+    "left_shoulder": [
+      0.26697,
+      -0.05039,
+      1.62782
+    ],
+    "left_wrist": [
+      0.38159,
+      -0.05884,
+      1.03955
+    ],
+    "neck": [
+      0.0716,
+      -0.06149,
+      1.65808
+    ],
+    "pelvis": [
+      0.0,
+      0.0,
+      1.12775
+    ],
+    "right_ankle": [
+      -0.03696,
+      0.03619,
+      0.20915
+    ],
+    "right_collar": [
+      -0.0046,
+      -0.06582,
+      1.58539
+    ],
+    "right_elbow": [
+      -0.22915,
+      -0.09242,
+      1.36619
+    ],
+    "right_foot": [
+      -0.03913,
+      0.06766,
+      0.15327
+    ],
+    "right_hip": [
+      -0.09227,
+      -0.0107,
+      1.04462
+    ],
+    "right_knee": [
+      -0.0939,
+      0.0098,
+      0.57533
+    ],
+    "right_shoulder": [
+      -0.1238,
+      -0.0726,
+      1.64366
+    ],
+    "right_wrist": [
+      -0.28093,
+      -0.07791,
+      1.04854
+    ],
+    "spine1": [
+      0.01642,
+      -0.01408,
+      1.24928
+    ],
+    "spine2": [
+      0.03281,
+      -0.02819,
+      1.37082
+    ],
+    "spine3": [
+      0.04623,
+      -0.0397,
+      1.47026
+    ]
+  },
+  "kind": "humanoid",
+  "measured": {
+    "degenerate_faces": 0,
+    "max_m": [
+      0.6342,
+      0.2951,
+      2.0049
+    ],
+    "min_m": [
+      -0.4979,
+      -0.2615,
+      0.0
+    ],
+    "size_m": [
+      1.1321,
+      0.5566,
+      2.0049
+    ],
+    "tris": 60000,
+    "uv_coverage": 0.57349,
+    "verts": 30000
+  },
+  "mesh": "soroush",
+  "props": [],
+  "rig": "soroush_rig",
+  "rig_mode": "smplx",
+  "roles": {
+    "photo": "skin"
+  },
+  "schema_version": 1,
+  "subject": "soroush",
+  "top_m": 2.0049
+}

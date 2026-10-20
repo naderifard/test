@@ -1,0 +1,155 @@
+# FILM
+title: Keyumars and Siamak: the first crown and the first grief
+title_fa: کیومرث و سیامک
+narrator: yes
+
+# CHARACTERS
+## keyumars
+name: Keyumars
+name_fa: کیومرث
+kind: human
+height_m: 1.95
+look: aged first king of the world with long white hair and a full white beard, deep-lined solemn face, a spotted leopard pelt belted over one shoulder as his only garment, a tall domed gold crown with a fluted globe and long ribbon streamers, hide sandals
+voice: deep, slow and grave; an old king
+
+## siamak
+name: Siamak
+name_fa: سیامک
+kind: human
+height_m: 1.85
+look: beardless young Persian prince with long dark chestnut hair, smooth bright face, bare torso with a spotted leopard-skin pelt slung from his right shoulder and knotted at his left hip, a broad hide belt, soft hide boots
+voice: young, clear and fiery
+
+## black_div
+name: the Black Div
+name_fa: دیوِ سیاه
+kind: humanoid
+height_m: 2.6
+look: hulking black demon with a wolf-like head, shaggy pitch-black hide over hunched massive shoulders, immense hands with long dark talons, deep-set red eyes, heavy fanged jaw
+voice: none; it does not speak
+
+## soroush
+name: Soroush
+name_fa: سروش
+kind: humanoid
+height_m: 1.9
+look: tall winged peri with a serene youthful face and long dark hair beneath a slim gold band, great sweeping feathered wings folded at the back, a spotted leopard-skin cloak wrapped over a pale ivory robe
+voice: calm, luminous, unhurried
+
+## lion
+name: the lion
+name_fa: شیر
+kind: quadruped
+height_m: 1.3
+look: a full-maned tawny lion with a thick dark chestnut mane, heavy shoulders and paws, calm steady dark eyes
+voice: none
+
+## gazelle
+name: the gazelle
+name_fa: آهو
+kind: quadruped
+height_m: 0.9
+look: a slender golden gazelle with dark lyre-curved horns, large dark eyes, delicate legs, tan coat with a pale belly
+voice: none
+
+# SCENES
+## mountain_court
+name: The mountain court
+setting: outdoor
+look: a tall carved stone throne on a high mountain ledge among stacked lobed rocks, a flowering meadow of scattered red and white blossoms around the ledge, a single cypress and a single plane tree, ochre hills beyond
+light: low warm morning sun from the east across the ledge
+
+## battlefield
+name: The battlefield
+setting: outdoor
+look: a wide bare ochre plain of hard-packed earth with scattered dark boulders, one shattered leafless tree, distant stacked lobed hills
+light: harsh high midday sun
+
+## mourning_hollow
+name: The mourning hollow
+setting: outdoor
+look: a bare stony hollow at the foot of stacked lobed mountains, one dark cypress, scattered dark stones on ochre earth, distant pale peaks
+light: cold pale dawn light, flat, no shadows
+
+# SHOTS
+## s01_golden_reign
+scene: mountain_court
+summary: Keyumars reigns in peace on his mountain; the beasts rest beside him and his son stands near.
+cast:
+- keyumars: center, back, facing camera
+- siamak: right, middle, facing keyumars
+- lion: left, middle, facing camera
+- gazelle: far_left, front, facing camera
+camera: wide on group, eye_level, slow push_in
+moves:
+- keyumars: raises his arm slowly in blessing
+- siamak: turns his head toward his father
+- lion: lies at rest
+lines:
+- narrator [grave]: «کیومرث نخستین شاهِ جهان بود و بر کوه تخت نهاد.» (en: Keyumars was the first king of the world, and he set his throne upon the mountain.)
+
+## s02_warning
+scene: mountain_court
+summary: Soroush appears and warns the king that the son of Ahriman is coming.
+cast:
+- keyumars: center, back, facing soroush
+- soroush: left, front, facing keyumars
+- siamak: right, middle, facing soroush
+camera: medium on soroush, eye_level, slow push_in
+moves:
+- keyumars: stands rigid, then lowers his head
+- siamak: clenches his fist and looks at soroush
+lines:
+- soroush [grave]: «ای کیومرث، بیدار باش؛ پورِ اهریمن سپاهی گرد آورده و به سویِ تو می‌آید.» (en: O Keyumars, be watchful; the son of Ahriman has raised a host and is coming against you.)
+
+## s03_vow
+scene: mountain_court
+summary: Siamak vows to his father that he will fight the div.
+cast:
+- siamak: center, front, facing camera
+- keyumars: right, back, facing siamak
+camera: medium_close on siamak, low_angle, static
+moves:
+- keyumars: bows his head, unable to answer
+lines:
+- siamak [resolute]: «ای پدر، خونم به جوش آمد؛ به جنگِ آن دیو خواهم شتاخت.» (en: Father, my blood is boiling; I will march to war against that div.)
+
+## s04_first_blood
+scene: battlefield
+summary: Siamak and the Black Div fight; the div's talons strike him down.
+cast:
+- siamak: left, middle, facing black_div
+- black_div: right, middle, facing siamak
+camera: wide on group, eye_level, slow orbit_right
+moves:
+- siamak: fights the div, then falls to the ground
+- black_div: fights siamak and strikes him down
+lines:
+- narrator [grieving]: «سیامک با دیو درآویخت، و چنگالِ دیو او را بر خاک افکند.» (en: Siamak grappled with the div, and the div's talons threw him to the earth.)
+
+## s05_mourning
+scene: mourning_hollow
+summary: Keyumars mourns his son; the beasts grieve with him.
+cast:
+- keyumars: center, middle, facing camera
+- lion: left, front, facing keyumars
+- gazelle: right, front, facing keyumars
+camera: medium on keyumars, high_angle, slow push_in
+moves:
+- keyumars: mourns, head bowed and hands to his face
+- lion: lowers its head to the ground
+lines:
+- keyumars [grieving]: «ای سیامک، دلخوشیِ پدر؛ جهان بی‌تو تاریک شد.» (en: O Siamak, your father's one delight; the world has gone dark without you.)
+
+## s06_command
+scene: mourning_hollow
+summary: Soroush commands the king to seek vengeance; Keyumars rises and swears it.
+cast:
+- keyumars: center, back, facing soroush
+- soroush: left, front, facing keyumars
+camera: full on keyumars, low_angle, slow crane_up
+moves:
+- keyumars: rises to his full height and raises his arm toward the sky
+lines:
+- soroush [grave]: «بیش از این مگری و هوشِ خویش را بازیاب؛ کینِ خونِ فرزندت را بستان.» (en: Weep no more and gather your wits; take vengeance for your son's blood.)
+- keyumars [resolute]: «به نامِ خداوند، تا کینِ خونِ سیامک را نگیرم، خواب بر چشمم حرام است.» (en: In God's name, until I have avenged Siamak's blood, sleep is forbidden to my eyes.)

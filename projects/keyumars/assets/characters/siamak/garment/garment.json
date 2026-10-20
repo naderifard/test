@@ -1,0 +1,35 @@
+{
+  "bind": {
+    "method": "proximity_weights",
+    "offset_m": 0.004
+  },
+  "blend": "garmented.blend",
+  "collection": "char_siamak",
+  "garments": [],
+  "measured": {
+    "degenerate_faces": 0,
+    "max_m": [
+      0.358,
+      0.1878,
+      1.9443
+    ],
+    "min_m": [
+      -0.3684,
+      -0.2014,
+      -0.0
+    ],
+    "size_m": [
+      0.7264,
+      0.3893,
+      1.9443
+    ],
+    "tris": 60000,
+    "uv_coverage": 0.3252,
+    "verts": 30002
+  },
+  "mesh": "siamak",
+  "rig": "siamak_rig",
+  "schema_version": 1,
+  "skipped": [],
+  "subject": "siamak"
+}

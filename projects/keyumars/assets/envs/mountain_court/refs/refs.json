@@ -1,0 +1,19 @@
+{
+  "expected": [],
+  "folder": "refs/envs/mountain_court",
+  "images": [
+    {
+      "bytes": 3069484,
+      "height": 1295,
+      "mean_luma": 0.4826,
+      "path": "mountain_court_wide.png",
+      "stddev_luma": 0.203,
+      "unique_levels": 216,
+      "width": 1214
+    }
+  ],
+  "kind": "env",
+  "missing": [],
+  "slots": {},
+  "subject": "mountain_court"
+}

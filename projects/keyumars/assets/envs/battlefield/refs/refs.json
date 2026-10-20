@@ -1,0 +1,19 @@
+{
+  "expected": [],
+  "folder": "refs/envs/battlefield",
+  "images": [
+    {
+      "bytes": 2985947,
+      "height": 941,
+      "mean_luma": 0.5207,
+      "path": "battlefield_wide.png",
+      "stddev_luma": 0.1843,
+      "unique_levels": 221,
+      "width": 1672
+    }
+  ],
+  "kind": "env",
+  "missing": [],
+  "slots": {},
+  "subject": "battlefield"
+}

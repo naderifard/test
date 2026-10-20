@@ -1,0 +1,159 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://blender-ai-studio/schema/shot.schema.json",
+  "title": "shot.json",
+  "description": "The fully resolved shot (§6.3). production.json is intent; this is what h_assemble compiles, with real frame counts derived from the aligned audio and real asset paths from the store. Hand-edit this when a shot is nearly right.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "shot_id", "fps", "resolution", "style_pack",
+               "frame_start", "frame_end", "frame_count", "timing", "env",
+               "cast", "camera", "audio"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "shot_id": {"type": "string"},
+    "title": {"type": "string"},
+    "fps": {"type": "integer", "minimum": 1},
+    "resolution": {
+      "type": "array", "minItems": 2, "maxItems": 2,
+      "items": {"type": "integer", "minimum": 16}
+    },
+    "style_pack": {"enum": ["miniature", "stylized", "photoreal"]},
+    "frame_start": {"type": "integer", "minimum": 1},
+    "frame_end": {"type": "integer", "minimum": 1},
+    "frame_count": {"type": "integer", "minimum": 1},
+    "timing": {"$ref": "#/$defs/timing"},
+    "env": {"$ref": "#/$defs/env"},
+    "cast": {"type": "array", "items": {"$ref": "#/$defs/cast_member"}},
+    "camera": {"$ref": "#/$defs/camera"},
+    "audio": {"$ref": "#/$defs/audio"},
+    "beats": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["from_frame", "to_frame", "what"],
+        "properties": {
+          "from_frame": {"type": "integer"},
+          "to_frame": {"type": "integer"},
+          "what": {"type": "string"}
+        }
+      }
+    },
+    "provenance": {"type": "object"}
+  },
+  "$defs": {
+    "vec3": {
+      "type": "array", "minItems": 3, "maxItems": 3,
+      "items": {"type": "number"}
+    },
+    "timing": {
+      "description": "How frame_count was derived. Audio is the master clock (§5.2).",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source", "speech_start_s", "speech_end_s", "head_handle_s",
+                   "tail_handle_s", "duration_s"],
+      "properties": {
+        "source": {"enum": ["audio", "silent_duration"]},
+        "speech_start_s": {"type": "number", "minimum": 0},
+        "speech_end_s": {"type": "number", "minimum": 0},
+        "head_handle_s": {"type": "number", "minimum": 0},
+        "tail_handle_s": {"type": "number", "minimum": 0},
+        "duration_s": {"type": "number", "exclusiveMinimum": 0},
+        "min_duration_s": {"type": "number", "minimum": 0},
+        "padded_s": {"type": "number", "minimum": 0}
+      }
+    },
+    "audio": {
+      "description": "Every audio placement in the shot, already in frame space. audio_start_frame may be fractional-free because it is what the muxer uses verbatim.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["tracks"],
+      "properties": {
+        "tracks": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["line_id", "path", "start_frame", "trim_start_s", "duration_s"],
+            "properties": {
+              "line_id": {"type": "string"},
+              "character": {"type": "string"},
+              "path": {"type": "string"},
+              "start_frame": {"type": "integer"},
+              "trim_start_s": {"type": "number", "minimum": 0},
+              "duration_s": {"type": "number", "exclusiveMinimum": 0},
+              "text_fa": {"type": "string"}
+            }
+          }
+        }
+      }
+    },
+    "env": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "strategy", "interior", "ground_role", "light_intent"],
+      "properties": {
+        "id": {"type": "string"},
+        "strategy": {"enum": ["painted_backdrop", "procedural", "hdri_terrain", "image_set"]},
+        "interior": {"type": "boolean"},
+        "ground_role": {"type": "string"},
+        "light_intent": {"type": "string"},
+        "blend": {"type": ["string", "null"]},
+        "backdrop": {"type": ["string", "null"]},
+        "hdri": {"type": ["string", "null"]},
+        "props_json": {"type": ["string", "null"]},
+        "scatter": {"type": "array", "items": {"type": "object"}}
+      }
+    },
+    "cast_member": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["character", "rig_mode", "position_m", "facing_deg",
+                   "retime", "offset_frames", "assets"],
+      "properties": {
+        "character": {"type": "string"},
+        "name_fa": {"type": "string"},
+        "rig_mode": {"enum": ["smplx", "rigged"]},
+        "position_m": {"$ref": "#/$defs/vec3"},
+        "facing_deg": {"type": "number"},
+        "height_m": {"type": "number"},
+        "retime": {"enum": ["trim", "hold_last_pose", "loop", "timewarp"]},
+        "offset_frames": {"type": "integer"},
+        "lean_deg": {"type": "number", "minimum": 0, "maximum": 45,
+                     "description": "forward bend at the spine, for the taller of two fighters"},
+        "material_roles": {"type": "object", "additionalProperties": {"type": "string"}},
+        "assets": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "body": {"type": ["string", "null"]},
+            "shape": {"type": ["string", "null"]},
+            "face": {"type": ["string", "null"]},
+            "albedo": {"type": ["string", "null"]},
+            "garments": {"type": "array", "items": {"type": "string"}},
+            "rig": {"type": ["string", "null"]},
+            "motion": {"type": ["string", "null"]},
+            "head_pose": {"type": ["string", "null"]},
+            "visemes": {"type": "array", "items": {"type": "string"}}
+          }
+        }
+      }
+    },
+    "camera": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["position_m", "aim_point_m", "focal_mm"],
+      "properties": {
+        "position_m": {"$ref": "#/$defs/vec3"},
+        "aim_point_m": {"$ref": "#/$defs/vec3"},
+        "aim_target": {"type": ["string", "null"]},
+        "focal_mm": {"type": "number"},
+        "dof": {"type": "boolean"},
+        "focus_distance_m": {"type": ["number", "null"]},
+        "orthographic": {"type": "boolean"},
+        "ortho_scale": {"type": ["number", "null"]},
+        "move": {"type": ["object", "null"]}
+      }
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "errors": [],
+  "warnings": [
+    {
+      "message": "no performance video at performance/s01_golden_reign__keyumars/video.mp4; the motion stage will fall back to a placeholder",
+      "pointer": "/shots/0/cast/0/take",
+      "severity": "warn"
+    },
+    {
+      "message": "no performance video at performance/s01_golden_reign__siamak/video.mp4; the motion stage will fall back to a placeholder",
+      "pointer": "/shots/0/cast/1/take",
+      "severity": "warn"
+    },
+    {
+      "message": "no performance video at performance/s01_golden_reign__lion/video.mp4; the motion stage will fall back to a placeholder",
+      "pointer": "/shots/0/cast/2/take",
+      "severity": "warn"
+    },
+    {
+      "message": "no performance video at performance/s01_golden_reign__gazelle/video.mp4; the motion stage will fall back to a placeholder",
+      "pointer": "/shots/0/cast/3/take",
+      "severity": "warn"
+    },
+    {
+      "message": "no performance video at performance/s02_warning__keyumars/video.mp4; the motion stage will fall back to a placeholder",
+      "pointer": "/shots/1/cast/0/take",
+      "severity": "warn"
+    },
+    {
+      "message": "no performance video at performance/s02_warning__soroush/video.mp4; the motion stage will fall back to a placeholder",
+      "pointer": "/shots/1/cast/1/take",
+      "severity": "warn"
+    },
+    {
+      "message": "no performance video at performance/s02_warning__siamak/video.mp4; the motion stage will fall back to a placeholder",
+      "pointer": "/shots/1/cast/2/take",
+      "severity": "warn"
+    },
+    {
+      "message": "no performance video at performance/s03_vow__siamak/video.mp4; the motion stage will fall back to a placeholder",
+      "pointer": "/shots/2/cast/0/take",
+      "severity": "warn"
+    },
+    {
+      "message": "no performance video at performance/s03_vow__keyumars/video.mp4; the motion stage will fall back to a placeholder",
+      "pointer": "/shots/2/cast/1/take",
+      "severity": "warn"
+    },
+    {
+      "message": "no performance video at performance/s04_first_blood__siamak/video.mp4; the motion stage will fall back to a placeholder",
+      "pointer": "/shots/3/cast/0/take",
+      "severity": "warn"
+    },
+    {
+      "message": "no performance video at performance/s04_first_blood__black_div/video.mp4; the motion stage will fall back to a placeholder",
+      "pointer": "/shots/3/cast/1/take",
+      "severity": "warn"
+    },
+    {
+      "message": "no performance video at performance/s05_mourning__keyumars/video.mp4; the motion stage will fall back to a placeholder",
+      "pointer": "/shots/4/cast/0/take",
+      "severity": "warn"
+    },
+    {
+      "message": "no performance video at performance/s05_mourning__lion/video.mp4; the motion stage will fall back to a placeholder",
+      "pointer": "/shots/4/cast/1/take",
+      "severity": "warn"
+    },
+    {
+      "message": "no performance video at performance/s05_mourning__gazelle/video.mp4; the motion stage will fall back to a placeholder",
+      "pointer": "/shots/4/cast/2/take",
+      "severity": "warn"
+    },
+    {
+      "message": "no performance video at performance/s06_command__keyumars/video.mp4; the motion stage will fall back to a placeholder",
+      "pointer": "/shots/5/cast/0/take",
+      "severity": "warn"
+    },
+    {
+      "message": "no performance video at performance/s06_command__soroush/video.mp4; the motion stage will fall back to a placeholder",
+      "pointer": "/shots/5/cast/1/take",
+      "severity": "warn"
+    }
+  ]
+}

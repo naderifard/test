@@ -1,0 +1,285 @@
+{
+  "audio": {
+    "tracks": [
+      {
+        "character": "narrator",
+        "duration_s": 4.93,
+        "line_id": "s01_golden_reign_1",
+        "path": "audio/s01_golden_reign_1/converted.wav",
+        "start_frame": 13,
+        "text_fa": "کیومرث نخستین شاهِ جهان بود و بر کوه تخت نهاد.",
+        "trim_start_s": 0.49
+      }
+    ]
+  },
+  "beats": [
+    {
+      "from_frame": 1,
+      "to_frame": 148,
+      "what": "Keyumars reigns in peace on his mountain; the beasts rest beside him and his son stands near."
+    }
+  ],
+  "camera": {
+    "aim_point_m": [
+      -0.75,
+      0.8,
+      1.014
+    ],
+    "aim_target": null,
+    "dof": true,
+    "focal_mm": 27.772,
+    "focus_distance_m": 6.1512,
+    "move": {
+      "ease": "in_out",
+      "from_frame": 1,
+      "from_position_m": [
+        -0.75,
+        -5.32372,
+        1.59523
+      ],
+      "kind": "push_in",
+      "to_frame": 148,
+      "to_position_m": [
+        -0.75,
+        -4.2952,
+        1.49761
+      ]
+    },
+    "ortho_scale": null,
+    "orthographic": false,
+    "position_m": [
+      -0.75,
+      -5.32372,
+      1.59523
+    ]
+  },
+  "cast": [
+    {
+      "assets": {
+        "albedo": null,
+        "body": "assets/characters/keyumars/rigged/rigged.blend",
+        "face": null,
+        "garments": [],
+        "head_pose": "motion/s01_golden_reign__keyumars/head_pose.json",
+        "motion": "motion/s01_golden_reign__keyumars/body.json",
+        "rig": "assets/characters/keyumars/rigged/rigged.json",
+        "shape": null,
+        "visemes": []
+      },
+      "character": "keyumars",
+      "facing_deg": 180.0,
+      "height_m": 1.95,
+      "material_roles": {
+        "surface": "skin"
+      },
+      "name_fa": "کیومرث",
+      "offset_frames": 0,
+      "position_m": [
+        0.0,
+        2.6,
+        0.0
+      ],
+      "retime": "hold_last_pose",
+      "rig_mode": "smplx"
+    },
+    {
+      "assets": {
+        "albedo": null,
+        "body": "assets/characters/siamak/rigged/rigged.blend",
+        "face": null,
+        "garments": [],
+        "head_pose": "motion/s01_golden_reign__siamak/head_pose.json",
+        "motion": "motion/s01_golden_reign__siamak/body.json",
+        "rig": "assets/characters/siamak/rigged/rigged.json",
+        "shape": null,
+        "visemes": []
+      },
+      "character": "siamak",
+      "facing_deg": 105.0,
+      "height_m": 1.85,
+      "material_roles": {
+        "surface": "skin"
+      },
+      "name_fa": "سیامک",
+      "offset_frames": 0,
+      "position_m": [
+        1.7,
+        0.8,
+        0.0
+      ],
+      "retime": "hold_last_pose",
+      "rig_mode": "smplx"
+    },
+    {
+      "assets": {
+        "albedo": null,
+        "body": "assets/characters/lion/rigged/rigged.blend",
+        "face": null,
+        "garments": [],
+        "head_pose": "motion/s01_golden_reign__lion/head_pose.json",
+        "motion": "motion/s01_golden_reign__lion/body.json",
+        "rig": "assets/characters/lion/rigged/rigged.json",
+        "shape": null,
+        "visemes": []
+      },
+      "character": "lion",
+      "facing_deg": 180.0,
+      "height_m": 1.3,
+      "material_roles": {
+        "surface": "skin"
+      },
+      "name_fa": "شیر",
+      "offset_frames": 0,
+      "position_m": [
+        -1.7,
+        0.8,
+        0.0
+      ],
+      "retime": "hold_last_pose",
+      "rig_mode": "rigged"
+    },
+    {
+      "assets": {
+        "albedo": null,
+        "body": "assets/characters/gazelle/rigged/rigged.blend",
+        "face": null,
+        "garments": [],
+        "head_pose": "motion/idle_quadruped/head_pose.json",
+        "motion": "motion/idle_quadruped/body.json",
+        "rig": "assets/characters/gazelle/rigged/rigged.json",
+        "shape": null,
+        "visemes": []
+      },
+      "character": "gazelle",
+      "facing_deg": 180.0,
+      "height_m": 0.9,
+      "material_roles": {
+        "surface": "skin"
+      },
+      "name_fa": "آهو",
+      "offset_frames": 48,
+      "position_m": [
+        -3.2,
+        -1.0,
+        0.0
+      ],
+      "retime": "loop",
+      "rig_mode": "rigged"
+    }
+  ],
+  "env": {
+    "backdrop": "mountain_court_wide.png",
+    "blend": "assets/envs/mountain_court/build/env.blend",
+    "ground_role": "ground",
+    "hdri": null,
+    "id": "mountain_court",
+    "interior": false,
+    "light_intent": "low warm morning sun from the east across the ledge",
+    "props_json": null,
+    "scatter": [],
+    "strategy": "image_set"
+  },
+  "fps": 24,
+  "frame_count": 148,
+  "frame_end": 148,
+  "frame_start": 1,
+  "provenance": {
+    "align": {
+      "s01_golden_reign_1": {
+        "approximate": true,
+        "backend": "envelope",
+        "speech_end_s": 5.42,
+        "speech_start_s": 0.49
+      }
+    },
+    "cast": {
+      "gazelle": {
+        "attach": {},
+        "collection": "char_gazelle",
+        "garments": [],
+        "lines": [],
+        "mesh": "gazelle",
+        "offset_derived": true,
+        "props": [],
+        "rig": "gazelle_rig",
+        "root_scale": 0.5625,
+        "take": "idle_quadruped",
+        "take_cycle_frames": 120,
+        "take_reference_height_m": 1.6,
+        "viseme_start_frame": {}
+      },
+      "keyumars": {
+        "attach": {},
+        "collection": "char_keyumars",
+        "garments": [],
+        "lines": [],
+        "mesh": "keyumars",
+        "offset_derived": true,
+        "props": [],
+        "rig": "keyumars_rig",
+        "root_scale": 1.14706,
+        "take": "s01_golden_reign__keyumars",
+        "take_cycle_frames": 345,
+        "take_reference_height_m": 1.7,
+        "viseme_start_frame": {}
+      },
+      "lion": {
+        "attach": {},
+        "collection": "char_lion",
+        "garments": [],
+        "lines": [],
+        "mesh": "lion",
+        "offset_derived": true,
+        "props": [],
+        "rig": "lion_rig",
+        "root_scale": 0.8125,
+        "take": "s01_golden_reign__lion",
+        "take_cycle_frames": 325,
+        "take_reference_height_m": 1.6,
+        "viseme_start_frame": {}
+      },
+      "siamak": {
+        "attach": {},
+        "collection": "char_siamak",
+        "garments": [],
+        "lines": [],
+        "mesh": "siamak",
+        "offset_derived": true,
+        "props": [],
+        "rig": "siamak_rig",
+        "root_scale": 1.08824,
+        "take": "s01_golden_reign__siamak",
+        "take_cycle_frames": 336,
+        "take_reference_height_m": 1.7,
+        "viseme_start_frame": {}
+      }
+    },
+    "env_collection": "env_mountain_court",
+    "perspective_compression": 1.0,
+    "props": {},
+    "silence_lead_policy": "trim",
+    "stage": "h_assemble",
+    "viseme_profile": "smooth",
+    "viseme_start_frame": {
+      "s01_golden_reign_1": 13
+    }
+  },
+  "resolution": [
+    1920,
+    1080
+  ],
+  "schema_version": 1,
+  "shot_id": "s01_golden_reign",
+  "style_pack": "stylized",
+  "timing": {
+    "duration_s": 6.13,
+    "head_handle_s": 0.5,
+    "min_duration_s": 0.0,
+    "padded_s": 0.0,
+    "source": "audio",
+    "speech_end_s": 5.43,
+    "speech_start_s": 0.5,
+    "tail_handle_s": 0.7
+  },
+  "title": "s01_golden_reign"
+}

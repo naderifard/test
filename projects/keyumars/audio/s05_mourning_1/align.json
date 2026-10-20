@@ -1,0 +1,363 @@
+{
+  "approximate": true,
+  "audio": "audio/s05_mourning_1/converted.wav",
+  "backend": "envelope",
+  "backend_model": null,
+  "confidence": null,
+  "duration_s": 6.92952,
+  "language": "fa",
+  "line_id": "s05_mourning_1",
+  "phones": [
+    {
+      "end_s": 0.6021,
+      "phone": "a",
+      "score": null,
+      "start_s": 0.48,
+      "viseme": "AA",
+      "word": 0
+    },
+    {
+      "end_s": 0.765,
+      "phone": "i",
+      "score": null,
+      "start_s": 0.6021,
+      "viseme": "I",
+      "word": 0
+    },
+    {
+      "end_s": 0.9454,
+      "phone": "s",
+      "score": null,
+      "start_s": 0.765,
+      "viseme": "SS",
+      "word": 1
+    },
+    {
+      "end_s": 1.0981,
+      "phone": "e",
+      "score": null,
+      "start_s": 0.9454,
+      "viseme": "E",
+      "word": 1
+    },
+    {
+      "end_s": 1.1953,
+      "phone": "j",
+      "score": null,
+      "start_s": 1.0981,
+      "viseme": "I",
+      "word": 1
+    },
+    {
+      "end_s": 1.459,
+      "phone": "ɒ",
+      "score": null,
+      "start_s": 1.1953,
+      "viseme": "AA",
+      "word": 1
+    },
+    {
+      "end_s": 1.584,
+      "phone": "m",
+      "score": null,
+      "start_s": 1.459,
+      "viseme": "MBP",
+      "word": 1
+    },
+    {
+      "end_s": 1.695,
+      "phone": "k",
+      "score": null,
+      "start_s": 1.584,
+      "viseme": "KG",
+      "word": 1
+    },
+    {
+      "end_s": 1.7769,
+      "phone": "d",
+      "score": null,
+      "start_s": 1.695,
+      "viseme": "TD",
+      "word": 2
+    },
+    {
+      "end_s": 1.9056,
+      "phone": "e",
+      "score": null,
+      "start_s": 1.7769,
+      "viseme": "E",
+      "word": 2
+    },
+    {
+      "end_s": 2.011,
+      "phone": "l",
+      "score": null,
+      "start_s": 1.9056,
+      "viseme": "TD",
+      "word": 2
+    },
+    {
+      "end_s": 2.1397,
+      "phone": "x",
+      "score": null,
+      "start_s": 2.011,
+      "viseme": "KG",
+      "word": 2
+    },
+    {
+      "end_s": 2.3269,
+      "phone": "u",
+      "score": null,
+      "start_s": 2.1397,
+      "viseme": "U",
+      "word": 2
+    },
+    {
+      "end_s": 2.479,
+      "phone": "ʃ",
+      "score": null,
+      "start_s": 2.3269,
+      "viseme": "SH",
+      "word": 2
+    },
+    {
+      "end_s": 2.6663,
+      "phone": "i",
+      "score": null,
+      "start_s": 2.479,
+      "viseme": "I",
+      "word": 2
+    },
+    {
+      "end_s": 2.795,
+      "phone": "e",
+      "score": null,
+      "start_s": 2.6663,
+      "viseme": "E",
+      "word": 2
+    },
+    {
+      "end_s": 2.9197,
+      "phone": "p",
+      "score": null,
+      "start_s": 2.795,
+      "viseme": "MBP",
+      "word": 3
+    },
+    {
+      "end_s": 3.1156,
+      "phone": "e",
+      "score": null,
+      "start_s": 2.9197,
+      "viseme": "E",
+      "word": 3
+    },
+    {
+      "end_s": 3.2403,
+      "phone": "d",
+      "score": null,
+      "start_s": 3.1156,
+      "viseme": "TD",
+      "word": 3
+    },
+    {
+      "end_s": 3.365,
+      "phone": "r",
+      "score": null,
+      "start_s": 3.2403,
+      "viseme": "TD",
+      "word": 3
+    },
+    {
+      "end_s": 3.5048,
+      "phone": "dʒ",
+      "score": null,
+      "start_s": 3.365,
+      "viseme": "SH",
+      "word": 4
+    },
+    {
+      "end_s": 3.6447,
+      "phone": "e",
+      "score": null,
+      "start_s": 3.5048,
+      "viseme": "E",
+      "word": 4
+    },
+    {
+      "end_s": 3.7591,
+      "phone": "h",
+      "score": null,
+      "start_s": 3.6447,
+      "viseme": "KG",
+      "word": 4
+    },
+    {
+      "end_s": 4.0006,
+      "phone": "ɒ",
+      "score": null,
+      "start_s": 3.7591,
+      "viseme": "AA",
+      "word": 4
+    },
+    {
+      "end_s": 4.115,
+      "phone": "n",
+      "score": null,
+      "start_s": 4.0006,
+      "viseme": "TD",
+      "word": 4
+    },
+    {
+      "end_s": 4.1576,
+      "phone": "b",
+      "score": null,
+      "start_s": 4.115,
+      "viseme": "MBP",
+      "word": 5
+    },
+    {
+      "end_s": 4.255,
+      "phone": "i",
+      "score": null,
+      "start_s": 4.1576,
+      "viseme": "I",
+      "word": 5
+    },
+    {
+      "end_s": 4.2976,
+      "phone": "t",
+      "score": null,
+      "start_s": 4.255,
+      "viseme": "TD",
+      "word": 5
+    },
+    {
+      "end_s": 4.395,
+      "phone": "u",
+      "score": null,
+      "start_s": 4.2976,
+      "viseme": "U",
+      "word": 5
+    },
+    {
+      "end_s": 4.5104,
+      "phone": "t",
+      "score": null,
+      "start_s": 4.395,
+      "viseme": "TD",
+      "word": 6
+    },
+    {
+      "end_s": 4.8238,
+      "phone": "ɒ",
+      "score": null,
+      "start_s": 4.5104,
+      "viseme": "AA",
+      "word": 6
+    },
+    {
+      "end_s": 4.9392,
+      "phone": "r",
+      "score": null,
+      "start_s": 4.8238,
+      "viseme": "TD",
+      "word": 6
+    },
+    {
+      "end_s": 5.2031,
+      "phone": "i",
+      "score": null,
+      "start_s": 4.9392,
+      "viseme": "I",
+      "word": 6
+    },
+    {
+      "end_s": 5.335,
+      "phone": "k",
+      "score": null,
+      "start_s": 5.2031,
+      "viseme": "KG",
+      "word": 6
+    },
+    {
+      "end_s": 5.4587,
+      "phone": "ʃ",
+      "score": null,
+      "start_s": 5.335,
+      "viseme": "SH",
+      "word": 7
+    },
+    {
+      "end_s": 5.5634,
+      "phone": "e",
+      "score": null,
+      "start_s": 5.4587,
+      "viseme": "E",
+      "word": 7
+    },
+    {
+      "end_s": 5.63,
+      "phone": "d",
+      "score": null,
+      "start_s": 5.5634,
+      "viseme": "TD",
+      "word": 7
+    }
+  ],
+  "sample_rate": 22050,
+  "schema_version": 1,
+  "speech_end_s": 5.63,
+  "speech_start_s": 0.48,
+  "text": "ای سیامک، دلخوشیِ پدر؛ جهان بی‌تو تاریک شد.",
+  "words": [
+    {
+      "end_s": 0.765,
+      "score": null,
+      "start_s": 0.48,
+      "text": "ای"
+    },
+    {
+      "end_s": 1.695,
+      "score": null,
+      "start_s": 0.765,
+      "text": "سیامک"
+    },
+    {
+      "end_s": 2.795,
+      "score": null,
+      "start_s": 1.695,
+      "text": "دلخوشیِ"
+    },
+    {
+      "end_s": 3.365,
+      "score": null,
+      "start_s": 2.795,
+      "text": "پدر"
+    },
+    {
+      "end_s": 4.115,
+      "score": null,
+      "start_s": 3.365,
+      "text": "جهان"
+    },
+    {
+      "end_s": 4.395,
+      "score": null,
+      "start_s": 4.115,
+      "text": "بی‌تو"
+    },
+    {
+      "end_s": 5.335,
+      "score": null,
+      "start_s": 4.395,
+      "text": "تاریک"
+    },
+    {
+      "end_s": 5.63,
+      "score": null,
+      "start_s": 5.335,
+      "text": "شد"
+    }
+  ]
+}

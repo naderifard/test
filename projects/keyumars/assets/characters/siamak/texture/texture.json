@@ -1,0 +1,44 @@
+{
+  "albedo": null,
+  "blend": "textured.blend",
+  "collection": "char_siamak",
+  "measured": {
+    "degenerate_faces": 0,
+    "max_m": [
+      0.358,
+      0.1878,
+      1.9443
+    ],
+    "min_m": [
+      -0.3684,
+      -0.2014,
+      -0.0
+    ],
+    "size_m": [
+      0.7264,
+      0.3893,
+      1.9443
+    ],
+    "tris": 60000,
+    "uv_coverage": 0.3252,
+    "verts": 30002
+  },
+  "meshes": [
+    {
+      "coverage": 0.3252,
+      "loops": 180000,
+      "object": "siamak",
+      "roles": [
+        "skin"
+      ],
+      "uv_layer": "photo"
+    }
+  ],
+  "schema_version": 1,
+  "subject": "siamak",
+  "unwrap": {
+    "angle_limit_deg": 66.0,
+    "island_margin": 0.02,
+    "method": "smart_project"
+  }
+}

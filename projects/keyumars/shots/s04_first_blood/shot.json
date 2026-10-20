@@ -1,0 +1,195 @@
+{
+  "audio": {
+    "tracks": [
+      {
+        "character": "narrator",
+        "duration_s": 6.99,
+        "line_id": "s04_first_blood_1",
+        "path": "audio/s04_first_blood_1/converted.wav",
+        "start_frame": 13,
+        "text_fa": "سیامک با دیو درآویخت، و چنگالِ دیو او را بر خاک افکند.",
+        "trim_start_s": 0.49
+      }
+    ]
+  },
+  "beats": [
+    {
+      "from_frame": 1,
+      "to_frame": 197,
+      "what": "Siamak and the Black Div fight; the div's talons strike him down."
+    }
+  ],
+  "camera": {
+    "aim_point_m": [
+      0.0,
+      0.8,
+      1.352
+    ],
+    "aim_target": null,
+    "dof": true,
+    "focal_mm": 28.0,
+    "focus_distance_m": 8.2687,
+    "move": {
+      "ease": "in_out",
+      "from_frame": 1,
+      "from_position_m": [
+        0.0,
+        -7.465,
+        1.6
+      ],
+      "kind": "orbit",
+      "orbit_deg": 12.0,
+      "to_frame": 197
+    },
+    "ortho_scale": null,
+    "orthographic": false,
+    "position_m": [
+      0.0,
+      -7.465,
+      1.6
+    ]
+  },
+  "cast": [
+    {
+      "assets": {
+        "albedo": null,
+        "body": "assets/characters/siamak/rigged/rigged.blend",
+        "face": null,
+        "garments": [],
+        "head_pose": "motion/s04_first_blood__siamak/head_pose.json",
+        "motion": "motion/s04_first_blood__siamak/body.json",
+        "rig": "assets/characters/siamak/rigged/rigged.json",
+        "shape": null,
+        "visemes": []
+      },
+      "character": "siamak",
+      "facing_deg": 255.0,
+      "height_m": 1.85,
+      "material_roles": {
+        "surface": "skin"
+      },
+      "name_fa": "سیامک",
+      "offset_frames": 0,
+      "position_m": [
+        -1.7,
+        0.8,
+        0.0
+      ],
+      "retime": "hold_last_pose",
+      "rig_mode": "smplx"
+    },
+    {
+      "assets": {
+        "albedo": null,
+        "body": "assets/characters/black_div/rigged/rigged.blend",
+        "face": null,
+        "garments": [],
+        "head_pose": "motion/s04_first_blood__black_div/head_pose.json",
+        "motion": "motion/s04_first_blood__black_div/body.json",
+        "rig": "assets/characters/black_div/rigged/rigged.json",
+        "shape": null,
+        "visemes": []
+      },
+      "character": "black_div",
+      "facing_deg": 105.0,
+      "height_m": 2.6,
+      "material_roles": {
+        "surface": "skin"
+      },
+      "name_fa": "دیوِ سیاه",
+      "offset_frames": 0,
+      "position_m": [
+        1.7,
+        0.8,
+        0.0
+      ],
+      "retime": "hold_last_pose",
+      "rig_mode": "smplx"
+    }
+  ],
+  "env": {
+    "backdrop": "battlefield_wide.png",
+    "blend": "assets/envs/battlefield/build/env.blend",
+    "ground_role": "ground",
+    "hdri": null,
+    "id": "battlefield",
+    "interior": false,
+    "light_intent": "harsh high midday sun",
+    "props_json": null,
+    "scatter": [],
+    "strategy": "image_set"
+  },
+  "fps": 24,
+  "frame_count": 197,
+  "frame_end": 197,
+  "frame_start": 1,
+  "provenance": {
+    "align": {
+      "s04_first_blood_1": {
+        "approximate": true,
+        "backend": "envelope",
+        "speech_end_s": 7.48,
+        "speech_start_s": 0.49
+      }
+    },
+    "cast": {
+      "black_div": {
+        "attach": {},
+        "collection": "char_black_div",
+        "garments": [],
+        "lines": [],
+        "mesh": "black_div",
+        "offset_derived": true,
+        "props": [],
+        "rig": "black_div_rig",
+        "root_scale": 1.52941,
+        "take": "s04_first_blood__black_div",
+        "take_cycle_frames": 398,
+        "take_reference_height_m": 1.7,
+        "viseme_start_frame": {}
+      },
+      "siamak": {
+        "attach": {},
+        "collection": "char_siamak",
+        "garments": [],
+        "lines": [],
+        "mesh": "siamak",
+        "offset_derived": true,
+        "props": [],
+        "rig": "siamak_rig",
+        "root_scale": 1.08824,
+        "take": "s04_first_blood__siamak",
+        "take_cycle_frames": 408,
+        "take_reference_height_m": 1.7,
+        "viseme_start_frame": {}
+      }
+    },
+    "env_collection": "env_battlefield",
+    "perspective_compression": 1.0,
+    "props": {},
+    "silence_lead_policy": "trim",
+    "stage": "h_assemble",
+    "viseme_profile": "smooth",
+    "viseme_start_frame": {
+      "s04_first_blood_1": 13
+    }
+  },
+  "resolution": [
+    1920,
+    1080
+  ],
+  "schema_version": 1,
+  "shot_id": "s04_first_blood",
+  "style_pack": "stylized",
+  "timing": {
+    "duration_s": 8.19,
+    "head_handle_s": 0.5,
+    "min_duration_s": 0.0,
+    "padded_s": 0.0,
+    "source": "audio",
+    "speech_end_s": 7.49,
+    "speech_start_s": 0.5,
+    "tail_handle_s": 0.7
+  },
+  "title": "s04_first_blood"
+}

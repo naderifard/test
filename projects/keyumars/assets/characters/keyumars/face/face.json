@@ -1,0 +1,51 @@
+{
+  "anchors": [
+    "head",
+    "eyes",
+    "chest",
+    "pelvis",
+    "root",
+    "hands"
+  ],
+  "beard": true,
+  "beard_reason": "prompt describes a beard",
+  "identity": {
+    "fitted_from": "keyumars_front.png",
+    "head_scale": 1.0,
+    "index": 0,
+    "note": "the model mean",
+    "preset": "neutral",
+    "seed": 341825188,
+    "shape": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "source": "flame_preset"
+  },
+  "kind": "human",
+  "refs": {
+    "face": null,
+    "front": "keyumars_front.png"
+  },
+  "schema_version": 1,
+  "subject": "keyumars",
+  "visemes": {
+    "channels": [
+      "jaw_open",
+      "lip_wide",
+      "lip_round",
+      "lip_press",
+      "brow_raise",
+      "brow_furrow",
+      "squint",
+      "smile"
+    ],
+    "rest": "closed"
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "audio": {
+    "tracks": [
+      {
+        "character": "siamak",
+        "duration_s": 4.44,
+        "line_id": "s03_vow_1",
+        "path": "audio/s03_vow_1/converted.wav",
+        "start_frame": 13,
+        "text_fa": "ای پدر، خونم به جوش آمد؛ به جنگِ آن دیو خواهم شتاخت.",
+        "trim_start_s": 0.53
+      }
+    ]
+  },
+  "beats": [
+    {
+      "from_frame": 1,
+      "to_frame": 136,
+      "what": "Siamak vows to his father that he will fight the div."
+    }
+  ],
+  "camera": {
+    "aim_point_m": [
+      0.00751,
+      -0.99146,
+      1.40417
+    ],
+    "aim_target": "siamak.chest",
+    "dof": true,
+    "focal_mm": 59.695,
+    "focus_distance_m": 2.7113,
+    "move": null,
+    "ortho_scale": null,
+    "orthographic": false,
+    "position_m": [
+      -0.0007,
+      -3.65542,
+      0.9
+    ]
+  },
+  "cast": [
+    {
+      "assets": {
+        "albedo": null,
+        "body": "assets/characters/siamak/rigged/rigged.blend",
+        "face": null,
+        "garments": [],
+        "head_pose": "motion/talk_human/head_pose.json",
+        "motion": "motion/talk_human/body.json",
+        "rig": "assets/characters/siamak/rigged/rigged.json",
+        "shape": null,
+        "visemes": [
+          "audio/s03_vow_1/visemes.json"
+        ]
+      },
+      "character": "siamak",
+      "facing_deg": 180.0,
+      "height_m": 1.85,
+      "material_roles": {
+        "surface": "skin"
+      },
+      "name_fa": "سیامک",
+      "offset_frames": 111,
+      "position_m": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "retime": "loop",
+      "rig_mode": "smplx"
+    },
+    {
+      "assets": {
+        "albedo": null,
+        "body": "assets/characters/keyumars/rigged/rigged.blend",
+        "face": null,
+        "garments": [],
+        "head_pose": "motion/s03_vow__keyumars/head_pose.json",
+        "motion": "motion/s03_vow__keyumars/body.json",
+        "rig": "assets/characters/keyumars/rigged/rigged.json",
+        "shape": null,
+        "visemes": []
+      },
+      "character": "keyumars",
+      "facing_deg": 154.72,
+      "height_m": 1.95,
+      "material_roles": {
+        "surface": "skin"
+      },
+      "name_fa": "کیومرث",
+      "offset_frames": 0,
+      "position_m": [
+        1.7,
+        2.6,
+        0.0
+      ],
+      "retime": "hold_last_pose",
+      "rig_mode": "smplx"
+    }
+  ],
+  "env": {
+    "backdrop": "mountain_court_wide.png",
+    "blend": "assets/envs/mountain_court/build/env.blend",
+    "ground_role": "ground",
+    "hdri": null,
+    "id": "mountain_court",
+    "interior": false,
+    "light_intent": "low warm morning sun from the east across the ledge",
+    "props_json": null,
+    "scatter": [],
+    "strategy": "image_set"
+  },
+  "fps": 24,
+  "frame_count": 136,
+  "frame_end": 136,
+  "frame_start": 1,
+  "provenance": {
+    "align": {
+      "s03_vow_1": {
+        "approximate": true,
+        "backend": "envelope",
+        "speech_end_s": 4.97,
+        "speech_start_s": 0.53
+      }
+    },
+    "cast": {
+      "keyumars": {
+        "attach": {},
+        "collection": "char_keyumars",
+        "garments": [],
+        "lines": [],
+        "mesh": "keyumars",
+        "offset_derived": true,
+        "props": [],
+        "rig": "keyumars_rig",
+        "root_scale": 1.14706,
+        "take": "s03_vow__keyumars",
+        "take_cycle_frames": 345,
+        "take_reference_height_m": 1.7,
+        "viseme_start_frame": {}
+      },
+      "siamak": {
+        "attach": {},
+        "collection": "char_siamak",
+        "garments": [],
+        "lines": [
+          "s03_vow_1"
+        ],
+        "mesh": "siamak",
+        "offset_derived": true,
+        "props": [],
+        "rig": "siamak_rig",
+        "root_scale": 1.08824,
+        "take": "talk_human",
+        "take_cycle_frames": 161,
+        "take_reference_height_m": 1.7,
+        "viseme_start_frame": {
+          "s03_vow_1": 13
+        }
+      }
+    },
+    "env_collection": "env_mountain_court",
+    "perspective_compression": 1.0,
+    "props": {},
+    "silence_lead_policy": "trim",
+    "stage": "h_assemble",
+    "viseme_profile": "smooth",
+    "viseme_start_frame": {
+      "s03_vow_1": 13
+    }
+  },
+  "resolution": [
+    1920,
+    1080
+  ],
+  "schema_version": 1,
+  "shot_id": "s03_vow",
+  "style_pack": "stylized",
+  "timing": {
+    "duration_s": 5.64,
+    "head_handle_s": 0.5,
+    "min_duration_s": 0.0,
+    "padded_s": 0.0,
+    "source": "audio",
+    "speech_end_s": 4.94,
+    "speech_start_s": 0.5,
+    "tail_handle_s": 0.7
+  },
+  "title": "s03_vow"
+}

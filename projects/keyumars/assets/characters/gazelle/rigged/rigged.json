@@ -1,0 +1,219 @@
+{
+  "anchors": [
+    "head",
+    "eyes",
+    "chest",
+    "pelvis",
+    "root",
+    "hands"
+  ],
+  "asked_height_m": 0.9,
+  "attach": {},
+  "blend": "rigged.blend",
+  "bones": [
+    "root",
+    "spine1",
+    "spine2",
+    "chest",
+    "neck",
+    "head",
+    "muzzle",
+    "jaw",
+    "tail",
+    "tail_end",
+    "left_shoulder",
+    "left_knee",
+    "left_hoof_f",
+    "right_shoulder",
+    "right_knee",
+    "right_hoof_f",
+    "left_hip",
+    "left_stifle",
+    "left_hoof_b",
+    "right_hip",
+    "right_stifle",
+    "right_hoof_b"
+  ],
+  "channels": [
+    "jaw_open",
+    "lip_wide",
+    "lip_round",
+    "lip_press",
+    "brow_raise",
+    "brow_furrow",
+    "squint",
+    "smile"
+  ],
+  "collection": "char_gazelle",
+  "dims": {
+    "factor": 0.8490566037735849,
+    "girth": 1.0,
+    "height": 0.9
+  },
+  "feet_z_m": -0.0,
+  "garments": [],
+  "height_m": 0.9001,
+  "identity": {
+    "fitted_from": "gazelle_front.png",
+    "head_scale": 1.0,
+    "index": 0,
+    "note": "the model mean",
+    "preset": "neutral",
+    "seed": 2091703128,
+    "shape": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "source": "flame_preset"
+  },
+  "joints": {
+    "chest": [
+      0.0,
+      0.24341,
+      0.56042
+    ],
+    "head": [
+      0.0,
+      0.33929,
+      0.78119
+    ],
+    "jaw": [
+      0.0,
+      0.36879,
+      0.71326
+    ],
+    "left_hip": [
+      0.14031,
+      -0.00737,
+      0.4925
+    ],
+    "left_hoof_b": [
+      0.14967,
+      0.00738,
+      0.02552
+    ],
+    "left_hoof_f": [
+      0.13096,
+      0.23603,
+      0.02552
+    ],
+    "left_knee": [
+      0.13096,
+      0.22866,
+      0.28873
+    ],
+    "left_shoulder": [
+      0.1216,
+      0.22866,
+      0.50948
+    ],
+    "left_stifle": [
+      0.14967,
+      -0.02213,
+      0.30571
+    ],
+    "muzzle": [
+      0.0,
+      0.39092,
+      0.73024
+    ],
+    "neck": [
+      0.0,
+      0.28766,
+      0.6793
+    ],
+    "right_hip": [
+      -0.1403,
+      -0.00737,
+      0.4925
+    ],
+    "right_hoof_b": [
+      -0.14966,
+      0.00738,
+      0.02552
+    ],
+    "right_hoof_f": [
+      -0.13095,
+      0.23603,
+      0.02552
+    ],
+    "right_knee": [
+      -0.13095,
+      0.22866,
+      0.28873
+    ],
+    "right_shoulder": [
+      -0.12159,
+      0.22866,
+      0.50948
+    ],
+    "right_stifle": [
+      -0.14966,
+      -0.02213,
+      0.30571
+    ],
+    "root": [
+      0.0,
+      0.0,
+      0.52646
+    ],
+    "spine1": [
+      0.0,
+      0.08113,
+      0.56042
+    ],
+    "spine2": [
+      0.0,
+      0.16965,
+      0.57741
+    ],
+    "tail": [
+      0.0,
+      -0.05163,
+      0.52646
+    ],
+    "tail_end": [
+      0.0,
+      -0.14751,
+      0.28873
+    ]
+  },
+  "kind": "quadruped",
+  "measured": {
+    "degenerate_faces": 0,
+    "max_m": [
+      0.2222,
+      0.3789,
+      0.9001
+    ],
+    "min_m": [
+      -0.2222,
+      -0.1475,
+      -0.0
+    ],
+    "size_m": [
+      0.4443,
+      0.5264,
+      0.9001
+    ],
+    "tris": 59998,
+    "uv_coverage": 0.31445,
+    "verts": 29999
+  },
+  "mesh": "gazelle",
+  "props": [],
+  "rig": "gazelle_rig",
+  "rig_mode": "rigged",
+  "roles": {
+    "photo": "skin"
+  },
+  "schema_version": 1,
+  "subject": "gazelle",
+  "top_m": 0.9001
+}

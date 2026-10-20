@@ -1,0 +1,27 @@
+{
+  "asr_wer": null,
+  "backend": "seedvc",
+  "backend_model": "Plachta/Seed-VC/DiT_seed_v2_uvit_whisper_small_wavenet_bigvgan_pruned.pth",
+  "backends_skipped": [],
+  "channels": 1,
+  "character": "keyumars",
+  "conversion": {
+    "diffusion_steps": 30,
+    "gain": 0.6619,
+    "length_fix_samples": 242,
+    "load_s": 14.79,
+    "reference_s": 11.611,
+    "seconds": 4.13
+  },
+  "converted": true,
+  "in_duration_s": 7.1395,
+  "line_id": "s06_command_2",
+  "out_duration_s": 7.1395,
+  "output": "converted.wav",
+  "sample_rate": 22050,
+  "schema_version": 1,
+  "source": "audio/s06_command_2/source.wav",
+  "source_similarity": 0.0941,
+  "speaker_similarity": 0.7014,
+  "voice_reference": "audio/voices/keyumars.wav"
+}

@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://blender-ai-studio/schema/visemes.schema.json",
+  "title": "visemes.json",
+  "description": "Per-frame mouth and brow channels for one dialogue line. Rig-agnostic on purpose: in M1 these drive shape keys on a stub head, and in M4 the same channel names drive FLAME jaw pose and expression coefficients, so nothing downstream changes when the real face lands.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "line_id", "fps", "frame_count", "profile", "channels"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "line_id": {"type": "string"},
+    "fps": {"type": "integer", "minimum": 1},
+    "frame_count": {"type": "integer", "minimum": 1},
+    "profile": {
+      "enum": ["graphic", "smooth"],
+      "description": "Set by the style pack. graphic holds each viseme flat and snaps between them; smooth co-articulates. §8 — realistic co-articulation looks wrong on a flat painted face."
+    },
+    "emotion": {"type": "string"},
+    "approximate": {"type": "boolean"},
+    "channels": {
+      "type": "object",
+      "minProperties": 1,
+      "description": "The eight in pipeline.validate.VISEME_CHANNELS, which are the shape keys the rig carries. A file may omit channels it never drives.",
+      "propertyNames": {
+        "enum": ["jaw_open", "lip_wide", "lip_round", "lip_press",
+                 "brow_raise", "brow_furrow", "squint", "smile"]
+      },
+      "additionalProperties": {
+        "type": "array",
+        "items": {"type": "number", "minimum": 0, "maximum": 1}
+      }
+    }
+  }
+}

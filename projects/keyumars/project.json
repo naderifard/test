@@ -1,0 +1,18 @@
+{
+  "aligner_backend": "auto",
+  "cache_dir": null,
+  "fps": 24,
+  "head_handle_s": 0.5,
+  "language": "fa",
+  "min_shot_s": 0.0,
+  "name": "keyumars",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "schema_version": 1,
+  "silence_lead_policy": "trim",
+  "style_pack": "stylized",
+  "tail_handle_s": 0.7,
+  "title": "کیومرث و سیامک"
+}

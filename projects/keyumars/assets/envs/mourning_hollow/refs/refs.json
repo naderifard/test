@@ -1,0 +1,19 @@
+{
+  "expected": [],
+  "folder": "refs/envs/mourning_hollow",
+  "images": [
+    {
+      "bytes": 2873386,
+      "height": 941,
+      "mean_luma": 0.494,
+      "path": "mourning_hollow_wide.png",
+      "stddev_luma": 0.1903,
+      "unique_levels": 220,
+      "width": 1672
+    }
+  ],
+  "kind": "env",
+  "missing": [],
+  "slots": {},
+  "subject": "mourning_hollow"
+}

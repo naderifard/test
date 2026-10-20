@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://blender-ai-studio/schema/rig_overrides.schema.json",
+  "title": "rig_overrides.json",
+  "description": "Sidecar written by the per-character checkbox table (§6.2, §9). Keeps production.json pristine. Resolution order: this file -> character.rig_default -> derived from kind.",
+  "type": "object",
+  "additionalProperties": {"enum": ["smplx", "rigged"]},
+  "propertyNames": {"pattern": "^[a-z][a-z0-9_]{0,47}$"}
+}

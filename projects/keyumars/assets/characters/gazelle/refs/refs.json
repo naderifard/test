@@ -1,0 +1,30 @@
+{
+  "expected": [
+    "front",
+    "face",
+    "side"
+  ],
+  "folder": "refs/characters/gazelle",
+  "images": [
+    {
+      "bytes": 2266255,
+      "faces": 2,
+      "height": 1536,
+      "mean_luma": 0.6797,
+      "path": "gazelle_front.png",
+      "slot": "front",
+      "stddev_luma": 0.1767,
+      "unique_levels": 211,
+      "width": 1024
+    }
+  ],
+  "kind": "character",
+  "missing": [
+    "face",
+    "side"
+  ],
+  "slots": {
+    "front": "gazelle_front.png"
+  },
+  "subject": "gazelle"
+}

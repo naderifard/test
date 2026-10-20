@@ -1,0 +1,583 @@
+{
+  "approximate": true,
+  "audio": "audio/s02_warning_1/converted.wav",
+  "backend": "envelope",
+  "backend_model": null,
+  "confidence": null,
+  "duration_s": 8.38952,
+  "language": "fa",
+  "line_id": "s02_warning_1",
+  "phones": [
+    {
+      "end_s": 0.5736,
+      "phone": "a",
+      "score": null,
+      "start_s": 0.49,
+      "viseme": "AA",
+      "word": 0
+    },
+    {
+      "end_s": 0.685,
+      "phone": "i",
+      "score": null,
+      "start_s": 0.5736,
+      "viseme": "I",
+      "word": 0
+    },
+    {
+      "end_s": 0.7718,
+      "phone": "k",
+      "score": null,
+      "start_s": 0.685,
+      "viseme": "KG",
+      "word": 1
+    },
+    {
+      "end_s": 0.8912,
+      "phone": "e",
+      "score": null,
+      "start_s": 0.7718,
+      "viseme": "E",
+      "word": 1
+    },
+    {
+      "end_s": 0.9672,
+      "phone": "j",
+      "score": null,
+      "start_s": 0.8912,
+      "viseme": "I",
+      "word": 1
+    },
+    {
+      "end_s": 1.1409,
+      "phone": "u",
+      "score": null,
+      "start_s": 0.9672,
+      "viseme": "U",
+      "word": 1
+    },
+    {
+      "end_s": 1.2385,
+      "phone": "m",
+      "score": null,
+      "start_s": 1.1409,
+      "viseme": "MBP",
+      "word": 1
+    },
+    {
+      "end_s": 1.3145,
+      "phone": "r",
+      "score": null,
+      "start_s": 1.2385,
+      "viseme": "TD",
+      "word": 1
+    },
+    {
+      "end_s": 1.4339,
+      "phone": "e",
+      "score": null,
+      "start_s": 1.3145,
+      "viseme": "E",
+      "word": 1
+    },
+    {
+      "end_s": 1.575,
+      "phone": "s",
+      "score": null,
+      "start_s": 1.4339,
+      "viseme": "SS",
+      "word": 1
+    },
+    {
+      "end_s": 1.6412,
+      "phone": "b",
+      "score": null,
+      "start_s": 1.575,
+      "viseme": "MBP",
+      "word": 2
+    },
+    {
+      "end_s": 1.7927,
+      "phone": "i",
+      "score": null,
+      "start_s": 1.6412,
+      "viseme": "I",
+      "word": 2
+    },
+    {
+      "end_s": 1.8589,
+      "phone": "d",
+      "score": null,
+      "start_s": 1.7927,
+      "viseme": "TD",
+      "word": 2
+    },
+    {
+      "end_s": 2.0387,
+      "phone": "ɒ",
+      "score": null,
+      "start_s": 1.8589,
+      "viseme": "AA",
+      "word": 2
+    },
+    {
+      "end_s": 2.105,
+      "phone": "r",
+      "score": null,
+      "start_s": 2.0387,
+      "viseme": "TD",
+      "word": 2
+    },
+    {
+      "end_s": 2.1678,
+      "phone": "b",
+      "score": null,
+      "start_s": 2.105,
+      "viseme": "MBP",
+      "word": 3
+    },
+    {
+      "end_s": 2.3383,
+      "phone": "ɒ",
+      "score": null,
+      "start_s": 2.1678,
+      "viseme": "AA",
+      "word": 3
+    },
+    {
+      "end_s": 2.455,
+      "phone": "ʃ",
+      "score": null,
+      "start_s": 2.3383,
+      "viseme": "SH",
+      "word": 3
+    },
+    {
+      "end_s": 2.5438,
+      "phone": "p",
+      "score": null,
+      "start_s": 2.455,
+      "viseme": "MBP",
+      "word": 4
+    },
+    {
+      "end_s": 2.7467,
+      "phone": "u",
+      "score": null,
+      "start_s": 2.5438,
+      "viseme": "U",
+      "word": 4
+    },
+    {
+      "end_s": 2.8355,
+      "phone": "r",
+      "score": null,
+      "start_s": 2.7467,
+      "viseme": "TD",
+      "word": 4
+    },
+    {
+      "end_s": 2.975,
+      "phone": "e",
+      "score": null,
+      "start_s": 2.8355,
+      "viseme": "E",
+      "word": 4
+    },
+    {
+      "end_s": 3.1027,
+      "phone": "a",
+      "score": null,
+      "start_s": 2.975,
+      "viseme": "AA",
+      "word": 5
+    },
+    {
+      "end_s": 3.1985,
+      "phone": "h",
+      "score": null,
+      "start_s": 3.1027,
+      "viseme": "KG",
+      "word": 5
+    },
+    {
+      "end_s": 3.2731,
+      "phone": "r",
+      "score": null,
+      "start_s": 3.1985,
+      "viseme": "TD",
+      "word": 5
+    },
+    {
+      "end_s": 3.4434,
+      "phone": "i",
+      "score": null,
+      "start_s": 3.2731,
+      "viseme": "I",
+      "word": 5
+    },
+    {
+      "end_s": 3.5392,
+      "phone": "m",
+      "score": null,
+      "start_s": 3.4434,
+      "viseme": "MBP",
+      "word": 5
+    },
+    {
+      "end_s": 3.635,
+      "phone": "n",
+      "score": null,
+      "start_s": 3.5392,
+      "viseme": "TD",
+      "word": 5
+    },
+    {
+      "end_s": 3.7407,
+      "phone": "s",
+      "score": null,
+      "start_s": 3.635,
+      "viseme": "SS",
+      "word": 6
+    },
+    {
+      "end_s": 3.8302,
+      "phone": "e",
+      "score": null,
+      "start_s": 3.7407,
+      "viseme": "E",
+      "word": 6
+    },
+    {
+      "end_s": 3.8871,
+      "phone": "p",
+      "score": null,
+      "start_s": 3.8302,
+      "viseme": "MBP",
+      "word": 6
+    },
+    {
+      "end_s": 4.0417,
+      "phone": "ɒ",
+      "score": null,
+      "start_s": 3.8871,
+      "viseme": "AA",
+      "word": 6
+    },
+    {
+      "end_s": 4.1149,
+      "phone": "h",
+      "score": null,
+      "start_s": 4.0417,
+      "viseme": "KG",
+      "word": 6
+    },
+    {
+      "end_s": 4.245,
+      "phone": "i",
+      "score": null,
+      "start_s": 4.1149,
+      "viseme": "I",
+      "word": 6
+    },
+    {
+      "end_s": 4.3202,
+      "phone": "g",
+      "score": null,
+      "start_s": 4.245,
+      "viseme": "KG",
+      "word": 7
+    },
+    {
+      "end_s": 4.4235,
+      "phone": "e",
+      "score": null,
+      "start_s": 4.3202,
+      "viseme": "E",
+      "word": 7
+    },
+    {
+      "end_s": 4.4892,
+      "phone": "r",
+      "score": null,
+      "start_s": 4.4235,
+      "viseme": "TD",
+      "word": 7
+    },
+    {
+      "end_s": 4.555,
+      "phone": "d",
+      "score": null,
+      "start_s": 4.4892,
+      "viseme": "TD",
+      "word": 7
+    },
+    {
+      "end_s": 4.7197,
+      "phone": "ɒ",
+      "score": null,
+      "start_s": 4.555,
+      "viseme": "AA",
+      "word": 8
+    },
+    {
+      "end_s": 4.8583,
+      "phone": "u",
+      "score": null,
+      "start_s": 4.7197,
+      "viseme": "U",
+      "word": 8
+    },
+    {
+      "end_s": 4.919,
+      "phone": "r",
+      "score": null,
+      "start_s": 4.8583,
+      "viseme": "TD",
+      "word": 8
+    },
+    {
+      "end_s": 4.9797,
+      "phone": "d",
+      "score": null,
+      "start_s": 4.919,
+      "viseme": "TD",
+      "word": 8
+    },
+    {
+      "end_s": 5.075,
+      "phone": "e",
+      "score": null,
+      "start_s": 4.9797,
+      "viseme": "E",
+      "word": 8
+    },
+    {
+      "end_s": 5.2112,
+      "phone": "e",
+      "score": null,
+      "start_s": 5.075,
+      "viseme": "E",
+      "word": 9
+    },
+    {
+      "end_s": 5.335,
+      "phone": "v",
+      "score": null,
+      "start_s": 5.2112,
+      "viseme": "FV",
+      "word": 9
+    },
+    {
+      "end_s": 5.4244,
+      "phone": "b",
+      "score": null,
+      "start_s": 5.335,
+      "viseme": "MBP",
+      "word": 10
+    },
+    {
+      "end_s": 5.565,
+      "phone": "e",
+      "score": null,
+      "start_s": 5.4244,
+      "viseme": "E",
+      "word": 10
+    },
+    {
+      "end_s": 5.6609,
+      "phone": "s",
+      "score": null,
+      "start_s": 5.565,
+      "viseme": "SS",
+      "word": 11
+    },
+    {
+      "end_s": 5.742,
+      "phone": "e",
+      "score": null,
+      "start_s": 5.6609,
+      "viseme": "E",
+      "word": 11
+    },
+    {
+      "end_s": 5.8158,
+      "phone": "v",
+      "score": null,
+      "start_s": 5.742,
+      "viseme": "FV",
+      "word": 11
+    },
+    {
+      "end_s": 5.9339,
+      "phone": "i",
+      "score": null,
+      "start_s": 5.8158,
+      "viseme": "I",
+      "word": 11
+    },
+    {
+      "end_s": 6.015,
+      "phone": "e",
+      "score": null,
+      "start_s": 5.9339,
+      "viseme": "E",
+      "word": 11
+    },
+    {
+      "end_s": 6.1033,
+      "phone": "t",
+      "score": null,
+      "start_s": 6.015,
+      "viseme": "TD",
+      "word": 12
+    },
+    {
+      "end_s": 6.305,
+      "phone": "u",
+      "score": null,
+      "start_s": 6.1033,
+      "viseme": "U",
+      "word": 12
+    },
+    {
+      "end_s": 6.397,
+      "phone": "m",
+      "score": null,
+      "start_s": 6.305,
+      "viseme": "MBP",
+      "word": 13
+    },
+    {
+      "end_s": 6.5093,
+      "phone": "e",
+      "score": null,
+      "start_s": 6.397,
+      "viseme": "E",
+      "word": 13
+    },
+    {
+      "end_s": 6.5809,
+      "phone": "j",
+      "score": null,
+      "start_s": 6.5093,
+      "viseme": "I",
+      "word": 13
+    },
+    {
+      "end_s": 6.775,
+      "phone": "ɒ",
+      "score": null,
+      "start_s": 6.5809,
+      "viseme": "AA",
+      "word": 13
+    },
+    {
+      "end_s": 6.9385,
+      "phone": "i",
+      "score": null,
+      "start_s": 6.775,
+      "viseme": "I",
+      "word": 13
+    },
+    {
+      "end_s": 7.01,
+      "phone": "d",
+      "score": null,
+      "start_s": 6.9385,
+      "viseme": "TD",
+      "word": 13
+    }
+  ],
+  "sample_rate": 22050,
+  "schema_version": 1,
+  "speech_end_s": 7.01,
+  "speech_start_s": 0.49,
+  "text": "ای کیومرث، بیدار باش؛ پورِ اهریمن سپاهی گرد آورده و به سویِ تو می‌آید.",
+  "words": [
+    {
+      "end_s": 0.685,
+      "score": null,
+      "start_s": 0.49,
+      "text": "ای"
+    },
+    {
+      "end_s": 1.575,
+      "score": null,
+      "start_s": 0.685,
+      "text": "کیومرث"
+    },
+    {
+      "end_s": 2.105,
+      "score": null,
+      "start_s": 1.575,
+      "text": "بیدار"
+    },
+    {
+      "end_s": 2.455,
+      "score": null,
+      "start_s": 2.105,
+      "text": "باش"
+    },
+    {
+      "end_s": 2.975,
+      "score": null,
+      "start_s": 2.455,
+      "text": "پورِ"
+    },
+    {
+      "end_s": 3.635,
+      "score": null,
+      "start_s": 2.975,
+      "text": "اهریمن"
+    },
+    {
+      "end_s": 4.245,
+      "score": null,
+      "start_s": 3.635,
+      "text": "سپاهی"
+    },
+    {
+      "end_s": 4.555,
+      "score": null,
+      "start_s": 4.245,
+      "text": "گرد"
+    },
+    {
+      "end_s": 5.075,
+      "score": null,
+      "start_s": 4.555,
+      "text": "آورده"
+    },
+    {
+      "end_s": 5.335,
+      "score": null,
+      "start_s": 5.075,
+      "text": "و"
+    },
+    {
+      "end_s": 5.565,
+      "score": null,
+      "start_s": 5.335,
+      "text": "به"
+    },
+    {
+      "end_s": 6.015,
+      "score": null,
+      "start_s": 5.565,
+      "text": "سویِ"
+    },
+    {
+      "end_s": 6.305,
+      "score": null,
+      "start_s": 6.015,
+      "text": "تو"
+    },
+    {
+      "end_s": 7.01,
+      "score": null,
+      "start_s": 6.305,
+      "text": "می‌آید"
+    }
+  ]
+}

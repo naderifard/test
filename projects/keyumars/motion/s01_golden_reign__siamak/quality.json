@@ -1,0 +1,150 @@
+{
+  "bones_keyed": 16,
+  "bones_missing": [],
+  "contacts": {
+    "left_ankle": {
+      "skate_max_m": 0.004118,
+      "skate_mean_m": 0.000222,
+      "travel_m": 0.017459,
+      "z_min_m": 0.08343,
+      "z_range_m": 0.01122
+    },
+    "right_ankle": {
+      "skate_max_m": 0.00174,
+      "skate_mean_m": 0.000113,
+      "travel_m": 0.017599,
+      "z_min_m": 0.07941,
+      "z_range_m": 0.006344
+    }
+  },
+  "fps": 24,
+  "frames": 336,
+  "hand_drop_m": 0.42911,
+  "hand_side_m": 0.28373,
+  "head_frames": 336,
+  "head_keyed_frames": 336,
+  "head_velocity": {
+    "head": {
+      "max_deg_per_frame": 4.15933,
+      "mean_deg_per_frame": 0.177661,
+      "peak_frame": 14,
+      "seam_deg": 40.19688
+    },
+    "neck": {
+      "max_deg_per_frame": 2.239635,
+      "mean_deg_per_frame": 0.064396,
+      "peak_frame": 14,
+      "seam_deg": 21.572778
+    }
+  },
+  "keyed_frames": 336,
+  "kind": "human",
+  "measured_on": {
+    "bones": 23,
+    "height_m": 1.7,
+    "preset": "neutral",
+    "rig": "ref_human_rig"
+  },
+  "nan_count": 0,
+  "root_lift_m": 0.00733,
+  "schema_version": 1,
+  "take": "s01_golden_reign__siamak",
+  "velocity": {
+    "left_ankle": {
+      "max_deg_per_frame": 2.123551,
+      "mean_deg_per_frame": 0.102423,
+      "peak_frame": 8,
+      "seam_deg": 12.930881
+    },
+    "left_collar": {
+      "max_deg_per_frame": 0.043659,
+      "mean_deg_per_frame": 0.023437,
+      "peak_frame": 98,
+      "seam_deg": 0.547289
+    },
+    "left_elbow": {
+      "max_deg_per_frame": 2.420913,
+      "mean_deg_per_frame": 0.104537,
+      "peak_frame": 7,
+      "seam_deg": 3.66561
+    },
+    "left_hip": {
+      "max_deg_per_frame": 1.231044,
+      "mean_deg_per_frame": 0.04655,
+      "peak_frame": 8,
+      "seam_deg": 2.032958
+    },
+    "left_knee": {
+      "max_deg_per_frame": 1.404247,
+      "mean_deg_per_frame": 0.056031,
+      "peak_frame": 1,
+      "seam_deg": 2.608645
+    },
+    "left_shoulder": {
+      "max_deg_per_frame": 1.980584,
+      "mean_deg_per_frame": 0.126231,
+      "peak_frame": 45,
+      "seam_deg": 23.459685
+    },
+    "pelvis": {
+      "max_deg_per_frame": 1.780457,
+      "mean_deg_per_frame": 0.108045,
+      "peak_frame": 8,
+      "seam_deg": 22.701927
+    },
+    "right_ankle": {
+      "max_deg_per_frame": 1.513221,
+      "mean_deg_per_frame": 0.090732,
+      "peak_frame": 1,
+      "seam_deg": 19.360102
+    },
+    "right_collar": {
+      "max_deg_per_frame": 0.043659,
+      "mean_deg_per_frame": 0.023437,
+      "peak_frame": 98,
+      "seam_deg": 0.547289
+    },
+    "right_elbow": {
+      "max_deg_per_frame": 32.527582,
+      "mean_deg_per_frame": 0.761785,
+      "peak_frame": 10,
+      "seam_deg": 143.906455
+    },
+    "right_hip": {
+      "max_deg_per_frame": 0.807385,
+      "mean_deg_per_frame": 0.046651,
+      "peak_frame": 10,
+      "seam_deg": 5.17283
+    },
+    "right_knee": {
+      "max_deg_per_frame": 1.016997,
+      "mean_deg_per_frame": 0.054252,
+      "peak_frame": 7,
+      "seam_deg": 2.028467
+    },
+    "right_shoulder": {
+      "max_deg_per_frame": 13.809986,
+      "mean_deg_per_frame": 0.396462,
+      "peak_frame": 10,
+      "seam_deg": 88.874686
+    },
+    "spine1": {
+      "max_deg_per_frame": 0.374071,
+      "mean_deg_per_frame": 0.040171,
+      "peak_frame": 12,
+      "seam_deg": 2.529982
+    },
+    "spine2": {
+      "max_deg_per_frame": 0.374071,
+      "mean_deg_per_frame": 0.050216,
+      "peak_frame": 12,
+      "seam_deg": 2.592694
+    },
+    "spine3": {
+      "max_deg_per_frame": 0.374071,
+      "mean_deg_per_frame": 0.056913,
+      "peak_frame": 12,
+      "seam_deg": 2.645238
+    }
+  }
+}

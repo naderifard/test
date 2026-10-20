@@ -1,0 +1,35 @@
+{
+  "bind": {
+    "method": "proximity_weights",
+    "offset_m": 0.004
+  },
+  "blend": "garmented.blend",
+  "collection": "char_keyumars",
+  "garments": [],
+  "measured": {
+    "degenerate_faces": 0,
+    "max_m": [
+      0.3911,
+      0.25,
+      2.1729
+    ],
+    "min_m": [
+      -0.3876,
+      -0.2688,
+      0.0
+    ],
+    "size_m": [
+      0.7787,
+      0.5188,
+      2.1729
+    ],
+    "tris": 60000,
+    "uv_coverage": 0.31348,
+    "verts": 30002
+  },
+  "mesh": "keyumars",
+  "rig": "keyumars_rig",
+  "schema_version": 1,
+  "skipped": [],
+  "subject": "keyumars"
+}

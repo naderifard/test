@@ -1,0 +1,51 @@
+{
+  "anchors": [
+    "head",
+    "eyes",
+    "chest",
+    "pelvis",
+    "root",
+    "hands"
+  ],
+  "beard": false,
+  "beard_reason": "prompt says nothing about a beard",
+  "identity": {
+    "fitted_from": "black_div_front.png",
+    "head_scale": 1.0,
+    "index": 0,
+    "note": "the model mean",
+    "preset": "neutral",
+    "seed": 221208558,
+    "shape": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "source": "flame_preset"
+  },
+  "kind": "humanoid",
+  "refs": {
+    "face": null,
+    "front": "black_div_front.png"
+  },
+  "schema_version": 1,
+  "subject": "black_div",
+  "visemes": {
+    "channels": [
+      "jaw_open",
+      "lip_wide",
+      "lip_round",
+      "lip_press",
+      "brow_raise",
+      "brow_furrow",
+      "squint",
+      "smile"
+    ],
+    "rest": "closed"
+  }
+}

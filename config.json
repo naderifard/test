@@ -1,0 +1,13 @@
+{
+  "port": 9876,
+  "blender_exe": "",
+  "engine": "EEVEE",
+  "resolution": "1280x720 (HD)",
+  "samples": 64,
+  "frames": 96,
+  "fps": 24,
+  "director_thinking": true,
+  "builder_thinking": false,
+  "max_steps": 26,
+  "preview_interval": 2.0
+}

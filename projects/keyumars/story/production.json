@@ -1,0 +1,700 @@
+{
+  "characters": [
+    {
+      "height_m": 1.95,
+      "id": "keyumars",
+      "image_prompt": "aged first king of the world with long white hair and a full white beard, deep-lined solemn face, a spotted leopard pelt belted over one shoulder as his only garment, a tall domed gold crown with a fluted globe and long ribbon streamers, hide sandals",
+      "kind": "human",
+      "material_roles": {
+        "surface": "skin"
+      },
+      "name_en": "Keyumars",
+      "name_fa": "کیومرث"
+    },
+    {
+      "height_m": 1.85,
+      "id": "siamak",
+      "image_prompt": "beardless young Persian prince with long dark chestnut hair, smooth bright face, bare torso with a spotted leopard-skin pelt slung from his right shoulder and knotted at his left hip, a broad hide belt, soft hide boots",
+      "kind": "human",
+      "material_roles": {
+        "surface": "skin"
+      },
+      "name_en": "Siamak",
+      "name_fa": "سیامک"
+    },
+    {
+      "height_m": 2.6,
+      "id": "black_div",
+      "image_prompt": "hulking black demon with a wolf-like head, shaggy pitch-black hide over hunched massive shoulders, immense hands with long dark talons, deep-set red eyes, heavy fanged jaw",
+      "kind": "humanoid",
+      "material_roles": {
+        "surface": "skin"
+      },
+      "name_en": "the Black Div",
+      "name_fa": "دیوِ سیاه"
+    },
+    {
+      "height_m": 1.9,
+      "id": "soroush",
+      "image_prompt": "tall winged peri with a serene youthful face and long dark hair beneath a slim gold band, great sweeping feathered wings folded at the back, a spotted leopard-skin cloak wrapped over a pale ivory robe",
+      "kind": "humanoid",
+      "material_roles": {
+        "surface": "skin"
+      },
+      "name_en": "Soroush",
+      "name_fa": "سروش"
+    },
+    {
+      "height_m": 1.3,
+      "id": "lion",
+      "image_prompt": "a full-maned tawny lion with a thick dark chestnut mane, heavy shoulders and paws, calm steady dark eyes",
+      "kind": "quadruped",
+      "material_roles": {
+        "surface": "skin"
+      },
+      "name_en": "the lion",
+      "name_fa": "شیر"
+    },
+    {
+      "height_m": 0.9,
+      "id": "gazelle",
+      "image_prompt": "a slender golden gazelle with dark lyre-curved horns, large dark eyes, delicate legs, tan coat with a pale belly",
+      "kind": "quadruped",
+      "material_roles": {
+        "surface": "skin"
+      },
+      "name_en": "the gazelle",
+      "name_fa": "آهو"
+    }
+  ],
+  "envs": [
+    {
+      "ground": "ground",
+      "id": "mountain_court",
+      "image_prompt": "a tall carved stone throne on a high mountain ledge among stacked lobed rocks, a flowering meadow of scattered red and white blossoms around the ledge, a single cypress and a single plane tree, ochre hills beyond",
+      "interior": false,
+      "light_intent": "low warm morning sun from the east across the ledge"
+    },
+    {
+      "ground": "ground",
+      "id": "battlefield",
+      "image_prompt": "a wide bare ochre plain of hard-packed earth with scattered dark boulders, one shattered leafless tree, distant stacked lobed hills",
+      "interior": false,
+      "light_intent": "harsh high midday sun"
+    },
+    {
+      "ground": "ground",
+      "id": "mourning_hollow",
+      "image_prompt": "a bare stony hollow at the foot of stacked lobed mountains, one dark cypress, scattered dark stones on ochre earth, distant pale peaks",
+      "interior": false,
+      "light_intent": "cold pale dawn light, flat, no shadows"
+    }
+  ],
+  "fps": 24,
+  "notes": "Built from the main prompt: Keyumars and Siamak: the first crown and the first grief",
+  "shots": [
+    {
+      "beats": [
+        {
+          "from_pct": 0.0,
+          "to_pct": 1.0,
+          "what": "Keyumars reigns in peace on his mountain; the beasts rest beside him and his son stands near."
+        }
+      ],
+      "camera": {
+        "aim": [
+          -0.75,
+          0.8,
+          1.014
+        ],
+        "focal_mm": 28.0,
+        "move": {
+          "ease": "in_out",
+          "from_pct": 0.0,
+          "kind": "push_in",
+          "to_pct": 1.0,
+          "to_position_m": [
+            -0.75,
+            -4.337,
+            1.502
+          ]
+        },
+        "position_m": [
+          -0.75,
+          -5.374,
+          1.6
+        ]
+      },
+      "cast": [
+        {
+          "action": {
+            "clips": [
+              {
+                "clip": "raise_arm"
+              }
+            ],
+            "source": "model",
+            "text": "raises his arm slowly in blessing"
+          },
+          "character": "keyumars",
+          "facing_deg": 180.0,
+          "position_m": [
+            0.0,
+            2.6,
+            0.0
+          ],
+          "retime": "hold_last_pose",
+          "take": "s01_golden_reign__keyumars"
+        },
+        {
+          "action": {
+            "clips": [
+              {
+                "clip": "look",
+                "target": "keyumars"
+              }
+            ],
+            "source": "model",
+            "text": "turns his head toward his father"
+          },
+          "character": "siamak",
+          "facing_deg": 105.0,
+          "position_m": [
+            1.7,
+            0.8,
+            0.0
+          ],
+          "retime": "hold_last_pose",
+          "take": "s01_golden_reign__siamak"
+        },
+        {
+          "action": {
+            "clips": [
+              {
+                "clip": "lie"
+              }
+            ],
+            "source": "model",
+            "text": "lies at rest"
+          },
+          "character": "lion",
+          "facing_deg": 180.0,
+          "position_m": [
+            -1.7,
+            0.8,
+            0.0
+          ],
+          "retime": "hold_last_pose",
+          "take": "s01_golden_reign__lion"
+        },
+        {
+          "action": {
+            "clips": [
+              {
+                "clip": "idle"
+              }
+            ],
+            "source": "default",
+            "text": ""
+          },
+          "character": "gazelle",
+          "facing_deg": 180.0,
+          "position_m": [
+            -3.2,
+            -1.0,
+            0.0
+          ],
+          "retime": "loop",
+          "take": "s01_golden_reign__gazelle"
+        }
+      ],
+      "dialogue": [
+        {
+          "character": "narrator",
+          "emotion": "grave",
+          "line_id": "s01_golden_reign_1",
+          "text_en": "Keyumars was the first king of the world, and he set his throne upon the mountain.",
+          "text_fa": "کیومرث نخستین شاهِ جهان بود و بر کوه تخت نهاد."
+        }
+      ],
+      "env": "mountain_court",
+      "id": "s01_golden_reign"
+    },
+    {
+      "beats": [
+        {
+          "from_pct": 0.0,
+          "to_pct": 1.0,
+          "what": "Soroush appears and warns the king that the son of Ahriman is coming."
+        }
+      ],
+      "camera": {
+        "aim": "soroush.chest",
+        "focal_mm": 45.0,
+        "move": {
+          "ease": "in_out",
+          "from_pct": 0.0,
+          "kind": "push_in",
+          "to_pct": 1.0,
+          "to_position_m": [
+            -1.227,
+            -3.556,
+            1.406
+          ]
+        },
+        "position_m": [
+          -1.131,
+          -4.072,
+          1.406
+        ]
+      },
+      "cast": [
+        {
+          "action": {
+            "clips": [
+              {
+                "clip": "idle",
+                "target": "camera"
+              },
+              {
+                "clip": "bow",
+                "target": "camera"
+              }
+            ],
+            "source": "model",
+            "text": "stands rigid, then lowers his head"
+          },
+          "character": "keyumars",
+          "facing_deg": 154.72,
+          "position_m": [
+            0.0,
+            2.6,
+            0.0
+          ],
+          "retime": "hold_last_pose",
+          "take": "s02_warning__keyumars"
+        },
+        {
+          "action": {
+            "clips": [
+              {
+                "clip": "talk"
+              }
+            ],
+            "source": "speaks",
+            "text": ""
+          },
+          "character": "soroush",
+          "facing_deg": 215.0,
+          "position_m": [
+            -1.7,
+            -1.0,
+            0.0
+          ],
+          "retime": "loop",
+          "take": "s02_warning__soroush"
+        },
+        {
+          "action": {
+            "clips": [
+              {
+                "clip": "idle",
+                "target": "camera"
+              },
+              {
+                "clip": "raise_arm",
+                "target": "soroush"
+              },
+              {
+                "clip": "look",
+                "target": "soroush"
+              }
+            ],
+            "source": "model",
+            "text": "clenches his fist and looks at soroush"
+          },
+          "character": "siamak",
+          "facing_deg": 117.9,
+          "position_m": [
+            1.7,
+            0.8,
+            0.0
+          ],
+          "retime": "hold_last_pose",
+          "take": "s02_warning__siamak"
+        }
+      ],
+      "dialogue": [
+        {
+          "character": "soroush",
+          "emotion": "grave",
+          "line_id": "s02_warning_1",
+          "text_en": "O Keyumars, be watchful; the son of Ahriman has raised a host and is coming against you.",
+          "text_fa": "ای کیومرث، بیدار باش؛ پورِ اهریمن سپاهی گرد آورده و به سویِ تو می‌آید."
+        }
+      ],
+      "env": "mountain_court",
+      "id": "s02_warning"
+    },
+    {
+      "beats": [
+        {
+          "from_pct": 0.0,
+          "to_pct": 1.0,
+          "what": "Siamak vows to his father that he will fight the div."
+        }
+      ],
+      "camera": {
+        "aim": "siamak.chest",
+        "focal_mm": 55.0,
+        "position_m": [
+          0.0,
+          -3.427,
+          0.849
+        ]
+      },
+      "cast": [
+        {
+          "action": {
+            "clips": [
+              {
+                "clip": "talk"
+              }
+            ],
+            "source": "speaks",
+            "text": ""
+          },
+          "character": "siamak",
+          "facing_deg": 180.0,
+          "position_m": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "retime": "loop",
+          "take": "s03_vow__siamak"
+        },
+        {
+          "action": {
+            "clips": [
+              {
+                "clip": "bow",
+                "target": "siamak"
+              }
+            ],
+            "source": "model",
+            "text": "bows his head, unable to answer"
+          },
+          "character": "keyumars",
+          "facing_deg": 154.72,
+          "position_m": [
+            1.7,
+            2.6,
+            0.0
+          ],
+          "retime": "hold_last_pose",
+          "take": "s03_vow__keyumars"
+        }
+      ],
+      "dialogue": [
+        {
+          "character": "siamak",
+          "emotion": "resolute",
+          "line_id": "s03_vow_1",
+          "text_en": "Father, my blood is boiling; I will march to war against that div.",
+          "text_fa": "ای پدر، خونم به جوش آمد؛ به جنگِ آن دیو خواهم شتاخت."
+        }
+      ],
+      "env": "mountain_court",
+      "id": "s03_vow"
+    },
+    {
+      "beats": [
+        {
+          "from_pct": 0.0,
+          "to_pct": 1.0,
+          "what": "Siamak and the Black Div fight; the div's talons strike him down."
+        }
+      ],
+      "camera": {
+        "aim": [
+          0.0,
+          0.8,
+          1.352
+        ],
+        "focal_mm": 28.0,
+        "move": {
+          "ease": "in_out",
+          "from_pct": 0.0,
+          "kind": "orbit",
+          "orbit_deg": 12.0,
+          "to_pct": 1.0
+        },
+        "position_m": [
+          0.0,
+          -7.465,
+          1.6
+        ]
+      },
+      "cast": [
+        {
+          "action": {
+            "clips": [
+              {
+                "clip": "fight",
+                "target": "black_div"
+              },
+              {
+                "clip": "fall",
+                "target": "black_div"
+              }
+            ],
+            "source": "model",
+            "text": "fights the div, then falls to the ground"
+          },
+          "character": "siamak",
+          "facing_deg": 255.0,
+          "position_m": [
+            -1.7,
+            0.8,
+            0.0
+          ],
+          "retime": "hold_last_pose",
+          "take": "s04_first_blood__siamak"
+        },
+        {
+          "action": {
+            "clips": [
+              {
+                "clip": "fight",
+                "target": "siamak"
+              },
+              {
+                "clip": "strike",
+                "target": "siamak"
+              }
+            ],
+            "source": "model",
+            "text": "fights siamak and strikes him down"
+          },
+          "character": "black_div",
+          "facing_deg": 105.0,
+          "position_m": [
+            1.7,
+            0.8,
+            0.0
+          ],
+          "retime": "hold_last_pose",
+          "take": "s04_first_blood__black_div"
+        }
+      ],
+      "dialogue": [
+        {
+          "character": "narrator",
+          "emotion": "grieving",
+          "line_id": "s04_first_blood_1",
+          "text_en": "Siamak grappled with the div, and the div's talons threw him to the earth.",
+          "text_fa": "سیامک با دیو درآویخت، و چنگالِ دیو او را بر خاک افکند."
+        }
+      ],
+      "env": "battlefield",
+      "id": "s04_first_blood"
+    },
+    {
+      "beats": [
+        {
+          "from_pct": 0.0,
+          "to_pct": 1.0,
+          "what": "Keyumars mourns his son; the beasts grieve with him."
+        }
+      ],
+      "camera": {
+        "aim": "keyumars.chest",
+        "focal_mm": 45.0,
+        "move": {
+          "ease": "in_out",
+          "from_pct": 0.0,
+          "kind": "push_in",
+          "to_pct": 1.0,
+          "to_position_m": [
+            0.0,
+            -1.618,
+            2.57
+          ]
+        },
+        "position_m": [
+          0.0,
+          -2.106,
+          2.798
+        ]
+      },
+      "cast": [
+        {
+          "action": {
+            "clips": [
+              {
+                "clip": "mourn"
+              }
+            ],
+            "source": "model",
+            "text": "mourns, head bowed and hands to his face"
+          },
+          "character": "keyumars",
+          "facing_deg": 180.0,
+          "position_m": [
+            0.0,
+            0.8,
+            0.0
+          ],
+          "retime": "hold_last_pose",
+          "take": "s05_mourning__keyumars"
+        },
+        {
+          "action": {
+            "clips": [
+              {
+                "clip": "graze"
+              }
+            ],
+            "source": "model",
+            "text": "lowers its head to the ground"
+          },
+          "character": "lion",
+          "facing_deg": 255.0,
+          "position_m": [
+            -1.7,
+            -1.0,
+            0.0
+          ],
+          "retime": "hold_last_pose",
+          "take": "s05_mourning__lion"
+        },
+        {
+          "action": {
+            "clips": [
+              {
+                "clip": "idle"
+              }
+            ],
+            "source": "default",
+            "text": ""
+          },
+          "character": "gazelle",
+          "facing_deg": 105.0,
+          "position_m": [
+            1.7,
+            -1.0,
+            0.0
+          ],
+          "retime": "loop",
+          "take": "s05_mourning__gazelle"
+        }
+      ],
+      "dialogue": [
+        {
+          "character": "keyumars",
+          "emotion": "grieving",
+          "line_id": "s05_mourning_1",
+          "text_en": "O Siamak, your father's one delight; the world has gone dark without you.",
+          "text_fa": "ای سیامک، دلخوشیِ پدر؛ جهان بی‌تو تاریک شد."
+        }
+      ],
+      "env": "mourning_hollow",
+      "id": "s05_mourning"
+    },
+    {
+      "beats": [
+        {
+          "from_pct": 0.0,
+          "to_pct": 1.0,
+          "what": "Soroush commands the king to seek vengeance; Keyumars rises and swears it."
+        }
+      ],
+      "camera": {
+        "aim": "keyumars.pelvis",
+        "focal_mm": 35.0,
+        "move": {
+          "ease": "in_out",
+          "from_pct": 0.0,
+          "kind": "crane",
+          "to_pct": 1.0,
+          "to_position_m": [
+            -0.547,
+            -1.505,
+            1.2
+          ]
+        },
+        "position_m": [
+          -0.547,
+          -1.505,
+          0.3
+        ]
+      },
+      "cast": [
+        {
+          "action": {
+            "clips": [
+              {
+                "clip": "rise"
+              },
+              {
+                "clip": "raise_arm",
+                "direction": "away_from_camera"
+              }
+            ],
+            "source": "model",
+            "text": "rises to his full height and raises his arm toward the sky"
+          },
+          "character": "keyumars",
+          "facing_deg": 154.72,
+          "position_m": [
+            0.0,
+            2.6,
+            0.0
+          ],
+          "retime": "hold_last_pose",
+          "take": "s06_command__keyumars"
+        },
+        {
+          "action": {
+            "clips": [
+              {
+                "clip": "talk"
+              }
+            ],
+            "source": "speaks",
+            "text": ""
+          },
+          "character": "soroush",
+          "facing_deg": 215.0,
+          "position_m": [
+            -1.7,
+            -1.0,
+            0.0
+          ],
+          "retime": "loop",
+          "take": "s06_command__soroush"
+        }
+      ],
+      "dialogue": [
+        {
+          "character": "soroush",
+          "emotion": "grave",
+          "line_id": "s06_command_1",
+          "text_en": "Weep no more and gather your wits; take vengeance for your son's blood.",
+          "text_fa": "بیش از این مگری و هوشِ خویش را بازیاب؛ کینِ خونِ فرزندت را بستان."
+        },
+        {
+          "character": "keyumars",
+          "emotion": "resolute",
+          "line_id": "s06_command_2",
+          "text_en": "In God's name, until I have avenged Siamak's blood, sleep is forbidden to my eyes.",
+          "text_fa": "به نامِ خداوند، تا کینِ خونِ سیامک را نگیرم، خواب بر چشمم حرام است."
+        }
+      ],
+      "env": "mourning_hollow",
+      "id": "s06_command"
+    }
+  ],
+  "title": "کیومرث و سیامک"
+}

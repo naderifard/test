@@ -1,0 +1,225 @@
+{
+  "anchors": [
+    "head",
+    "eyes",
+    "chest",
+    "pelvis",
+    "root",
+    "hands"
+  ],
+  "asked_height_m": 1.95,
+  "attach": {},
+  "blend": "rigged.blend",
+  "bones": [
+    "pelvis",
+    "left_hip",
+    "right_hip",
+    "spine1",
+    "left_knee",
+    "right_knee",
+    "spine2",
+    "left_ankle",
+    "right_ankle",
+    "spine3",
+    "left_foot",
+    "right_foot",
+    "neck",
+    "left_collar",
+    "right_collar",
+    "head",
+    "left_shoulder",
+    "right_shoulder",
+    "left_elbow",
+    "right_elbow",
+    "left_wrist",
+    "right_wrist",
+    "jaw"
+  ],
+  "channels": [
+    "jaw_open",
+    "lip_wide",
+    "lip_round",
+    "lip_press",
+    "brow_raise",
+    "brow_furrow",
+    "squint",
+    "smile"
+  ],
+  "collection": "char_keyumars",
+  "dims": {
+    "factor": 1.1470588235294117,
+    "girth": 1.0,
+    "height": 1.95
+  },
+  "feet_z_m": 0.0,
+  "garments": [],
+  "height_m": 1.95,
+  "identity": {
+    "fitted_from": "keyumars_front.png",
+    "head_scale": 1.0,
+    "index": 0,
+    "note": "the model mean",
+    "preset": "neutral",
+    "seed": 341825188,
+    "shape": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "source": "flame_preset"
+  },
+  "joints": {
+    "head": [
+      -0.03475,
+      -0.09369,
+      1.78278
+    ],
+    "jaw": [
+      -0.03475,
+      -0.02488,
+      1.82865
+    ],
+    "left_ankle": [
+      0.14746,
+      -0.01488,
+      0.13025
+    ],
+    "left_collar": [
+      0.06263,
+      -0.11032,
+      1.53288
+    ],
+    "left_elbow": [
+      0.26229,
+      -0.10725,
+      1.26981
+    ],
+    "left_foot": [
+      0.15932,
+      0.06908,
+      0.07289
+    ],
+    "left_hip": [
+      0.09631,
+      -0.00692,
+      0.99362
+    ],
+    "left_knee": [
+      0.15006,
+      0.03175,
+      0.54501
+    ],
+    "left_shoulder": [
+      0.18278,
+      -0.10784,
+      1.58783
+    ],
+    "left_wrist": [
+      0.31816,
+      -0.00751,
+      0.98828
+    ],
+    "neck": [
+      -0.0142,
+      -0.11193,
+      1.61058
+    ],
+    "pelvis": [
+      0.0,
+      0.0,
+      1.08394
+    ],
+    "right_ankle": [
+      -0.17723,
+      -0.00132,
+      0.13155
+    ],
+    "right_collar": [
+      -0.091,
+      -0.11351,
+      1.53274
+    ],
+    "right_elbow": [
+      -0.29362,
+      -0.08542,
+      1.28514
+    ],
+    "right_foot": [
+      -0.1931,
+      0.08356,
+      0.07421
+    ],
+    "right_hip": [
+      -0.09631,
+      0.00695,
+      0.99074
+    ],
+    "right_knee": [
+      -0.15906,
+      0.04264,
+      0.53412
+    ],
+    "right_shoulder": [
+      -0.21115,
+      -0.11602,
+      1.58745
+    ],
+    "right_wrist": [
+      -0.33059,
+      0.00446,
+      0.98706
+    ],
+    "spine1": [
+      -0.00326,
+      -0.02563,
+      1.20463
+    ],
+    "spine2": [
+      -0.0065,
+      -0.05129,
+      1.32532
+    ],
+    "spine3": [
+      -0.00917,
+      -0.07229,
+      1.42407
+    ]
+  },
+  "kind": "human",
+  "measured": {
+    "degenerate_faces": 0,
+    "max_m": [
+      0.3911,
+      0.25,
+      2.1729
+    ],
+    "min_m": [
+      -0.3876,
+      -0.2688,
+      0.0
+    ],
+    "size_m": [
+      0.7787,
+      0.5188,
+      2.1729
+    ],
+    "tris": 60000,
+    "uv_coverage": 0.31348,
+    "verts": 30002
+  },
+  "mesh": "keyumars",
+  "props": [],
+  "rig": "keyumars_rig",
+  "rig_mode": "smplx",
+  "roles": {
+    "photo": "skin"
+  },
+  "schema_version": 1,
+  "subject": "keyumars",
+  "top_m": 2.1729
+}

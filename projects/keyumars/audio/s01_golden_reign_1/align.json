@@ -1,0 +1,439 @@
+{
+  "approximate": true,
+  "audio": "audio/s01_golden_reign_1/converted.wav",
+  "backend": "envelope",
+  "backend_model": null,
+  "confidence": null,
+  "duration_s": 6.8745,
+  "language": "fa",
+  "line_id": "s01_golden_reign_1",
+  "phones": [
+    {
+      "end_s": 0.5695,
+      "phone": "k",
+      "score": null,
+      "start_s": 0.49,
+      "viseme": "KG",
+      "word": 0
+    },
+    {
+      "end_s": 0.6788,
+      "phone": "e",
+      "score": null,
+      "start_s": 0.5695,
+      "viseme": "E",
+      "word": 0
+    },
+    {
+      "end_s": 0.7484,
+      "phone": "j",
+      "score": null,
+      "start_s": 0.6788,
+      "viseme": "I",
+      "word": 0
+    },
+    {
+      "end_s": 0.9074,
+      "phone": "u",
+      "score": null,
+      "start_s": 0.7484,
+      "viseme": "U",
+      "word": 0
+    },
+    {
+      "end_s": 0.9969,
+      "phone": "m",
+      "score": null,
+      "start_s": 0.9074,
+      "viseme": "MBP",
+      "word": 0
+    },
+    {
+      "end_s": 1.0665,
+      "phone": "r",
+      "score": null,
+      "start_s": 0.9969,
+      "viseme": "TD",
+      "word": 0
+    },
+    {
+      "end_s": 1.1758,
+      "phone": "e",
+      "score": null,
+      "start_s": 1.0665,
+      "viseme": "E",
+      "word": 0
+    },
+    {
+      "end_s": 1.305,
+      "phone": "s",
+      "score": null,
+      "start_s": 1.1758,
+      "viseme": "SS",
+      "word": 0
+    },
+    {
+      "end_s": 1.3878,
+      "phone": "n",
+      "score": null,
+      "start_s": 1.305,
+      "viseme": "TD",
+      "word": 1
+    },
+    {
+      "end_s": 1.4889,
+      "phone": "e",
+      "score": null,
+      "start_s": 1.3878,
+      "viseme": "E",
+      "word": 1
+    },
+    {
+      "end_s": 1.5901,
+      "phone": "x",
+      "score": null,
+      "start_s": 1.4889,
+      "viseme": "KG",
+      "word": 1
+    },
+    {
+      "end_s": 1.7096,
+      "phone": "s",
+      "score": null,
+      "start_s": 1.5901,
+      "viseme": "SS",
+      "word": 1
+    },
+    {
+      "end_s": 1.8107,
+      "phone": "e",
+      "score": null,
+      "start_s": 1.7096,
+      "viseme": "E",
+      "word": 1
+    },
+    {
+      "end_s": 1.8751,
+      "phone": "t",
+      "score": null,
+      "start_s": 1.8107,
+      "viseme": "TD",
+      "word": 1
+    },
+    {
+      "end_s": 2.0222,
+      "phone": "i",
+      "score": null,
+      "start_s": 1.8751,
+      "viseme": "I",
+      "word": 1
+    },
+    {
+      "end_s": 2.105,
+      "phone": "n",
+      "score": null,
+      "start_s": 2.0222,
+      "viseme": "TD",
+      "word": 1
+    },
+    {
+      "end_s": 2.26,
+      "phone": "ʃ",
+      "score": null,
+      "start_s": 2.105,
+      "viseme": "SH",
+      "word": 2
+    },
+    {
+      "end_s": 2.4865,
+      "phone": "ɒ",
+      "score": null,
+      "start_s": 2.26,
+      "viseme": "AA",
+      "word": 2
+    },
+    {
+      "end_s": 2.5938,
+      "phone": "h",
+      "score": null,
+      "start_s": 2.4865,
+      "viseme": "KG",
+      "word": 2
+    },
+    {
+      "end_s": 2.725,
+      "phone": "e",
+      "score": null,
+      "start_s": 2.5938,
+      "viseme": "E",
+      "word": 2
+    },
+    {
+      "end_s": 2.8294,
+      "phone": "dʒ",
+      "score": null,
+      "start_s": 2.725,
+      "viseme": "SH",
+      "word": 3
+    },
+    {
+      "end_s": 2.9338,
+      "phone": "e",
+      "score": null,
+      "start_s": 2.8294,
+      "viseme": "E",
+      "word": 3
+    },
+    {
+      "end_s": 3.0192,
+      "phone": "h",
+      "score": null,
+      "start_s": 2.9338,
+      "viseme": "KG",
+      "word": 3
+    },
+    {
+      "end_s": 3.1996,
+      "phone": "ɒ",
+      "score": null,
+      "start_s": 3.0192,
+      "viseme": "AA",
+      "word": 3
+    },
+    {
+      "end_s": 3.285,
+      "phone": "n",
+      "score": null,
+      "start_s": 3.1996,
+      "viseme": "TD",
+      "word": 3
+    },
+    {
+      "end_s": 3.3503,
+      "phone": "b",
+      "score": null,
+      "start_s": 3.285,
+      "viseme": "MBP",
+      "word": 4
+    },
+    {
+      "end_s": 3.4997,
+      "phone": "u",
+      "score": null,
+      "start_s": 3.3503,
+      "viseme": "U",
+      "word": 4
+    },
+    {
+      "end_s": 3.565,
+      "phone": "d",
+      "score": null,
+      "start_s": 3.4997,
+      "viseme": "TD",
+      "word": 4
+    },
+    {
+      "end_s": 3.7379,
+      "phone": "e",
+      "score": null,
+      "start_s": 3.565,
+      "viseme": "E",
+      "word": 5
+    },
+    {
+      "end_s": 3.895,
+      "phone": "v",
+      "score": null,
+      "start_s": 3.7379,
+      "viseme": "FV",
+      "word": 5
+    },
+    {
+      "end_s": 3.951,
+      "phone": "b",
+      "score": null,
+      "start_s": 3.895,
+      "viseme": "MBP",
+      "word": 6
+    },
+    {
+      "end_s": 4.039,
+      "phone": "e",
+      "score": null,
+      "start_s": 3.951,
+      "viseme": "E",
+      "word": 6
+    },
+    {
+      "end_s": 4.095,
+      "phone": "r",
+      "score": null,
+      "start_s": 4.039,
+      "viseme": "TD",
+      "word": 6
+    },
+    {
+      "end_s": 4.1521,
+      "phone": "k",
+      "score": null,
+      "start_s": 4.095,
+      "viseme": "KG",
+      "word": 7
+    },
+    {
+      "end_s": 4.2664,
+      "phone": "u",
+      "score": null,
+      "start_s": 4.1521,
+      "viseme": "U",
+      "word": 7
+    },
+    {
+      "end_s": 4.345,
+      "phone": "e",
+      "score": null,
+      "start_s": 4.2664,
+      "viseme": "E",
+      "word": 7
+    },
+    {
+      "end_s": 4.4403,
+      "phone": "t",
+      "score": null,
+      "start_s": 4.345,
+      "viseme": "TD",
+      "word": 8
+    },
+    {
+      "end_s": 4.59,
+      "phone": "e",
+      "score": null,
+      "start_s": 4.4403,
+      "viseme": "E",
+      "word": 8
+    },
+    {
+      "end_s": 4.7397,
+      "phone": "x",
+      "score": null,
+      "start_s": 4.59,
+      "viseme": "KG",
+      "word": 8
+    },
+    {
+      "end_s": 4.835,
+      "phone": "t",
+      "score": null,
+      "start_s": 4.7397,
+      "viseme": "TD",
+      "word": 8
+    },
+    {
+      "end_s": 4.9307,
+      "phone": "n",
+      "score": null,
+      "start_s": 4.835,
+      "viseme": "TD",
+      "word": 9
+    },
+    {
+      "end_s": 5.0477,
+      "phone": "e",
+      "score": null,
+      "start_s": 4.9307,
+      "viseme": "E",
+      "word": 9
+    },
+    {
+      "end_s": 5.1435,
+      "phone": "h",
+      "score": null,
+      "start_s": 5.0477,
+      "viseme": "KG",
+      "word": 9
+    },
+    {
+      "end_s": 5.3455,
+      "phone": "ɒ",
+      "score": null,
+      "start_s": 5.1435,
+      "viseme": "AA",
+      "word": 9
+    },
+    {
+      "end_s": 5.42,
+      "phone": "d",
+      "score": null,
+      "start_s": 5.3455,
+      "viseme": "TD",
+      "word": 9
+    }
+  ],
+  "sample_rate": 48000,
+  "schema_version": 1,
+  "speech_end_s": 5.42,
+  "speech_start_s": 0.49,
+  "text": "کیومرث نخستین شاهِ جهان بود و بر کوه تخت نهاد.",
+  "words": [
+    {
+      "end_s": 1.305,
+      "score": null,
+      "start_s": 0.49,
+      "text": "کیومرث"
+    },
+    {
+      "end_s": 2.105,
+      "score": null,
+      "start_s": 1.305,
+      "text": "نخستین"
+    },
+    {
+      "end_s": 2.725,
+      "score": null,
+      "start_s": 2.105,
+      "text": "شاهِ"
+    },
+    {
+      "end_s": 3.285,
+      "score": null,
+      "start_s": 2.725,
+      "text": "جهان"
+    },
+    {
+      "end_s": 3.565,
+      "score": null,
+      "start_s": 3.285,
+      "text": "بود"
+    },
+    {
+      "end_s": 3.895,
+      "score": null,
+      "start_s": 3.565,
+      "text": "و"
+    },
+    {
+      "end_s": 4.095,
+      "score": null,
+      "start_s": 3.895,
+      "text": "بر"
+    },
+    {
+      "end_s": 4.345,
+      "score": null,
+      "start_s": 4.095,
+      "text": "کوه"
+    },
+    {
+      "end_s": 4.835,
+      "score": null,
+      "start_s": 4.345,
+      "text": "تخت"
+    },
+    {
+      "end_s": 5.42,
+      "score": null,
+      "start_s": 4.835,
+      "text": "نهاد"
+    }
+  ]
+}

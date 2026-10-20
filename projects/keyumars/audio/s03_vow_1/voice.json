@@ -1,0 +1,27 @@
+{
+  "asr_wer": null,
+  "backend": "seedvc",
+  "backend_model": "Plachta/Seed-VC/DiT_seed_v2_uvit_whisper_small_wavenet_bigvgan_pruned.pth",
+  "backends_skipped": [],
+  "channels": 1,
+  "character": "siamak",
+  "conversion": {
+    "diffusion_steps": 30,
+    "gain": 0.5253,
+    "length_fix_samples": 173,
+    "load_s": 14.79,
+    "reference_s": 12.885,
+    "seconds": 7.4
+  },
+  "converted": true,
+  "in_duration_s": 6.1495,
+  "line_id": "s03_vow_1",
+  "out_duration_s": 6.14952,
+  "output": "converted.wav",
+  "sample_rate": 22050,
+  "schema_version": 1,
+  "source": "audio/s03_vow_1/source.wav",
+  "source_similarity": 0.0691,
+  "speaker_similarity": 0.7961,
+  "voice_reference": "audio/voices/siamak.wav"
+}

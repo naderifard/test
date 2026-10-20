@@ -1,0 +1,559 @@
+{
+  "approximate": true,
+  "audio": "audio/s06_command_1/converted.wav",
+  "backend": "envelope",
+  "backend_model": null,
+  "confidence": null,
+  "duration_s": 6.74952,
+  "language": "fa",
+  "line_id": "s06_command_1",
+  "phones": [
+    {
+      "end_s": 0.5476,
+      "phone": "b",
+      "score": null,
+      "start_s": 0.5,
+      "viseme": "MBP",
+      "word": 0
+    },
+    {
+      "end_s": 0.6565,
+      "phone": "i",
+      "score": null,
+      "start_s": 0.5476,
+      "viseme": "I",
+      "word": 0
+    },
+    {
+      "end_s": 0.745,
+      "phone": "ʃ",
+      "score": null,
+      "start_s": 0.6565,
+      "viseme": "SH",
+      "word": 0
+    },
+    {
+      "end_s": 0.9015,
+      "phone": "a",
+      "score": null,
+      "start_s": 0.745,
+      "viseme": "AA",
+      "word": 1
+    },
+    {
+      "end_s": 1.045,
+      "phone": "z",
+      "score": null,
+      "start_s": 0.9015,
+      "viseme": "SS",
+      "word": 1
+    },
+    {
+      "end_s": 1.0774,
+      "phone": "a",
+      "score": null,
+      "start_s": 1.045,
+      "viseme": "AA",
+      "word": 2
+    },
+    {
+      "end_s": 1.1207,
+      "phone": "i",
+      "score": null,
+      "start_s": 1.0774,
+      "viseme": "I",
+      "word": 2
+    },
+    {
+      "end_s": 1.145,
+      "phone": "n",
+      "score": null,
+      "start_s": 1.1207,
+      "viseme": "TD",
+      "word": 2
+    },
+    {
+      "end_s": 1.2226,
+      "phone": "m",
+      "score": null,
+      "start_s": 1.145,
+      "viseme": "MBP",
+      "word": 3
+    },
+    {
+      "end_s": 1.3175,
+      "phone": "e",
+      "score": null,
+      "start_s": 1.2226,
+      "viseme": "E",
+      "word": 3
+    },
+    {
+      "end_s": 1.3866,
+      "phone": "g",
+      "score": null,
+      "start_s": 1.3175,
+      "viseme": "KG",
+      "word": 3
+    },
+    {
+      "end_s": 1.447,
+      "phone": "r",
+      "score": null,
+      "start_s": 1.3866,
+      "viseme": "TD",
+      "word": 3
+    },
+    {
+      "end_s": 1.585,
+      "phone": "i",
+      "score": null,
+      "start_s": 1.447,
+      "viseme": "I",
+      "word": 3
+    },
+    {
+      "end_s": 1.7212,
+      "phone": "e",
+      "score": null,
+      "start_s": 1.585,
+      "viseme": "E",
+      "word": 4
+    },
+    {
+      "end_s": 1.845,
+      "phone": "v",
+      "score": null,
+      "start_s": 1.7212,
+      "viseme": "FV",
+      "word": 4
+    },
+    {
+      "end_s": 1.9111,
+      "phone": "h",
+      "score": null,
+      "start_s": 1.845,
+      "viseme": "KG",
+      "word": 5
+    },
+    {
+      "end_s": 2.0287,
+      "phone": "u",
+      "score": null,
+      "start_s": 1.9111,
+      "viseme": "U",
+      "word": 5
+    },
+    {
+      "end_s": 2.1242,
+      "phone": "ʃ",
+      "score": null,
+      "start_s": 2.0287,
+      "viseme": "SH",
+      "word": 5
+    },
+    {
+      "end_s": 2.205,
+      "phone": "e",
+      "score": null,
+      "start_s": 2.1242,
+      "viseme": "E",
+      "word": 5
+    },
+    {
+      "end_s": 2.2807,
+      "phone": "x",
+      "score": null,
+      "start_s": 2.205,
+      "viseme": "KG",
+      "word": 6
+    },
+    {
+      "end_s": 2.3565,
+      "phone": "e",
+      "score": null,
+      "start_s": 2.2807,
+      "viseme": "E",
+      "word": 6
+    },
+    {
+      "end_s": 2.4253,
+      "phone": "v",
+      "score": null,
+      "start_s": 2.3565,
+      "viseme": "FV",
+      "word": 6
+    },
+    {
+      "end_s": 2.5355,
+      "phone": "i",
+      "score": null,
+      "start_s": 2.4253,
+      "viseme": "I",
+      "word": 6
+    },
+    {
+      "end_s": 2.625,
+      "phone": "ʃ",
+      "score": null,
+      "start_s": 2.5355,
+      "viseme": "SH",
+      "word": 6
+    },
+    {
+      "end_s": 2.6681,
+      "phone": "r",
+      "score": null,
+      "start_s": 2.625,
+      "viseme": "TD",
+      "word": 7
+    },
+    {
+      "end_s": 2.785,
+      "phone": "ɒ",
+      "score": null,
+      "start_s": 2.6681,
+      "viseme": "AA",
+      "word": 7
+    },
+    {
+      "end_s": 2.845,
+      "phone": "b",
+      "score": null,
+      "start_s": 2.785,
+      "viseme": "MBP",
+      "word": 8
+    },
+    {
+      "end_s": 3.0079,
+      "phone": "ɒ",
+      "score": null,
+      "start_s": 2.845,
+      "viseme": "AA",
+      "word": 8
+    },
+    {
+      "end_s": 3.1021,
+      "phone": "z",
+      "score": null,
+      "start_s": 3.0079,
+      "viseme": "SS",
+      "word": 8
+    },
+    {
+      "end_s": 3.1621,
+      "phone": "j",
+      "score": null,
+      "start_s": 3.1021,
+      "viseme": "I",
+      "word": 8
+    },
+    {
+      "end_s": 3.325,
+      "phone": "ɒ",
+      "score": null,
+      "start_s": 3.1621,
+      "viseme": "AA",
+      "word": 8
+    },
+    {
+      "end_s": 3.385,
+      "phone": "b",
+      "score": null,
+      "start_s": 3.325,
+      "viseme": "MBP",
+      "word": 8
+    },
+    {
+      "end_s": 3.4432,
+      "phone": "k",
+      "score": null,
+      "start_s": 3.385,
+      "viseme": "KG",
+      "word": 9
+    },
+    {
+      "end_s": 3.5595,
+      "phone": "i",
+      "score": null,
+      "start_s": 3.4432,
+      "viseme": "I",
+      "word": 9
+    },
+    {
+      "end_s": 3.625,
+      "phone": "n",
+      "score": null,
+      "start_s": 3.5595,
+      "viseme": "TD",
+      "word": 9
+    },
+    {
+      "end_s": 3.705,
+      "phone": "e",
+      "score": null,
+      "start_s": 3.625,
+      "viseme": "E",
+      "word": 9
+    },
+    {
+      "end_s": 3.7846,
+      "phone": "x",
+      "score": null,
+      "start_s": 3.705,
+      "viseme": "KG",
+      "word": 10
+    },
+    {
+      "end_s": 3.9003,
+      "phone": "u",
+      "score": null,
+      "start_s": 3.7846,
+      "viseme": "U",
+      "word": 10
+    },
+    {
+      "end_s": 3.9654,
+      "phone": "n",
+      "score": null,
+      "start_s": 3.9003,
+      "viseme": "TD",
+      "word": 10
+    },
+    {
+      "end_s": 4.045,
+      "phone": "e",
+      "score": null,
+      "start_s": 3.9654,
+      "viseme": "E",
+      "word": 10
+    },
+    {
+      "end_s": 4.1369,
+      "phone": "f",
+      "score": null,
+      "start_s": 4.045,
+      "viseme": "FV",
+      "word": 11
+    },
+    {
+      "end_s": 4.2288,
+      "phone": "e",
+      "score": null,
+      "start_s": 4.1369,
+      "viseme": "E",
+      "word": 11
+    },
+    {
+      "end_s": 4.2872,
+      "phone": "r",
+      "score": null,
+      "start_s": 4.2288,
+      "viseme": "TD",
+      "word": 11
+    },
+    {
+      "end_s": 4.3791,
+      "phone": "z",
+      "score": null,
+      "start_s": 4.2872,
+      "viseme": "SS",
+      "word": 11
+    },
+    {
+      "end_s": 4.471,
+      "phone": "e",
+      "score": null,
+      "start_s": 4.3791,
+      "viseme": "E",
+      "word": 11
+    },
+    {
+      "end_s": 4.5462,
+      "phone": "n",
+      "score": null,
+      "start_s": 4.471,
+      "viseme": "TD",
+      "word": 11
+    },
+    {
+      "end_s": 4.6046,
+      "phone": "d",
+      "score": null,
+      "start_s": 4.5462,
+      "viseme": "TD",
+      "word": 11
+    },
+    {
+      "end_s": 4.6965,
+      "phone": "e",
+      "score": null,
+      "start_s": 4.6046,
+      "viseme": "E",
+      "word": 11
+    },
+    {
+      "end_s": 4.755,
+      "phone": "t",
+      "score": null,
+      "start_s": 4.6965,
+      "viseme": "TD",
+      "word": 11
+    },
+    {
+      "end_s": 4.7792,
+      "phone": "r",
+      "score": null,
+      "start_s": 4.755,
+      "viseme": "TD",
+      "word": 12
+    },
+    {
+      "end_s": 4.845,
+      "phone": "ɒ",
+      "score": null,
+      "start_s": 4.7792,
+      "viseme": "AA",
+      "word": 12
+    },
+    {
+      "end_s": 4.8996,
+      "phone": "b",
+      "score": null,
+      "start_s": 4.845,
+      "viseme": "MBP",
+      "word": 13
+    },
+    {
+      "end_s": 4.9855,
+      "phone": "e",
+      "score": null,
+      "start_s": 4.8996,
+      "viseme": "E",
+      "word": 13
+    },
+    {
+      "end_s": 5.0869,
+      "phone": "s",
+      "score": null,
+      "start_s": 4.9855,
+      "viseme": "SS",
+      "word": 13
+    },
+    {
+      "end_s": 5.1415,
+      "phone": "t",
+      "score": null,
+      "start_s": 5.0869,
+      "viseme": "TD",
+      "word": 13
+    },
+    {
+      "end_s": 5.2898,
+      "phone": "ɒ",
+      "score": null,
+      "start_s": 5.1415,
+      "viseme": "AA",
+      "word": 13
+    },
+    {
+      "end_s": 5.36,
+      "phone": "n",
+      "score": null,
+      "start_s": 5.2898,
+      "viseme": "TD",
+      "word": 13
+    }
+  ],
+  "sample_rate": 22050,
+  "schema_version": 1,
+  "speech_end_s": 5.36,
+  "speech_start_s": 0.5,
+  "text": "بیش از این مگری و هوشِ خویش را بازیاب؛ کینِ خونِ فرزندت را بستان.",
+  "words": [
+    {
+      "end_s": 0.745,
+      "score": null,
+      "start_s": 0.5,
+      "text": "بیش"
+    },
+    {
+      "end_s": 1.045,
+      "score": null,
+      "start_s": 0.745,
+      "text": "از"
+    },
+    {
+      "end_s": 1.145,
+      "score": null,
+      "start_s": 1.045,
+      "text": "این"
+    },
+    {
+      "end_s": 1.585,
+      "score": null,
+      "start_s": 1.145,
+      "text": "مگری"
+    },
+    {
+      "end_s": 1.845,
+      "score": null,
+      "start_s": 1.585,
+      "text": "و"
+    },
+    {
+      "end_s": 2.205,
+      "score": null,
+      "start_s": 1.845,
+      "text": "هوشِ"
+    },
+    {
+      "end_s": 2.625,
+      "score": null,
+      "start_s": 2.205,
+      "text": "خویش"
+    },
+    {
+      "end_s": 2.785,
+      "score": null,
+      "start_s": 2.625,
+      "text": "را"
+    },
+    {
+      "end_s": 3.385,
+      "score": null,
+      "start_s": 2.785,
+      "text": "بازیاب"
+    },
+    {
+      "end_s": 3.705,
+      "score": null,
+      "start_s": 3.385,
+      "text": "کینِ"
+    },
+    {
+      "end_s": 4.045,
+      "score": null,
+      "start_s": 3.705,
+      "text": "خونِ"
+    },
+    {
+      "end_s": 4.755,
+      "score": null,
+      "start_s": 4.045,
+      "text": "فرزندت"
+    },
+    {
+      "end_s": 4.845,
+      "score": null,
+      "start_s": 4.755,
+      "text": "را"
+    },
+    {
+      "end_s": 5.36,
+      "score": null,
+      "start_s": 4.845,
+      "text": "بستان"
+    }
+  ]
+}

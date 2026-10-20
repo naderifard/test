@@ -1,0 +1,23 @@
+{
+  "asr_wer": null,
+  "backend": "passthrough",
+  "backend_model": null,
+  "backends_skipped": [
+    "seedvc: no voice sample for narrator (audio/voices/<id>.wav), so there is no voice to convert to",
+    "refvc: ref-vc is not installed; it is the option for noisy recordings, not the default"
+  ],
+  "channels": 1,
+  "character": "narrator",
+  "conversion": {},
+  "converted": false,
+  "in_duration_s": 6.8745,
+  "line_id": "s01_golden_reign_1",
+  "out_duration_s": 6.8745,
+  "output": "converted.wav",
+  "sample_rate": 48000,
+  "schema_version": 1,
+  "source": "audio/s01_golden_reign_1/source.wav",
+  "source_similarity": null,
+  "speaker_similarity": null,
+  "voice_reference": null
+}

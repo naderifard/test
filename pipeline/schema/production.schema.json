@@ -1,0 +1,279 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://blender-ai-studio/schema/production.schema.json",
+  "title": "production.json",
+  "description": "The contract with the strong chat model (design §6.1). The only thing the pipeline trusts about the story.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["title", "fps", "characters", "envs", "shots"],
+  "properties": {
+    "title": {"type": "string", "minLength": 1},
+    "fps": {"type": "integer", "minimum": 1, "maximum": 120},
+    "notes": {"type": "string"},
+    "characters": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"$ref": "#/$defs/character"}
+    },
+    "envs": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"$ref": "#/$defs/env"}
+    },
+    "props": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/prop"}
+    },
+    "shots": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"$ref": "#/$defs/shot"}
+    }
+  },
+  "$defs": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9_]{0,47}$",
+      "description": "Lower-case, underscore-separated. Used as a directory name."
+    },
+    "vec3": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3,
+      "items": {"type": "number"}
+    },
+    "vec2": {
+      "type": "array",
+      "minItems": 2,
+      "maxItems": 2,
+      "items": {"type": "number", "exclusiveMinimum": 0}
+    },
+    "role": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9_]{0,31}$",
+      "description": "A material role resolved by the style pack. Never a colour."
+    },
+    "character": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "name_fa", "kind", "height_m", "image_prompt", "material_roles"],
+      "properties": {
+        "id": {"$ref": "#/$defs/id"},
+        "name_fa": {"type": "string", "minLength": 1},
+        "name_en": {"type": "string"},
+        "kind": {
+          "enum": ["human", "humanoid", "creature", "quadruped"],
+          "description": "Drives the default rig mode (§9)."
+        },
+        "rig_default": {
+          "enum": ["smplx", "rigged"],
+          "description": "Optional. Omit to derive from kind; rig_overrides.json still wins."
+        },
+        "height_m": {"type": "number", "minimum": 0.1, "maximum": 30},
+        "shape_preset": {
+          "enum": ["heroic", "slight", "aged", "giant", "youth", "neutral"],
+          "description": "Shahnameh archetype preset for SMPL-X betas (§7-C)."
+        },
+        "image_prompt": {"type": "string", "minLength": 1},
+        "voice_ref": {"type": "string"},
+        "epithet_fa": {"type": "string"},
+        "material_roles": {
+          "type": "object",
+          "minProperties": 1,
+          "additionalProperties": {"$ref": "#/$defs/role"},
+          "propertyNames": {"pattern": "^[a-z][a-z0-9_]{0,31}$"}
+        },
+        "garments": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["id", "role"],
+            "properties": {
+              "id": {"$ref": "#/$defs/id"},
+              "role": {"$ref": "#/$defs/role"},
+              "covers": {
+                "type": "array",
+                "items": {"enum": ["torso", "legs", "arms", "head", "feet", "hands"]}
+              },
+              "image_prompt": {"type": "string"}
+            }
+          }
+        }
+      }
+    },
+    "env": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "interior", "image_prompt", "ground", "light_intent"],
+      "properties": {
+        "id": {"$ref": "#/$defs/id"},
+        "interior": {"type": "boolean"},
+        "image_prompt": {"type": "string", "minLength": 1},
+        "ground": {"$ref": "#/$defs/role"},
+        "light_intent": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Plain language. The style pack turns it into lights."
+        },
+        "scatter": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["role", "count", "area_m"],
+            "properties": {
+              "role": {"$ref": "#/$defs/role"},
+              "count": {"type": "integer", "minimum": 1, "maximum": 5000},
+              "area_m": {"$ref": "#/$defs/vec2"},
+              "avoid_radius_m": {"type": "number", "minimum": 0},
+              "scale_range": {"$ref": "#/$defs/vec2"}
+            }
+          }
+        }
+      }
+    },
+    "prop": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "role", "image_prompt"],
+      "properties": {
+        "id": {"$ref": "#/$defs/id"},
+        "role": {"$ref": "#/$defs/role"},
+        "image_prompt": {"type": "string", "minLength": 1},
+        "size_m": {"$ref": "#/$defs/vec3"},
+        "held_by": {"$ref": "#/$defs/id"},
+        "attach": {"enum": ["hand_l", "hand_r", "back", "belt", "head", "none"]}
+      }
+    },
+    "aim": {
+      "description": "Either <character_id>.<anchor>, env.<prop_or_env_id>, or a world point.",
+      "oneOf": [
+        {"type": "string",
+         "pattern": "^([a-z][a-z0-9_]{0,47}\\.(head|eyes|chest|pelvis|root|hands)|env\\.[a-z][a-z0-9_]{0,47})$"},
+        {"$ref": "#/$defs/vec3"}
+      ]
+    },
+    "shot": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "env", "cast", "camera"],
+      "properties": {
+        "id": {"$ref": "#/$defs/id"},
+        "env": {"$ref": "#/$defs/id"},
+        "cast": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["character"],
+            "properties": {
+              "character": {"$ref": "#/$defs/id"},
+              "take": {"type": "string", "pattern": "^[a-z0-9_]{1,48}$"},
+              "retime": {"enum": ["trim", "hold_last_pose", "loop", "timewarp"]},
+              "offset_frames": {"type": "integer", "minimum": -100000, "maximum": 100000},
+              "position_m": {"$ref": "#/$defs/vec3"},
+              "facing_deg": {"type": "number", "minimum": -360, "maximum": 360, "description": "Rotation about +Z, counter-clockwise, of a body that faces +Y at rest: 0 faces +Y, 90 faces -X, 180 faces the camera on -Y."},
+              "props": {"type": "array", "items": {"$ref": "#/$defs/id"}},
+              "action": {"$ref": "#/$defs/action"}
+            }
+          }
+        },
+        "dialogue": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["line_id", "character", "text_fa"],
+            "properties": {
+              "line_id": {"type": "string", "pattern": "^[a-z0-9_]{1,48}$"},
+              "character": {"$ref": "#/$defs/id"},
+              "text_fa": {"type": "string", "minLength": 1},
+              "text_en": {"type": "string"},
+              "emotion": {
+                "enum": ["neutral", "grave", "angry", "grieving", "joyful",
+                         "afraid", "scornful", "tender", "resolute", "weary"]
+              },
+              "starts_at_s": {
+                "type": "number", "minimum": 0,
+                "description": "Offset of this line within the shot. Omit for the first line."
+              }
+            }
+          }
+        },
+        "camera": {"$ref": "#/$defs/camera"},
+        "beats": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/beat"},
+          "description": "Authored in normalised shot time, not frames: the frame count is derived from the audio (§5.2) and does not exist yet when this file is written."
+        },
+        "min_duration_s": {"type": "number", "minimum": 0, "maximum": 600},
+        "silent_duration_s": {
+          "type": "number", "minimum": 0.1, "maximum": 600,
+          "description": "Required for a shot with no dialogue: there is no audio to derive length from."
+        }
+      }
+    },
+    "camera": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["position_m", "aim", "focal_mm"],
+      "properties": {
+        "position_m": {"$ref": "#/$defs/vec3"},
+        "aim": {"$ref": "#/$defs/aim"},
+        "focal_mm": {"type": "number", "minimum": 4, "maximum": 1200},
+        "dof": {"type": "boolean"},
+        "move": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["kind"],
+          "properties": {
+            "kind": {"enum": ["static", "push_in", "pull_out", "pan", "orbit", "crane"]},
+            "to_position_m": {"$ref": "#/$defs/vec3"},
+            "to_focal_mm": {"type": "number", "minimum": 4, "maximum": 1200},
+            "orbit_deg": {"type": "number", "minimum": -360, "maximum": 360},
+            "from_pct": {"type": "number", "minimum": 0, "maximum": 1},
+            "to_pct": {"type": "number", "minimum": 0, "maximum": 1},
+            "ease": {"enum": ["linear", "in_out", "out"]}
+          }
+        }
+      }
+    },
+    "action": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["clips"],
+      "description": "What the character does in the shot: the main prompt's move text and the clips it was mapped to (pipeline/moves.py). A recorded video at performance/<take>/video.mp4 takes precedence over the clips.",
+      "properties": {
+        "text": {"type": "string"},
+        "source": {"enum": ["model", "keywords", "speaks", "default", "hand"]},
+        "clips": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["clip"],
+            "properties": {
+              "clip": {"type": "string", "pattern": "^[a-z][a-z_]{1,31}$"},
+              "target": {"type": "string", "pattern": "^[a-z][a-z0-9_]{0,47}$"},
+              "direction": {"enum": ["left", "right", "forward", "back", "toward_camera", "away_from_camera"]},
+              "to": {"type": "string", "maxLength": 40}
+            }
+          }
+        }
+      }
+    },
+    "beat": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["from_pct", "to_pct", "what"],
+      "properties": {
+        "from_pct": {"type": "number", "minimum": 0, "maximum": 1},
+        "to_pct": {"type": "number", "minimum": 0, "maximum": 1},
+        "what": {"type": "string", "minLength": 1}
+      }
+    }
+  }
+}

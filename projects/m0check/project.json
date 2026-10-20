@@ -1,0 +1,17 @@
+{
+  "aligner_backend": "auto",
+  "fps": 24,
+  "head_handle_s": 0.5,
+  "language": "fa",
+  "min_shot_s": 0.0,
+  "name": "m0check",
+  "resolution": [
+    1920,
+    1080
+  ],
+  "schema_version": 1,
+  "silence_lead_policy": "trim",
+  "style_pack": "miniature",
+  "tail_handle_s": 0.7,
+  "title": "M0 Check"
+}
